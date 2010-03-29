@@ -13,15 +13,6 @@ body, div, p, td, th, span, a {
   padding: 0;
 }
 
-li {
-  list-style-type: none;
-  padding-left: 15px;
-  background-image: url('../images/bullet.png');
-  background-position: left 3px;
-  background-repeat: no-repeat;
-  margin: 2px 0 0;
-}
-
 .caps {
   font-size: 12px;
 }
@@ -47,7 +38,7 @@ div#top_bg {
 }
 
 div#top_home {
-  height: 103px;
+  height: 85px;
 }
 
 /* Logo and search box */
@@ -658,7 +649,6 @@ div#body_content p {
   font-size: 13px;
 }
 
-
 div#leadership_content p {
   color: #797979;
   font-size: 12px;
@@ -686,6 +676,20 @@ span.apm {
   font-family: Calibri;
   font-size: 13px;
   color: #666666;
+}
+
+ul {
+  padding: 0;
+  margin: 0.8em 0;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 15px;
+  background-image: url(../images/bullet.png);
+  background-position: left 3px;
+  background-repeat: no-repeat;
+  padding-bottom: 2px;
 }
 
 /* Footer styles */
@@ -768,7 +772,6 @@ div.copyright a {
   font-size: 12px;
   color: #808080;
 }
-
 
 .read {
   font-family: Calibri;
