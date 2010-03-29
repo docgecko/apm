@@ -1,0 +1,19 @@
+<div id="sub_nav_container">
+	<ul class="sf-menu">
+		<li><%= link_to_with_current_class content_tag(:span, "Transport"), transport_url %>
+			<ul>
+				<li><%= link_to content_tag(:span, "Rail"), rail_url %></li>
+				<li><%= link_to content_tag(:span, "Highways"), highways_url %></li>
+			</ul>
+		</li>
+		<li><%= link_to_with_current_class content_tag(:span, "Projects"), projects_url %>
+			<ul>
+				<li><%= link_to content_tag(:span, "Private Finance Initiative"), pfi_url %></li>
+				<li><%= link_to content_tag(:span, "Public Private Partnership"), ppp_url %></li>
+			</ul>
+		</li>
+		<li><%= link_to_with_current_class content_tag(:span, "Defence"), defence_url %></li>
+		<li><%= link_to_with_current_class content_tag(:span, "Government"), government_url %></li>
+		<li><%= link_to_with_current_class content_tag(:span, "Oil & Gas"), oil_gas_url %></li>
+	</ul>
+</div>

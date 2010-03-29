@@ -1,0 +1,28 @@
+<p>
+  <b>Name:</b>
+  <%= @leadership.name %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @leadership.title %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @leadership.email %>
+</p>
+
+<p>
+  <b>Content 1:</b>
+  <%= RedCloth.new(@leadership.content_1).to_html %>
+</p>
+
+<p>
+  <b>Content 2:</b>
+  <%= RedCloth.new(@leadership.content_2).to_html %>
+</p>
+
+
+<%= link_to 'Edit', edit_admin_leadership_path(@leadership) %> |
+<%= link_to 'Back', admin_leaderships_path %>

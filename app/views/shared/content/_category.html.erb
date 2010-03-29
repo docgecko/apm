@@ -1,0 +1,20 @@
+<%= yield :nav_main %>
+
+<div id="container_cat">
+	<div id="container">
+		<div id="cat_content_header">
+			<div id="category_header">
+				<%= image_tag "HdrServices.jpg", :alt => @page.name + " Image", :height => "160px", :width => "720px", :border => "0px" %>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="cat_content_left"></div>
+		<div id="cat_content_middle">
+			<div id="body_content_middle">
+				<%= RedCloth.new(@page.content).to_html %>
+			</div>
+		</div>
+		<div id="cat_content_right"></div>
+	</div>
+</div>
+<div class="clear"></div>

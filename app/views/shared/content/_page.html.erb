@@ -1,0 +1,19 @@
+<%= yield :nav_main %>
+
+<div id="container_bg">
+	<div id="container">
+		<div id="left_nav">
+			<%= yield :left_nav %>
+		</div>
+		<div id="sub_content_middle">
+			<div id="body_header">
+				<%= image_tag "HdrAssetManagement.jpg", :alt => @page.name + " Image", :height => "100px", :width => "580px", :border => "0px" %>
+				<h1><%= @page.name %></h1>
+			</div>
+			<div id="body_content">
+				<%= RedCloth.new(@page.content).to_html %>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="Clear"></div>

@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+		<title><%= @page_title || "Asset Performance Management Ltd." %></title>
+		<%= stylesheet_link_tag 'application', 'superfish' %>
+		<%= javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js', 'hoverIntent', 'superfish', 'supersubs' %>
+		<%#= csrf_meta_tag %>
+		<script type="text/javascript"> 
+
+		    $(document).ready(function(){ 
+		        $("ul.sf-menu").supersubs({ 
+					    	delay:        800, 
+					    	speed:        'fastest',
+								animation: 		{opacity:'show'},
+					    	autoArrows:   false,  
+								minWidth:    	1,   // minimum width of sub-menus in em units 
+		            maxWidth:    	17,   // maximum width of sub-menus in em units 
+		            extraWidth:  	1     // extra width can ensure lines don't sometimes turn over 
+		                               // due to slight rounding differences and font-family 
+		        }).superfish();  // call supersubs first, then superfish, so that subs are 
+		                         // not display:none when measuring. Call before initialising 
+		                         // containing tabs for same reason. 
+		    });
+		
+				$(document).ready(function() {
+				  $('h1').hide();
+				});
+
+		</script>
+  </head>
+  <body>	
+		<%= render 'shared/logo' %>
+
+		<% if controller.controller_name == 'welcome' %>
+			<div id="top_home">
+		<% else %>
+			<div id="top_bg">
+		<% end %>
+						
+		<%= render 'shared/navigation/mini' %>
+		<%= render 'shared/navigation/main' %>
+			
+    </div>
+
+    <div class="clear"></div>
+
+		<% if [ 'services', 'industries', 'customers', 'company' ].include? action_name %>
+			<%= render 'shared/content/category' %>
+		<% elsif [ 'legal', 'privacy', 'site_map' ].include? action_name %>
+			<%= render 'shared/content/information' %>
+		<% elsif controller.controller_name == 'welcome'  %>
+			<%= yield %>
+		<% elsif controller.controller_name == 'leaderships' %>
+			<%= render 'shared/content/page/leadership' %>
+		<% else %>
+			<%= render 'shared/content/page' %>
+		<% end %>
+
+    <div class="clear"></div>
+
+		<%= render 'shared/footer'%>
+		
+  </body>
+</html>

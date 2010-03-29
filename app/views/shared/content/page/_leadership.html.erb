@@ -1,0 +1,58 @@
+<%= yield :nav_main %>
+
+<div id="container_bg">
+	<div id="container">
+		<div id="left_nav">
+			<%= yield :left_nav %>
+		</div>
+		<div id="sub_content_middle">
+			<div id="body_header">
+				<%= image_tag "HdrAssetManagement.jpg", :alt => "Leadership Image", :height => "100px", :width => "580px", :border => "0px" %>
+				<h1>Leadership</h1>
+			</div>
+			<div id="leadership_content">
+				<table border="0">
+					
+				<% @leaderships.each do |leadership| %>
+					<tr>
+						<td class="people_text">
+							<div class="name">
+								<% if leadership.email? %>
+									<%= mail_to leadership.email, leadership.name %>
+								<% else %>
+									<%= leadership.name %>
+								<% end %>
+							</div>
+							<div class="title">
+								<%= leadership.title %>
+							</div>
+							<div class="bio">
+								<br>
+								<%= RedCloth.new(leadership.content_1).to_html %>
+							</div>
+							<div class="leadership_content_panel">
+								<div class="bio showhide">
+									<br>
+									<%= RedCloth.new(leadership.content_2).to_html %>
+								</div>
+							</div>
+								<br>
+								<br>
+						</td>
+						<td class="people_image">
+							<% if leadership.email? %>
+								<%= mail_to leadership.email, image_tag("", :alt => leadership.name + " Image", :title => "Click here to contact " + leadership.name + " by email", :height => "108px", :width => "83px", :border => "0px") %>
+							<% else %>
+								<%= image_tag("", :alt => leadership.name + " Image", :height => "108px", :width => "83px", :border => "0px") %>
+							<% end %>
+						</td>
+					</tr>
+				<% end %>
+					
+				</table>
+				<div class="Clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="Clear"></div>
