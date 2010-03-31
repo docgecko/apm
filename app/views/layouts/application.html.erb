@@ -3,8 +3,14 @@
 <html>
   <head>
 		<title><%= @page_title || "Asset Performance Management Ltd." %></title>
-		<%= stylesheet_link_tag 'application', 'superfish' %>
-		<%= javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js', 'hoverIntent', 'superfish', 'supersubs' %>
+		<%= stylesheet_link_tag 'application', 
+														'superfish' %>
+		<%= javascript_include_tag	'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js',
+																'jquery.metadata',
+																'http://dev.jquery.com/view/trunk/plugins/validate/jquery.validate.js',
+																'hoverIntent', 
+																'superfish', 
+																'supersubs' %>
 		<%#= csrf_meta_tag %>
 		<script type="text/javascript"> 
 
@@ -22,7 +28,38 @@
 		                         // not display:none when measuring. Call before initialising 
 		                         // containing tabs for same reason. 
 		    });
+
+				$.metadata.setType("attr", "validate");
+
+				// validate Contact Us form on keyup and submit
+				//initiate validator on load
+				$(function() {
+				// validate contact form on keyup and submit
+				$("#contact_form").validate({
+				//set the rules for the field names
+					rules: {
+						"contact[name]": {
+							required: true,
+							minlength: 2
+						},
+						"contact[email]": {
+							required: true,
+							email: true
+						},
+					},
+					//set messages to appear inline
+					messages: {
+						name: "Please enter your name.",
+						email: "Please enter a valid email address.",
+						}
+					});
+				});
+			
 		</script>
+		<style type="text/css">
+			form.contact_form label.error { 
+				display: none; }	
+		</style>
   </head>
   <body>	
 		<%= render 'shared/logo' %>
@@ -46,6 +83,8 @@
 			<%= render 'shared/content/information' %>
 		<% elsif controller.controller_name == 'welcome'  %>
 			<%= yield %>
+		<% elsif controller.controller_name == 'contact' %>
+			<%= render 'shared/content/page/contact' %>
 		<% elsif controller.controller_name == 'leaderships' %>
 			<%= render 'shared/content/page/leadership' %>
 		<% else %>

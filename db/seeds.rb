@@ -959,11 +959,6 @@ For more information about our Oil & Gas capability, see our pages relating to t
 <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#97;&#112;&#109;&#46;&#101;&#117;&#46;&#99;&#111;&#109;">email</a>.'
                     },
                     {
-                      :name => 'Leadership',
-                      :permalink => 'leadership',
-                      :content => ''
-                    },
-                    {
                       :name => 'News',
                       :permalink => 'news',
                       :content => 'p. This section is currently being developed and will soon be available. However, in the meantime, if you wish to know more about <span class="apm">apm</span>, you can contact us by <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#97;&#112;&#109;&#46;&#101;&#117;&#46;&#99;&#111;&#109;">email</a> or via the websites <a href="../company/contact">Contact Us</a> form.'
@@ -981,9 +976,28 @@ h1. How to apply
 
 p. This section is currently being developed and will soon be available. However, in the meantime, if you wish to know more about <span class="apm">apm</span>, you can contact us by <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#101;&#99;&#114;&#117;&#105;&#116;&#109;&#101;&#110;&#116;&#64;&#97;&#112;&#109;&#46;&#101;&#117;&#46;&#99;&#111;&#109;">email</a> or via the websites <a href="../company/contact">Contact Us</a> form.'
                     },
+])
+
+leaderships = Leadership.create([
                     {
-                      :name => 'Contact Us',
-                      :permalink => 'contact',
-                      :content => ''
+                      :name => 'Mark Tovey',
+                      :title => 'Managing Director',
+                      :email => 'mark.tovey@apm.eu.com',
+                      :content_1 => 'Mark Tovey has over 20 years experience in infrastructure related projects, including public and private finance deals. Over recent years Mark has been involved in some of the largest PPP and PFI deals in Europe and has a broad range of skills in this specialised field. Key projects include M25 DBFO (£5bn), M59, Network Rail acquisition of Railtrack (£30bn securitised loan), Dutch High Speed Rail (£16bn), Tube Lines PPP (£7bn).',
+                      :content_2 => 'Mark is a well-rounded individual who has the ability to communicate with board members or at an operational level. Mark is an influential leader and has the ability to target key issues whilst developing solutions. He has worked in teams that have negotiated at the highest levels within various Government Departments. Mark’s unique strength is that he has represented major projects from both Client and Contractor perspectives and is therefore able to give a balanced and practical view of risk and performance issues.'
+                    },
+                    {
+                      :name => 'Dr Daren Warburton',
+                      :title => 'Operations Director',
+                      :email => 'daren.warburton@apm.eu.com',
+                      :content_1 => 'Daren has more than 15 years experience, 10 as a management and technical advisor, operating at a strategic and management level. He holds a PhD in Risk Management and is considered a versatile partner, who thrives on challenges and who has a talent for proactively identifying and providing manageable and sustainable solutions. Most notably, he has developed and implemented performance- and risk-based Expert Business Intelligence tools as part of a number of tender and post-tender PPP and PFI deals.',
+                      :content_2 => ''
+                    },
+                    {
+                      :name => 'Peter Woolley',
+                      :title => 'Financial Director',
+                      :email => '',
+                      :content_1 => 'Peter has more than 25 years experience in the Finance sector, holding roles as Finance Director since 1996. His wide range of experience includes Investor Relations, Tax, Audit, Accounting, Debt and Corporate Finance, Information Technology, Risk Assessment and other related areas. Most recently he successfully financed and budgetary controlled over £200m of development work in the UK and €275m in mainland Europe, negotiated a number of new joint venture deals on commercial transactions, and managed the growth of accounting personnel and systems to cope with enlargement of a group that grew 6 fold within 3 years.',
+                      :content_2 => 'Peter is a member of the Association of Consulting Actuaries (ACA), has an Advanced Diploma in Treasury, Risk and Corporate Finance (MCT) as well as a Bachelors degree. He has proven himself adaptable to the needs of clients, and has always focused on providing added value. For example, he recently implemented a number of successful taxation strategies, in respect of Corporation tax, VAT and Income tax. As shown through his successful structuring of joint ventures, he also continually demonstrates a drive towards business growth and solving business issues.'
                     }
 ])

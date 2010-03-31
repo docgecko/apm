@@ -875,10 +875,26 @@ div#contact_content p {
   text-align: left;
 }
 
+label {
+  font-family: Calibri;
+  font-size: 13px;
+  color: #333333;
+}
+
 .label {
   font-family: Calibri;
   font-size: 13px;
   color: #333333;
+}
+
+label.error { 
+	display: none;
+	font-family: Calibri;
+  font-size: 13px;
+	float: none; 
+	color: red; 
+	padding-left: .5em; 
+	vertical-align: top;
 }
 
 .textbox_layout, .radio_button_layout {
