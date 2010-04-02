@@ -1,4 +1,4 @@
-<% form_for([:admin, @page]) do |f| %>
+<% form_for [:admin, @page], :html => { :multipart => true } do |f| %>
   <%= f.error_messages %>
 
   <div class="field">
@@ -12,6 +12,9 @@
   <div class="field">
     <%= f.label :content %><br />
     <%= f.text_area :content %>
+  </div>
+  <div class="field">
+    <%= f.file_field :photo %><br />
   </div>
   <div class="actions">
     <%= f.submit %>

@@ -3,7 +3,7 @@ class LeadershipsController < ApplicationController
   # GET /leaderships
   # GET /leaderships.xml
   def index
-    @leaderships = Leadership.all
+    @leaderships = Leadership.all(:order => "postion ASC")
 
     respond_to do |format|
       format.html # index.html.erb

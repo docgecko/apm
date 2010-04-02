@@ -7,10 +7,10 @@
 		</div>
 		<div id="sub_content_middle">
 			<div id="body_header">
-				<%= image_tag "HdrAssetManagement.jpg", :alt => "Leadership Image", :height => "100px", :width => "580px", :border => "0px" %>
+				<%= image_tag "/assets/pages/photos/43/page/HdrLeadership.jpg" %>
 				<h1>Leadership</h1>
 			</div>
-			<div id="leadership_content">
+			<div id="leadership_content" style="padding-left:3px">
 				<table border="0">
 					
 				<% @leaderships.each do |leadership| %>
@@ -40,11 +40,7 @@
 								<br>
 						</td>
 						<td class="people_image">
-							<% if leadership.email? %>
-								<%= mail_to leadership.email, image_tag("", :alt => leadership.name + " Image", :title => "Click here to contact " + leadership.name + " by email", :height => "108px", :width => "83px", :border => "0px") %>
-							<% else %>
-								<%= image_tag("", :alt => leadership.name + " Image", :height => "108px", :width => "83px", :border => "0px") %>
-							<% end %>
+							<%= leadership_avatar(leadership.email, leadership.avatar_file_size, leadership.avatar.url(:small)) %>
 						</td>
 					</tr>
 				<% end %>

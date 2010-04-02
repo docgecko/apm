@@ -14,6 +14,11 @@
 </p>
 
 <p>
+  <b>Position:</b>
+  <%= @leadership.postion %>
+</p>
+
+<p>
   <b>Content 1:</b>
   <%= RedCloth.new(@leadership.content_1).to_html %>
 </p>
@@ -21,6 +26,11 @@
 <p>
   <b>Content 2:</b>
   <%= RedCloth.new(@leadership.content_2).to_html %>
+</p>
+
+<p>
+  <b>Avatar:</b>
+  <%= image_tag @leadership.avatar.url(:small) %>
 </p>
 
 

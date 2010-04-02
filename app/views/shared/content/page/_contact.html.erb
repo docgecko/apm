@@ -7,13 +7,14 @@
 		</div>
 		<div id="sub_content_middle">
 			<div id="body_header">
-				<img id="ctl00_ContentPlaceHolder3__bdyContactUs1_ContactUsHeaderImage" src="../Library/Headers/HdrContactUs.jpg" alt="" style="height:100px;width:580px;border-width:0px;" name="ctl00_ContentPlaceHolder3__bdyContactUs1_ContactUsHeaderImage">
+				<%= image_tag "/assets/pages/photos/44/page/HdrContactUs.jpg" %>
 				<h1>Contact Us</h1>
 			</div>
 			<div id="contact_content">
 				<p>
 					For general enquiries please use the following contact details, or complete the contact form below.
 				</p>
+
 				<table class="contact_details" border="0">
 					<tr>
 						<td class="details_type_layout">
@@ -50,10 +51,10 @@
 							<span class="label">+44 (0)20 3393 9983</span>
 						</td>
 					</tr>
-				</table>
+				</table><br/>
 				<p>
 					Note that fields marked with a star (<span class="blue">*</span>) are required.
-				</p><br>
+				</p>
 				
 				<% form_for :contact, :url => contact_path, :html => { :id => "contact_form", :name => "contact_form" } do |f| %>
 				
