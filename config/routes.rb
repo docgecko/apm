@@ -3,12 +3,16 @@ ActionController::Routing::Routes.draw do |map|
     map.resources :leaderships
 
     map.resources :pages
+    
+    map.resources :welcome, :only => [:index]
 
     map.namespace :admin do |admin|
       admin.resources :pages, :leaderships
     end
 
     map.root :controller => "welcome", :action => "index"
+    
+    map.logout 'logout', :controller => "session", :action => "destroy"
     
     map.with_options :controller => "contact" do |contact|
       contact.contact '/company/contact',
@@ -73,5 +77,5 @@ ActionController::Routing::Routes.draw do |map|
     map.leadership 'company/leadership', :controller => 'leaderships', :action => 'index'
     map.news 'company/news', :controller => 'pages', :action => 'news'
     map.careers 'company/careers', :controller => 'pages', :action => 'careers'
-  
+
 end

@@ -27,6 +27,8 @@ Rails::Initializer.run do |config|
   config.gem "sqlite3-ruby", :lib => "sqlite3"
   config.gem "RedCloth", :version => "4.2.3"
   config.gem "paperclip", :version => "2.3.1.1"
+  # config.gem "warden", :version => "0.9.4"
+  # config.gem "devise", :version => "1.0.4"
   # config.gem "aws-s3", :lib => "aws/s3"
 
   # Only load the plugins named here, in the order given (default is alphabetical).

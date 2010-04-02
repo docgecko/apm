@@ -317,7 +317,7 @@ div#home_content_body {
   left: 0px;
   padding: 0;
   margin: 0;
-  background: url(../images/background_main.jpg) no-repeat left top;
+  background: url( '../images/background_main.jpg' ) no-repeat left top;
   width: 1000px;
   height: 500px;
 }
@@ -328,7 +328,7 @@ div#home_content_main {
   left: 488px;
   padding: 0;
   margin: 0;
-  background: url( '../images/WhiteTransparent.png' ) no-repeat left top;
+  /*background: url( '../images/white_transparent.png' ) no-repeat left top;*/
   width: 480px;
   height: 400px;
 }
@@ -686,7 +686,7 @@ ul {
 li {
   list-style-type: none;
   padding-left: 15px;
-  background-image: url(../images/bullet.png);
+  background-image: url( '../images/bullet.png' );
   background-position: left 3px;
   background-repeat: no-repeat;
   padding-bottom: 2px;

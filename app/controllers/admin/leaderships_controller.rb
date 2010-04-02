@@ -1,4 +1,6 @@
 class Admin::LeadershipsController < ApplicationController
+  before_filter :authenticate
+  
   layout "admin"
   
   # GET /leaderships
@@ -82,4 +84,5 @@ class Admin::LeadershipsController < ApplicationController
       format.xml  { head :ok }
     end
   end
+  
 end

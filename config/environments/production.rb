@@ -28,3 +28,5 @@ config.action_view.cache_template_loading            = true
 # config.threadsafe!
 
 Paperclip.options[:command_path] = "/usr/local/bin"
+
+config.action_mailer.default_url_options = { :host => 'apm.eu.com' }

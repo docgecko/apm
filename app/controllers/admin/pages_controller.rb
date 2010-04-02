@@ -1,4 +1,6 @@
 class Admin::PagesController < ApplicationController
+  before_filter :authenticate
+  
   layout "admin"
 
   # GET /pages
@@ -89,4 +91,5 @@ class Admin::PagesController < ApplicationController
       format.xml  { head :ok }
     end
   end
+
 end
