@@ -4,6 +4,9 @@
 			<%= image_tag("nav_bar_left.png", :border => 0) %>
 		</div>
 		<div id="nav_bar_menu">
+			<% if current_user %>
+				<%= link_to "Admin", new_user_sessions_url, :class => "nav_bar_link" %>&nbsp;|&nbsp; 
+			<% end %>
 			<%= link_to "About Us", company_url, :class => "nav_bar_link" %>&nbsp;|&nbsp; 
 			<%= link_to "Careers", careers_url, :class => "nav_bar_link" %>&nbsp;|&nbsp;
 			<%= link_to "Contact Us", contact_url, :class => "nav_bar_link" %>

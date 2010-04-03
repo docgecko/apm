@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100401133857) do
+ActiveRecord::Schema.define(:version => 20100403122618) do
 
   create_table "leaderships", :force => true do |t|
     t.integer  "postion"
@@ -26,6 +26,8 @@ ActiveRecord::Schema.define(:version => 20100401133857) do
     t.datetime "avatar_updated_at"
   end
 
+  add_index "leaderships", ["postion"], :name => "index_leaderships_on_postion"
+
   create_table "pages", :force => true do |t|
     t.string   "name"
     t.string   "permalink"
@@ -37,5 +39,26 @@ ActiveRecord::Schema.define(:version => 20100401133857) do
     t.integer  "photo_file_size"
     t.datetime "photo_updated_at"
   end
+
+  create_table "users", :force => true do |t|
+    t.string   "login",                             :null => false
+    t.string   "email",                             :null => false
+    t.string   "crypted_password",                  :null => false
+    t.string   "password_salt",                     :null => false
+    t.string   "persistence_token",                 :null => false
+    t.string   "perishable_token",                  :null => false
+    t.integer  "login_count",        :default => 0, :null => false
+    t.integer  "failed_login_count", :default => 0, :null => false
+    t.datetime "last_request_at"
+    t.datetime "current_login_at"
+    t.datetime "last_login_at"
+    t.string   "current_login_ip"
+    t.string   "last_login_ip"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "users", ["email"], :name => "index_users_on_email"
+  add_index "users", ["perishable_token"], :name => "index_users_on_perishable_token"
 
 end

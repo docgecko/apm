@@ -1,4 +1,4 @@
-class PagesController < ApplicationController  
+class PagesController < ApplicationController
   before_filter :shared_category_code, :except => [ :index, :show, :new, :edit, :create, :update, :destroy ]
   
   def services

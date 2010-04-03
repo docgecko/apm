@@ -29,6 +29,8 @@ Rails::Initializer.run do |config|
   config.gem "paperclip", :version => "2.3.1.1"
   # config.gem "warden", :version => "0.9.4"
   # config.gem "devise", :version => "1.0.4"
+  config.gem "authlogic", :version => "2.1.3"
+  # config.gem "redgreen", :version => "1.2.2"
   # config.gem "aws-s3", :lib => "aws/s3"
 
   # Only load the plugins named here, in the order given (default is alphabetical).

@@ -1,6 +1,6 @@
 class Admin::PagesController < ApplicationController
-  before_filter :authenticate
-  
+  before_filter :require_user
+
   layout "admin"
 
   # GET /pages

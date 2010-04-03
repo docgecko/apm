@@ -10,6 +10,8 @@ class CreateLeaderships < ActiveRecord::Migration
 
       t.timestamps
     end
+
+    add_index :leaderships, :postion    
   end
 
   def self.down

@@ -1,0 +1,9 @@
+<% if current_user %>
+	<div style="float:right">
+		<%= link_to "pages", admin_pages_url %> | 
+		<%= link_to "leadership", admin_leaderships_url %> | 
+		<%= link_to "home", root_url %> | 
+		<%= link_to "account", account_url %> | 
+		<%= link_to "logout", logout_url %>
+	</div>
+<% end %>

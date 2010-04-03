@@ -29,4 +29,10 @@ config.action_view.cache_template_loading            = true
 
 Paperclip.options[:command_path] = "/usr/local/bin"
 
+### ActionMailer Config
 config.action_mailer.default_url_options = { :host => 'apm.eu.com' }
+# Setup for production - deliveries, no errors raised
+config.action_mailer.delivery_method = :smtp
+config.action_mailer.perform_deliveries = true
+config.action_mailer.raise_delivery_errors = false
+config.action_mailer.default_charset = "utf-8"
