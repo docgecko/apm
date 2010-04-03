@@ -17,16 +17,6 @@ ActionController::Routing::Routes.draw do |map|
   end
 
   map.root :controller => "welcome", :action => "index"
-  
-  map.with_options :controller => "contact" do |contact|
-    contact.contact '/company/contact',
-      :action => 'index',
-      :conditions => { :method => :get }
-
-    contact.contact '/company/contact',
-      :action => 'create',
-      :conditions => { :method => :post }
-  end
 
 # General routes
   map.legal 'legal', :controller => 'pages', :action => 'legal'
@@ -81,6 +71,15 @@ ActionController::Routing::Routes.draw do |map|
   map.leadership 'company/leadership', :controller => 'leaderships', :action => 'index'
   map.news 'company/news', :controller => 'pages', :action => 'news'
   map.careers 'company/careers', :controller => 'pages', :action => 'careers'
+  map.with_options :controller => "contact" do |contact|
+    contact.contact '/company/contact',
+      :action => 'index',
+      :conditions => { :method => :get }
+
+    contact.contact '/company/contact',
+      :action => 'create',
+      :conditions => { :method => :post }
+  end
   
 # Catch All 404s
   map.connect '*path', :controller => 'four_oh_fours'
