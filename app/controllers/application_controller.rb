@@ -33,6 +33,15 @@ class ApplicationController < ActionController::Base
         return false
       end
     end
+
+    def restricted_page
+      unless current_user
+        store_location
+        flash[:notice] = "Admin restricted page"
+        redirect_to new_user_sessions_url
+        return false
+      end
+    end
     
     def store_location
       session[:return_to] = request.request_uri

@@ -1,5 +1,6 @@
 <% if current_user %>
 	<div style="float:right">
+		<%= "Welcome <strong>" + current_user.login + "</strong>!" %> | 
 		<%= link_to "pages", admin_pages_url %> | 
 		<%= link_to "leadership", admin_leaderships_url %> | 
 		<%= link_to "home", root_url %> | 
