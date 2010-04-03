@@ -1001,3 +1001,12 @@ leaderships = Leadership.create([
                       :content_2 => 'Peter is a member of the Association of Consulting Actuaries (ACA), has an Advanced Diploma in Treasury, Risk and Corporate Finance (MCT) as well as a Bachelors degree. He has proven himself adaptable to the needs of clients, and has always focused on providing added value. For example, he recently implemented a number of successful taxation strategies, in respect of Corporation tax, VAT and Income tax. As shown through his successful structuring of joint ventures, he also continually demonstrates a drive towards business growth and solving business issues.'
                     }
 ])
+
+user = User.create([
+                    {
+                      :login => 'docgecko',
+                      :email => 'daren.warburton@apm.eu.com',
+                      :password => 'malandra',
+                      :password_confirmation => 'malandra'
+                    }
+])

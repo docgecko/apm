@@ -1,0 +1,7 @@
+one:
+  host: MyString
+  count: 1
+
+two:
+  host: MyString
+  count: 1

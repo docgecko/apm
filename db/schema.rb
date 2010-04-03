@@ -9,7 +9,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100403122618) do
+ActiveRecord::Schema.define(:version => 20100403143256) do
+
+  create_table "four_oh_fours", :force => true do |t|
+    t.string   "host"
+    t.string   "path"
+    t.string   "referer"
+    t.integer  "count",      :default => 0
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "four_oh_fours", ["host", "path", "referer"], :name => "index_four_oh_fours_on_host_and_path_and_referer", :unique => true
+  add_index "four_oh_fours", ["path"], :name => "index_four_oh_fours_on_path"
 
   create_table "leaderships", :force => true do |t|
     t.integer  "postion"

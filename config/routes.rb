@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :four_oh_fours
+  
   map.resource :account, :controller => "users"
   map.resources :users
   map.resource :user_sessions
@@ -11,7 +13,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :welcome, :only => [:index]
   
   map.namespace :admin do |admin|
-    admin.resources :pages, :leaderships
+    admin.resources :pages, :leaderships, :four_oh_fours
   end
 
   map.root :controller => "welcome", :action => "index"
@@ -79,5 +81,7 @@ ActionController::Routing::Routes.draw do |map|
   map.leadership 'company/leadership', :controller => 'leaderships', :action => 'index'
   map.news 'company/news', :controller => 'pages', :action => 'news'
   map.careers 'company/careers', :controller => 'pages', :action => 'careers'
-
+  
+# Catch All 404s
+  map.connect '*path', :controller => 'four_oh_fours'
 end
