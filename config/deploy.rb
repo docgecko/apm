@@ -1,21 +1,54 @@
-set :application, "plus351.com/apm"
-set :repository,  "set your repository location here"
+abort "needs capistrano 2" unless respond_to?(:namespace)
 
-set :scm, "git"
-set :repository, "git://github"
+# =============================================================================
+# REQUIRED VARIABLES
+# =============================================================================
+set :application, "apm"
+set :repository, "git@plus351.unfuddle.com:plus351/#{application}.git"
+set :scm, :git
+set :git_shallow_clone, 1
+set :short_branch, "master" 
+set :ssh_options, { :forward_agent => true }
+default_run_options[:pty] = true
 
-role :web, application                    # Your HTTP server, Apache/etc
-role :app, application                    # This may be the same as your `Web` server
-role :db,  application, :primary => true  # This is where Rails migrations will run
+# =============================================================================
+# ROLES
+# =============================================================================
+role :web, "plus351.com"                    # Your HTTP server, Apache/etc
+role :app, "plus351.com"                    # This may be the same as your `Web` server
+role :db,  "plus351.com", :primary => true  # This is where Rails migrations will run
 
-# If you are using Passenger mod_rails uncomment this:
-# if you're still using the script/reapear helper you will need
-# these http://github.com/rails/irs_process_scripts
+# =============================================================================
+# OPTIONAL VARIABLES
+# =============================================================================
+set :deploy_to, "/home/docgecko/rails_apps/#{application}"
+set :use_sudo, false
+set :user, "docgecko"
+set :password, "malandra"
+set :deploy_via, :export
+set :port_number, "12001"
 
-# namespace :deploy do
-#   task :start do ; end
-#   task :stop do ; end
-#   task :restart, :roles => :app, :except => { :no_release => true } do
-#     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
-#   end
-# end
+# =============================================================================
+# TASKS
+# =============================================================================
+namespace :deploy do
+	
+  task :start, :roles => :app do
+    run "cd #{deploy_to}/current; mongrel_rails start -e production -p #{port_number} -d"
+  end
+  task :stop, :roles => :app do
+    run "cd #{deploy_to}/current; mongrel_rails stop"
+  end
+  task :restart, :roles => :app do
+    run "cd #{deploy_to}/current; mongrel_rails stop; mongrel_rails start -e production -p #{port_number} -d"
+    run "echo \"WEBSITE HAS BEEN DEPLOYED\""
+  end
+
+  after "deploy:update_code", :link_production_db
+end
+
+# database.yml task
+desc "Link in the production database.yml"
+task :link_production_db do
+  run "ln -nfs #{deploy_to}/shared/config/database.yml #{release_path}/config/database.yml"
+end
