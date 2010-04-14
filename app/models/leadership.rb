@@ -1,3 +1,5 @@
+require 'paperclip'
+  
 class Leadership < ActiveRecord::Base
   attr_accessible :postion, :name, :title, :email, :content_1, :content_2, :avatar
   
