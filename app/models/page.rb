@@ -5,5 +5,5 @@ class Page < ActiveRecord::Base
                     :storage => :s3,
                     :s3_credentials => "#{RAILS_ROOT}/config/s3.yml",
                     :url => ":s3_domain_url",
-                    :path => "/pages/:attachment/:id/:style/:basename.:extension"
+                    :path => "pages/:attachment/:id/:style/:basename.:extension"
 end
