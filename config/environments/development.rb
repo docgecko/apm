@@ -25,4 +25,4 @@ config.action_mailer.raise_delivery_errors = true
 config.action_mailer.default_charset = "utf-8"
 
 # Development only gems
-config.gem "taps"
+# config.gem "taps", :version => "0.2.26"
