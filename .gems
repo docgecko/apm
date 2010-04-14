@@ -1,5 +1,5 @@
 rails -v 2.3.5
-
+pg
 sqlite3-ruby
 RedCloth -v 4.2.3
 aws-s3 -v 0.6.2

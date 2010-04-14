@@ -16,8 +16,7 @@ test:
   timeout: 5000
 
 production:
-  adapter: mysql
-  database: docgecko_apm
-  username: docgecko_prod
-  password: )f=c5iKkT7TR
-  socket: /var/run/mysql/mysql.sock
+  adapter: sqlite3
+  database: db/production.sqlite3
+  pool: 5
+  timeout: 5000
