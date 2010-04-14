@@ -1,0 +1,15 @@
+development:
+  bucket: apm-assets-dev
+  access_key_id: AKIAITWCJUBUVR5Y42TA
+  secret_access_key: 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
+  
+test:
+  bucket: apm-assets-test
+  access_key_id: AKIAITWCJUBUVR5Y42TA
+  secret_access_key: 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
+  
+production:
+  bucket: apm-assets
+  access_key_id: AKIAITWCJUBUVR5Y42TA
+  secret_access_key: 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
+  
