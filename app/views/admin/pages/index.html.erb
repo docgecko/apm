@@ -16,7 +16,7 @@
     <td><%= page.name %></td>
     <td><%= page.permalink %></td>
     <td><%= RedCloth.new(page.content).to_html %></td>
-    <td><%= image_tag page.photo.url(:small) %></td>
+    <td><%#= image_tag page.photo.url(:small) %><%= image_tag page.photo.url(:small) %></td>
     <td><%= link_to 'Show', admin_page_path(page) %></td>
     <td><%= link_to 'Edit', edit_admin_page_path(page) %></td>
     <td><%= link_to 'Destroy', [:admin, page], :confirm => 'Are you sure?', :method => :delete %></td>

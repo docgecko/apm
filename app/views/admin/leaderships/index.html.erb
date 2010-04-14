@@ -21,8 +21,8 @@
     <td><%= leadership.email %></td>
     <td><%= leadership.postion %></td>
     <td><%= RedCloth.new(leadership.content_1).to_html %></td>
-    <td><%= RedCloth.new(leadership.content_2).to_html %></td>
-    <td><%= image_tag leadership.avatar.url(:small) %></td>
+    <td><%#= image_tag leadership.avatar.url(:small) %><%= RedCloth.new(leadership.content_2).to_html %></td>
+    <td><%= image_tag leadership.avatar.url %></td>
     <td><%= link_to 'Show', admin_leadership_path(leadership) %></td>
     <td><%= link_to 'Edit', edit_admin_leadership_path(leadership) %></td>
     <td><%= link_to 'Destroy', [:admin, leadership], :confirm => 'Are you sure?', :method => :delete %></td>

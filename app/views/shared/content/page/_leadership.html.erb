@@ -40,7 +40,8 @@
 								<br>
 						</td>
 						<td class="people_image">
-							<%= leadership_avatar(leadership.email, leadership.avatar_file_size, leadership.avatar.url(:small)) %>
+							<%#= leadership_avatar(leadership.email, leadership.avatar_file_size, leadership.avatar.url(:small)) %>
+							<%= leadership_avatar(leadership.email, leadership.avatar_file_size, leadership.avatar.url) %>
 						</td>
 					</tr>
 				<% end %>
