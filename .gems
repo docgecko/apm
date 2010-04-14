@@ -2,8 +2,8 @@ rails -v 2.3.5
 pg
 
 sqlite3-ruby
-RedCloth --version 4.2.3
-paperclip --version 2.3.1.1
-authlogic --version 2.1.3
+RedCloth -v 4.2.3
+paperclip -v 2.3.0
+authlogic -v 2.1.3
 heroku
-aws-s3 --version 0.6.2
+aws-s3 -v 0.6.2
