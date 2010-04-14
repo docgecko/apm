@@ -459,6 +459,16 @@ div#general_content h2 {
   line-height: normal;
 }
 
+div#general_content h3 {
+  margin: 0;
+  color: #808080;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  padding: 5px 0 0 5px;
+}
+
 div#general_content p {
   padding: 5px;
   margin: 0;

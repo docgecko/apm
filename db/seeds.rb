@@ -179,6 +179,154 @@ h2. Third Party Links
 p. There may be pages on our sites which include links to Web site which are owned and operated by third parties and so which do not operate this privacy statement. When you link to other websites, this privacy statement and our privacy practices no longer apply. We encourage visitors to review each sites privacy policy before disclosing any personally identifiable information.'
                     },
                     {
+                        :name => 'Site Map',
+                        :permalink => 'site_map',
+                        :content => '<div id="general_content">
+
+h1. Site Map
+
+p. This Site Map provides an overview of the entire Web site with links to each of the sections and pages. Please click the page you wish to visit.
+
+<table cellpadding="0" border="0" style="border-collapse:collapse;">
+<tr cols="2">
+<td valign="top" style="width:290px;">
+
+h2. "Home Page":home
+
+h2. "Services":services
+
+h3. "Asset Management":asset-management
+
+(bulleted_list)* "Performance Modelling":performance-modelling
+* "Whole Life Approach":whole-life-approach
+* "Investment Decision Analysis":investment-decision-analysis
+
+h3. "Risk Services":risk-services
+
+(bulleted_list)* "Enterprise Risk Management":risk-management
+* "RAMS Modelling":rams-modelling
+* "Systems Safety Management & Assurance":systems-safety-assurance
+
+h3. "Value Management":value-management
+
+(bulleted_list)* "Contract & Commercial Management":commercial-management
+* "Quantity Surveying":quantity-surveying
+* "Value Engineering":value-engineering
+
+h3. "Project Services":project-services
+
+(bulleted_list)* "Project & Cost Management":project-cost-management
+* "Tender Review & Evaluation":tender-review-evaluation
+
+h3. "Financial Services":financial-services
+
+(bulleted_list)* "Financial Management & Control":financial-management
+* "Cost Modelling":cost-modelling
+* "Forensic Audit":forensic-audit
+
+h3. "Information Technology":information-technology
+
+(bulleted_list)* "Strategy & Development":strategy-development
+* "Cost Modelling":cost-modelling
+* "Software & Model Engineering":software-model-engineering
+* "Systems Integration":systems-integration
+
+</td>
+
+<td valign="top" style="width:290px;">
+
+h2. "Industries":industries
+
+h3. "Transport":transport
+
+(bulleted_list)* "Rail":rail
+* "Highways":highways
+
+h3. "Projects":projects
+
+(bulleted_list)* "Private Finance Initiative":private-finance-initiative
+* "Public Private Partnership":public-private-partnership
+
+h3. "Defence":defence
+
+h3. "Government":government
+
+h3. "Oil & Gas":oil-gas
+
+h2. "Customers":customers
+
+h3. "Client List":client-list
+
+h3. "Case Studies":case-studies
+
+h2. "Company":company
+
+h3. "Leadership":leadership
+
+h3. "News":news
+
+h3. "Careers":careers
+
+h3. "Contact Us":contact
+
+h2. "Legal Disclaimer":legal
+
+h2. "Privacy and Security":privacy
+
+h2. "Site Map":site-map
+
+</td>
+</tr>
+</table>
+
+[home]/
+[services]/services
+[asset-management]/services/asset-management
+[performance-modelling]/services/performance-modelling
+[whole-life-approach]/services/whole-life-approach
+[investment-decision-analysis]/services/investment-decision-analysis
+[risk-management]/services/risk-management
+[rams-modelling]/services/rams-modelling
+[systems-safety-assurance]/services/systems-safety-assurance
+[value-management]/services/value-management
+[commercial-management]/services/commercial-management
+[quantity-surveying]/services/quantity-surveying
+[value-engineering]/services/value-engineering
+[project-services]/services/project-services
+[project-cost-management]/services/project-cost-management
+[tender-review-evaluation]/services/tender-review-evaluation
+[financial-services]/services/financial-services
+[financial-management]/services/financial-management
+[cost-modelling]/services/cost-modelling
+[forensic-audit]/services/forensic-audit
+[information-technology]/services/information-technology
+[strategy-development]/services/strategy-development
+[cost-modelling]/services/cost-modelling
+[software-model-engineering]/services/software-model-engineering
+[systems-integration]/services/systems-integration
+[industries]/industries
+[transport]/industries/transport
+[rail]/industries/rail
+[highways]/industries/highways
+[projects]/industries/projects
+[private-finance-initiative]/industries/private-finance-initiative
+[public-private-partnership]/industries/public-private-partnership
+[defence]/industries/defence
+[government]/industries/government
+[oil-gas]/industries/oil-gas
+[customers]/customers
+[client-list]/customers/client-list
+[case-studies]/customers/case-studies
+[company]/company
+[leadership]/company/leadership
+[news]/company/news
+[careers]/company/careers
+[contact]/company/contact
+[legal]/legal
+[privacy]/privacy
+[site-map]/site-map'
+                    },
+                    {
                       :name => 'Asset Management',
                       :permalink => 'asset_management',
                       :content => 'p. <span class="apm">apm</span> is a leading provider of techniques, processes, and business intellegence tools for successful and sustainable Asset Management*.
@@ -983,6 +1131,7 @@ leaderships = Leadership.create([
                         :name => 'Peter Woolley',
                         :title => 'Financial Director',
                         :email => '',
+                        :postion => 3,
                         :content_1 => 'Peter has more than 25 years experience in the Finance sector, holding roles as Finance Director since 1996. His wide range of experience includes Investor Relations, Tax, Audit, Accounting, Debt and Corporate Finance, Information Technology, Risk Assessment and other related areas. Most recently he successfully financed and budgetary controlled over &#163;200m of development work in the UK and &#8364;275m in mainland Europe, negotiated a number of new joint venture deals on commercial transactions, and managed the growth of accounting personnel and systems to cope with enlargement of a group that grew 6 fold within 3 years.',
                         :content_2 => 'Peter is a member of the Association of Consulting Actuaries (ACA), has an Advanced Diploma in Treasury, Risk and Corporate Finance (MCT) as well as a Bachelors degree. He has proven himself adaptable to the needs of clients, and has always focused on providing added value. For example, he recently implemented a number of successful taxation strategies, in respect of Corporation tax, VAT and Income tax. As shown through his successful structuring of joint ventures, he also continually demonstrates a drive towards business growth and solving business issues.'
                       },
@@ -990,6 +1139,7 @@ leaderships = Leadership.create([
                         :name => 'Dr Daren Warburton',
                         :title => 'Operations Director',
                         :email => 'daren.warburton@apm.eu.com',
+                        :postion => 2,
                         :content_1 => 'Daren has more than 15 years experience, 10 as a management and technical advisor, operating at a strategic and management level. He holds a PhD in Risk Management and is considered a versatile partner, who thrives on challenges and who has a talent for proactively identifying and providing manageable and sustainable solutions. Most notably, he has developed and implemented performance- and risk-based Expert Business Intelligence tools as part of a number of tender and post-tender PPP and PFI deals.',
                         :content_2 => 'He has provided support to Tender teams, Business consortia and Government bodies, supporting the development of IT strategies, optimising business and asset plans and implementing Decision Support tools. His most recent projects include the M25 DBFO, Dutch Gelre Rail, Dutch Zuid High Speed Rail and Tube Lines. He has also supported clients in Hong Kong, Singapore and Taiwan implementing Systems Assurance and Safety Management Systems, as part of Rail and Highways projects.'
                       },
@@ -997,6 +1147,7 @@ leaderships = Leadership.create([
                       :name => 'Mark Tovey',
                       :title => 'Managing Director',
                       :email => 'mark.tovey@apm.eu.com',
+                      :postion => 1,
                       :content_1 => 'Mark Tovey has over 20 years experience in infrastructure related projects, including public and private finance deals. Over recent years Mark has been involved in some of the largest PPP and PFI deals in Europe and has a broad range of skills in this specialised field. Key projects include M25 DBFO (&#163;5bn), M59, Network Rail acquisition of Railtrack (&#163;30bn securitised loan), Dutch High Speed Rail (&#163;16bn), Tube Lines PPP (&#163;7bn).',
                       :content_2 => 'Mark is a well-rounded individual who has the ability to communicate with board members or at an operational level. Mark is an influential leader and has the ability to target key issues whilst developing solutions. He has worked in teams that have negotiated at the highest levels within various Government Departments. Mark&#39;s unique strength is that he has represented major projects from both Client and Contractor perspectives and is therefore able to give a balanced and practical view of risk and performance issues.'
                     }
