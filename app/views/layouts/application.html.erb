@@ -31,35 +31,41 @@
 
 				$.metadata.setType("attr", "validate");
 
-				// validate Contact Us form on keyup and submit
-				//initiate validator on load
-				$(function() {
-				// validate contact form on keyup and submit
-				$("#contact_form").validate({
-				//set the rules for the field names
-					rules: {
-						"contact[name]": {
-							required: true,
-							minlength: 2
+				<% if controller.controller_name == 'contact' %>
+					// validate Contact Us form on keyup and submit
+					//initiate validator on load
+					$(function() {
+					// validate contact form on keyup and submit
+					$("#contact_form").validate({
+					//set the rules for the field names
+						rules: {
+							"contact[name]": {
+								required: true,
+								minlength: 2
+							},
+							"contact[email]": {
+								required: true,
+								email: true
+							},
 						},
-						"contact[email]": {
-							required: true,
-							email: true
-						},
-					},
-					//set messages to appear inline
-					messages: {
-						name: "Please enter your name.",
-						email: "Please enter a valid email address.",
-						}
+						//set messages to appear inline
+						messages: {
+							name: "Please enter your name.",
+							email: "Please enter a valid email address.",
+							}
+						});
 					});
-				});
+				<% end %>
 			
 		</script>
-		<style type="text/css">
-			form.contact_form label.error { 
-				display: none; }	
-		</style>
+		
+		<% if controller.controller_name == 'contact' %>
+			<style type="text/css">
+				form.contact_form label.error { 
+					display: none; }	
+			</style>
+		<% end %>
+		
   </head>
   <body>	
 		<%= render 'shared/logo' %>
