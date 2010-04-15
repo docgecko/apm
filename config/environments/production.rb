@@ -34,7 +34,7 @@ config.action_mailer.perform_deliveries = true
 config.action_mailer.default_charset = "utf-8"
 
 config.action_mailer.server_settings = {
-  :address => "mail.apm.eu.com"
+  :address => "mail.apm.eu.com",
   :port => 25,
   :domain => "apm.eu.com",
   :authentication => :login,
