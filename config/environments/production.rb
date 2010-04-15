@@ -22,7 +22,7 @@ config.action_view.cache_template_loading            = true
 # config.action_controller.asset_host = "http://assets.example.com"
 
 # Disable delivery errors, bad email addresses will be ignored
-config.action_mailer.raise_delivery_errors = false
+config.action_mailer.raise_delivery_errors = true
 
 # Enable threaded mode
 # config.threadsafe!
@@ -33,11 +33,11 @@ config.action_mailer.delivery_method = :smtp
 config.action_mailer.perform_deliveries = true
 config.action_mailer.default_charset = "utf-8"
 
-# config.action_mailer.server_settings = {
-#   :address => "mail.apm.eu.com"
-#   :port => 25,
-#   :domain => "apm.eu.com",
-#   :authentication => :login,
-#   :user_name => "contact@apm.eu.com",
-#   :password => "Ma1andra"
-# }
+config.action_mailer.server_settings = {
+  :address => "mail.apm.eu.com"
+  :port => 25,
+  :domain => "apm.eu.com",
+  :authentication => :login,
+  :user_name => "contact@apm.eu.com",
+  :password => "Ma1andra"
+}
