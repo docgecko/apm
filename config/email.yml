@@ -1,0 +1,13 @@
+development:
+  :address: smtp.server.com
+  :port: 25
+  :authentication: plain
+  :user_name: user
+  :password: pass
+  
+production:
+  :address: mail.apm.eu.com
+  :port: 25
+  :authentication: plain
+  :user_name: contact@apm.eu.com
+  :password: Ma1andra
