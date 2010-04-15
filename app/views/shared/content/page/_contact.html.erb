@@ -11,6 +11,14 @@
 				<h1>Contact Us</h1>
 			</div>
 			<div id="contact_content">
+				
+				<% if flash[:error] || flash[:notice] %>
+				    <%= content_tag :div, flash[:error] || flash[:notice], :id => 'notice', :class => ('error' if flash[:error]) %>
+				    <script type="text/javascript">
+				        setTimeout("new Effect.Fade('notice');", 1000)
+				    </script>
+				<% end %>
+					
 				<p>
 					For general enquiries please use the following contact details, or complete the contact form below.
 				</p>
@@ -57,7 +65,7 @@
 				</p>
 				
 				<% form_for :contact, :url => contact_path, :html => { :id => "contact_form", :name => "contact_form" } do |f| %>
-				
+								
 				<table class="contact_table" border="0">
 					<tr>
 						<td class="label_layout">

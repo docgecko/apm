@@ -987,3 +987,27 @@ div.clear {
   width: 100%;
   height: 100%;
 }
+
+#notice {
+	border: solid 1px #99cc99;
+	background-color: #e2f9e3;
+	color: #006600;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+#notice a:link {
+  color: #006600;
+  text-decoration: underline;
+}
+
+#notice a:hover {
+  color: #006600;
+  text-decoration: none;
+}
+
+#notice.error {
+  border-color: #cc0000;
+  background-color: #eeaaaa;
+  color: #cc0000;
+}
