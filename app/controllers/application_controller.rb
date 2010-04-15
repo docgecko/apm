@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   filter_parameter_logging :password, :password_confirmation
   before_filter :ensure_domain
 
-  TheDomain = 'apm-eu.apm.eu.com'  
+  TheDomain = 'www.apm.eu.com'  
   
   def ensure_domain
     if request.env['HTTP_HOST'] != TheDomain
