@@ -4,15 +4,6 @@ class ApplicationController < ActionController::Base
   helper :all
   helper_method :current_user_session, :current_user
   filter_parameter_logging :password, :password_confirmation
-  before_filter :ensure_domain
-
-  TheDomain = 'apm-eu.heroku.com'  
-  
-  def ensure_domain
-    if request.env['HTTP_HOST'] != TheDomain
-      redirect_to TheDomain
-    end
-  end
   
   private
     def current_user_session
