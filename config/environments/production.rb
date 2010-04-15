@@ -28,16 +28,17 @@ config.action_mailer.raise_delivery_errors = false
 # config.threadsafe!
 
 ### ActionMailer Config
+config.action_mailer.default_url_options = { :host => 'apm.eu.com' }
 # config.action_mailer.delivery_method = :smtp
 config.action_mailer.delivery_method = :sendmail
 config.action_mailer.perform_deliveries = true
 config.action_mailer.default_charset = "utf-8"
 
-config.action_mailer.server_settings = {
-  :address => "mail.apm.eu.com"
-  :port => 25,
-  :domain => "apm.eu.com",
-  :authentication => :login,
-  :user_name => "contact@apm.eu.com",
-  :password => "malandra"
-}
+# config.action_mailer.server_settings = {
+#   :address => "mail.apm.eu.com"
+#   :port => 25,
+#   :domain => "apm.eu.com",
+#   :authentication => :login,
+#   :user_name => "contact@apm.eu.com",
+#   :password => "malandra"
+# }
