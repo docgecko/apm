@@ -3,7 +3,7 @@
 body {
   background-position: left top;
   background-color: #FFFFFF;
-  background-image: url('../images/background_header.jpg');
+  background-image: url('background_header.jpg');
   background-repeat: repeat-x;
 }
 
@@ -29,7 +29,7 @@ div#top_bg, div#top_home {
   margin: 0;
   padding: 0;
   background-color: #FFFFFF;
-  background-image: url('../images/background_header.jpg');
+  background-image: url('background_header.jpg');
   background-repeat: repeat-x;
 }
 
@@ -151,13 +151,13 @@ div#nav_container a span {
 
 div#nav_container li a:hover,
 div#nav_container ul li a:hover {
-  background-image: url('../images/nav_menu_left.jpg');
+  background-image: url('nav_menu_left.jpg');
   background-repeat: no-repeat;
 }
 
 div#nav_container li a:hover span,
 div#nav_container ul li a span:hover {
-  background-image: url('../images/nav_menu_right.jpg');
+  background-image: url('nav_menu_right.jpg');
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -172,7 +172,7 @@ div#sub_nav_information, div#sub_nav_container, div#sub_nav_home {
   margin: 0;
   float: left;
   background-color: transparent;
-  background-image: url('../images/nav_sub_shaded.jpg');
+  background-image: url('nav_sub_shaded.jpg');
   background-repeat: repeat-x;
   list-style: none;
   font-size: 13px;
@@ -317,7 +317,7 @@ div#home_content_body {
   left: 0px;
   padding: 0;
   margin: 0;
-  background: url( '../images/background_main.jpg' ) no-repeat left top;
+  background: url( 'background_main.jpg' ) no-repeat left top;
   width: 1000px;
   height: 500px;
 }
@@ -328,7 +328,7 @@ div#home_content_main {
   left: 488px;
   padding: 0;
   margin: 0;
-  /*background: url( '../images/white_transparent.png' ) no-repeat left top;*/
+  /*background: url( 'http://apm-assets.s3.amazonaws.com/images/white_transparent.png' ) no-repeat left top;*/
   width: 480px;
   height: 400px;
 }
@@ -402,7 +402,7 @@ div#home_content_text a:hover {
   list-style-type: none;
   margin: 0.2em 0 0 0;
   padding-left: 15px;
-  background-image: url('../images/bullet_white.png');
+  background-image: url('bullet_white.png');
   background-position: left 6px;
   background-repeat: no-repeat;
 }
@@ -413,7 +413,7 @@ div#footer_home {
   left: 0px;
   height: 45px;
   width: 100%;
-  background-image: url('../images/background_footer.jpg');
+  background-image: url('background_footer.jpg');
   background-repeat: repeat-x;
   background-color: #ffffff;
 }
@@ -696,7 +696,7 @@ ul {
 li {
   list-style-type: none;
   padding-left: 15px;
-  background-image: url( '../images/bullet.png' );
+  background-image: url( 'bullet.png' );
   background-position: left 3px;
   background-repeat: no-repeat;
   padding-bottom: 2px;
@@ -710,7 +710,7 @@ div#footer_bg, div#footer_general {
   left: 0px;
   height: 45px;
   width: 100%;
-  background-image: url('../images/background_footer.jpg');
+  background-image: url('background_footer.jpg');
   background-repeat: repeat-x;
   background-color: #ffffff;
 }
