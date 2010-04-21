@@ -3,14 +3,13 @@
 <html>
   <head>
 		<title><%= @page_title || "Asset Performance Management Ltd." %></title>
-		<%= stylesheet_link_tag 'application', 'iehacks', 'superfish' %>
+		<%= stylesheet_link_tag 'application', 'iehacks', 'superfish', :cache => true %>
 		<%= javascript_include_tag	'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js',
 																'jquery.metadata',
 																'http://dev.jquery.com/view/trunk/plugins/validate/jquery.validate.js',
 																'hoverIntent', 
 																'superfish', 
 																'supersubs', :cache => 'application' %>
-		<%#= csrf_meta_tag %>
 		
 		<% if controller.controller_name == 'contact' %>
 			<style type="text/css">
