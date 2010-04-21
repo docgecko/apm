@@ -5,12 +5,12 @@
 		<title><%= @page_title || "Asset Performance Management Ltd." %></title>
 		<%= stylesheet_link_tag 'application', 'superfish', :cache => true %>
 		<%= javascript_include_tag	'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js',
-																'jquery.metadata',
-																'http://dev.jquery.com/view/trunk/plugins/validate/jquery.validate.js',
+																'http://dev.jquery.com/view/trunk/plugins/validate/jquery.validate.js' %>
+		<%= javascript_include_tag	'jquery.metadata',
 																'hoverIntent', 
 																'superfish', 
-																'supersubs' %>
-		
+																'supersubs', :cache => true %>
+
 		<% if controller.controller_name == 'contact' %>
 			<style type="text/css">
 				form.contact_form label.error { 
