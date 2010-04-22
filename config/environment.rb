@@ -24,6 +24,7 @@ Rails::Initializer.run do |config|
   config.gem "paperclip", :version => ">= 2.3.1.1"
   config.gem "authlogic", :version => "2.1.3"
   config.gem "heroku"
+  config.gem "memcached", :version => ">= 0.19.3"
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named

@@ -19,8 +19,10 @@
 		<% end %>
 		
   </head>
-  <body>	
-		<%= render 'shared/logo' %>
+  <body>
+		<% cache 'logo' do %>
+			<%= render 'shared/logo' %>
+		<% end %>
 
 		<% if controller.controller_name == 'welcome' %>
 			<div id="top_home">
@@ -28,8 +30,10 @@
 			<div id="top_bg">
 		<% end %>
 						
-		<%= render 'shared/navigation/mini' %>
-		<%= render 'shared/navigation/main' %>
+		<% cache 'menus' do %>
+			<%= render 'shared/navigation/mini' %>
+			<%= render 'shared/navigation/main' %>
+		<% end %>
 			
     </div>
 
@@ -53,56 +57,57 @@
 
     <div class="clear"></div>
 
-		<%= render 'shared/footer' %>
+		<% cache 'footer' do %>
+			<%= render 'shared/footer' %>
 
-		<%= render 'shared/monitor/google_analytics' %>
+			<%= render 'shared/monitor/google_analytics' %>
 
-		<script type="text/javascript"> 
+			<script type="text/javascript"> 
 
-		    $(document).ready(function(){ 
-		        $("ul.sf-menu").supersubs({ 
-					    	delay:        800, 
-					    	speed:        'fastest',
-								animation: 		{opacity:'show'},
-					    	autoArrows:   false,  
-								minWidth:    	1,   // minimum width of sub-menus in em units 
-		            maxWidth:    	17,   // maximum width of sub-menus in em units 
-		            extraWidth:  	1     // extra width can ensure lines don't sometimes turn over 
-		                               // due to slight rounding differences and font-family 
-		        }).superfish();  // call supersubs first, then superfish, so that subs are 
-		                         // not display:none when measuring. Call before initialising 
-		                         // containing tabs for same reason. 
-		    });
+			    $(document).ready(function(){ 
+			        $("ul.sf-menu").supersubs({ 
+						    	delay:        800, 
+						    	speed:        'fastest',
+									animation: 		{opacity:'show'},
+						    	autoArrows:   false,  
+									minWidth:    	1,   // minimum width of sub-menus in em units 
+			            maxWidth:    	17,   // maximum width of sub-menus in em units 
+			            extraWidth:  	1     // extra width can ensure lines don't sometimes turn over 
+			                               // due to slight rounding differences and font-family 
+			        }).superfish();  // call supersubs first, then superfish, so that subs are 
+			                         // not display:none when measuring. Call before initialising 
+			                         // containing tabs for same reason. 
+			    });
 
-				$.metadata.setType("attr", "validate");
+					$.metadata.setType("attr", "validate");
 
-				<% if controller.controller_name == 'contact' %>
-					// validate Contact Us form on keyup and submit
-					//initiate validator on load
-					$(function() {
-					// validate contact form on keyup and submit
-					$("#contact_form").validate({
-					//set the rules for the field names
-						rules: {
-							"contact[name]": {
-								required: true,
-								minlength: 2
+					<% if controller.controller_name == 'contact' %>
+						// validate Contact Us form on keyup and submit
+						//initiate validator on load
+						$(function() {
+						// validate contact form on keyup and submit
+						$("#contact_form").validate({
+						//set the rules for the field names
+							rules: {
+								"contact[name]": {
+									required: true,
+									minlength: 2
+								},
+								"contact[email]": {
+									required: true,
+									email: true
+								},
 							},
-							"contact[email]": {
-								required: true,
-								email: true
-							},
-						},
-						//set messages to appear inline
-						messages: {
-							name: "Please enter your name.",
-							email: "Please enter a valid email address.",
-							}
+							//set messages to appear inline
+							messages: {
+								name: "Please enter your name.",
+								email: "Please enter a valid email address.",
+								}
+							});
 						});
-					});
-				<% end %>
+					<% end %>
 			
-		</script>
-		
+			</script>
+		<% end %>
   </body>
 </html>
