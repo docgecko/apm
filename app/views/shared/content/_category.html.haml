@@ -1,0 +1,18 @@
+= yield :nav_main
+
+#container_cat
+	#container
+		#cat_content_header
+			#category_header
+				= image_tag @page.photo.url
+		
+		.clear
+
+		#cat_content_left
+		#cat_content_middle
+			#body_content_middle
+				= RedCloth.new(@page.content).to_html
+		
+		#cat_content_right
+
+.clear

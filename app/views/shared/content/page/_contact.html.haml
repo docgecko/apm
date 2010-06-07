@@ -1,0 +1,139 @@
+= yield :nav_main
+
+#container_bg
+	#container
+		#left_nav
+			= yield :left_nav
+
+		#sub_content_middle
+			#body_header
+				= image_tag "/assets/pages/photos/44/page/HdrContactUs.jpg"
+				%h1 Contact Us
+
+			#contact_content
+				
+			 	- if flash[:error] || flash[:notice]
+					= content_tag :div, flash[:error] || flash[:notice], :id => 'notice', :class => ('error' if flash[:error])
+						:javascript
+							setTimeout("new Effect.Fade('notice');", 1000)
+					
+				%p For general enquiries please use the following contact details, or complete the contact form below.
+
+				%table.contact_details{:border => "0"}
+					%tr
+						%td.details_type_layout
+							%span.label Address:
+
+						%td.details_layout
+							%span.label
+								%span.apm asset performance management ltd
+								%br/
+								78 York Street
+								%br/
+								London W1H 1DP
+								%br/
+								United Kingdom
+
+					%tr
+						%td.details_type_layout
+							%span.label Email:
+
+						%td.details_layout
+							%span.label
+								%a{ :href => "&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#97;&#112;&#109;&#46;&#101;&#117;&#46;&#99;&#111;&#109;" } general enquiries
+
+					%tr
+						%td.details_type_layout
+							%span.label Telephone:
+
+						%td.details_layout
+							%span.label +44 (0)20 7692 5089
+
+					%tr
+						%td.details_type_layout
+							%span.label Fax:
+
+						%td.details_layout
+							%span.label +44 (0)20 3393 9983
+
+				%br/
+				%p Note that fields marked with a star (<span class="blue">*</span>) are required.
+				
+				- form_for :contact, :url => contact_path, :html => { :id => "contact_form", :name => "contact_form" } do |f|
+								
+					%table.contact_table{:border => "0"}
+						%tr
+							%td.label_layout
+								= f.label :name, "Your name", :class => "label"
+								%span.blue *
+
+							%td.textbox_layout
+								= f.text_field :name, :maxlength => "150", :class => "text_box", :style => "width:340px"
+
+						%tr
+							%td.label_layout
+								= f.label :email, "Your email address", :class => "label" %> <span class="blue">*</span>
+							%td.textbox_layout
+								= f.text_field :email, :maxlength => "150", :class => "text_box", :style => "width:340px"
+
+						%tr
+							%td.label_layout
+								= f.label :telephone, "Your telephone number", :class => "label"
+							%td.textbox_layout
+								= f.text_field :telephone, :maxlength => "50", :class => "text_box", :style => "width:340px"
+
+						%tr
+							%td.label_layout
+								= f.label :organisation, "Your organisation", :class => "label"
+							%td.textbox_layout
+								= f.text_field :organisation, :maxlength => "50", :class => "text_box", :style => "width:340px"
+
+						%tr
+							%td.label_layout
+								= f.label :role, "Your role in the organisation", :class => "label"
+							%td.textbox_layout
+								= f.text_field :role, :maxlength => "50", :class => "text_box", :style => "width:340px"
+
+						%tr
+							%td.label_layout
+								= f.label :career, "Are you seeking a career with Asset Performance Management?", :class => "label"
+								%span.blue *
+
+							%td.radio_button_layout
+								%table{:border => "0", :style => "width:340px;"}
+									%tr
+										- [ 'Yes', 'No' ].each do |employment|
+									    %td
+												= radio_button_tag 'contact[employment]', employment, @employment == employment, :validate => "required:true"
+									    	= label_tag "employment_#{employment}", employment.humanize
+
+								<label for="contact[employment]" class="error">Please make a selection.</label>
+
+						%tr
+							%td.label_layout
+								= f.label :subject, "Subject", :class => "label"
+							%td.textbox_layout
+								= f.text_field :subject, :maxlength => "250", :class => "text_box", :style => "width:340px"
+
+						%tr
+							%td.label_layout
+								= f.label :message, "Your specific enquiry", :class => "label"
+							%td.textbox_layout
+								= f.text_area :message, :maxlength => "250", :class => "text_box", :rows => "8", :cols => "20", :style => "width:340px"
+					
+					%br/
+					%p.consent
+						By submitting your email address, you acknowledge that you have read the
+						= link_to "Privacy Policy", privacy_url
+						and that you agree to our data processing. If you change your mind at any time about wishing to receive the information from us, you can send us a message using the
+						= link_to "Contact Us", contact_url
+						form or an
+						%a{ :href => "&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#97;&#112;&#109;&#46;&#101;&#117;&#46;&#99;&#111;&#109;" } email
+						.
+
+					.button
+						= f.submit "Send", :class => "button_layout"
+				
+				%div{:style => "color:Red;display:none;"}
+
+			.clear

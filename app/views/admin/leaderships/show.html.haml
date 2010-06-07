@@ -1,0 +1,32 @@
+%p
+	%b Name:
+	= @leadership.name
+
+%p
+	%b Title:
+	= @leadership.title
+
+%p
+	%b Email:
+	= @leadership.email
+
+%p
+	%b Position:
+	= @leadership.postion
+
+%p
+	%b Content 1:
+	= RedCloth.new(@leadership.content_1).to_html
+
+%p
+	%b Content 2:
+	= RedCloth.new(@leadership.content_2).to_html
+
+%p
+	%b Avatar:
+	= image_tag @leadership.avatar.url
+
+
+= link_to 'Edit', edit_admin_leadership_path(@leadership)
+|
+= link_to 'Back', admin_leaderships_path

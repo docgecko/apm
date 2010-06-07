@@ -1,0 +1,16 @@
+= yield :nav_main
+
+#container_bg
+	#container
+		#left_nav
+			= yield :left_nav
+
+		#sub_content_middle
+			#body_header
+				= image_tag @page.photo.url
+				%h1= @page.name
+
+			#body_content
+				= RedCloth.new(@page.content).to_html
+
+.clear

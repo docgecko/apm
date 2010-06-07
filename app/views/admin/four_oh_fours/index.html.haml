@@ -1,0 +1,18 @@
+%h1 Listing 404s
+
+%table
+	%tr
+		%th Host
+    %th Path
+    %th Referer
+    %th Count
+    %th
+    %th
+    %th
+
+= @four_oh_fours.each do |four_oh_four|
+	%tr
+		%td=h four_oh_four.host
+		%td=h four_oh_four.path
+		%td=h four_oh_four.referer
+		%td=h four_oh_four.count

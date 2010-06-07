@@ -1,0 +1,31 @@
+%h1 Listing leaderships
+
+%table
+	%tr
+		%th Name
+		%th Title
+		%th Email
+		%th Position
+		%th Content 1
+		%th Content 2
+		%th Avatar
+		%th
+		%th
+		%th
+
+= @leaderships.each do |leadership|
+	%tr
+		%td= leadership.name
+		%td= leadership.title
+		%td= leadership.email
+		%td= leadership.postion
+		%td= RedCloth.new(leadership.content_1).to_html
+		%td= RedCloth.new(leadership.content_2).to_html
+		%td= image_tag leadership.avatar.url
+		%td= link_to 'Show', admin_leadership_path(leadership)
+		%td= link_to 'Edit', edit_admin_leadership_path(leadership)
+		%td= link_to 'Destroy', [:admin, leadership], :confirm => 'Are you sure?', :method => :delete
+
+%br/
+
+= link_to 'New leadership', new_admin_leadership_path
