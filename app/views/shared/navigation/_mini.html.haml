@@ -1,9 +1,9 @@
-.top_nav
-  .util_search
-		.nav_bar_left
+#top_nav
+	#util_search
+		#nav_bar_left
 			= image_tag("nav_bar_left.png", :border => 0)
 
-		.nav_bar_menu
+		#nav_bar_menu
 			- if current_user
 				= "Welcome <strong>" + current_user.login + "</strong>"
 				&nbsp;&nbsp;|&nbsp;
@@ -16,5 +16,5 @@
 			&nbsp;|&nbsp;
 			= link_to "Contact Us", contact_url, :class => "nav_bar_link"
 
-		.nav_bar_right
+		#nav_bar_right
 			= image_tag("nav_bar_right.png", :border => 0)

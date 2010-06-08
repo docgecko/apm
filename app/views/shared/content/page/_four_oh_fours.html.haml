@@ -1,19 +1,26 @@
 = yield :nav_main
 
 .sub_nav_information
-#clear
+.clear
 #container_general
 	#container
 		#left_nav
 		#sub_content_middle
 			#general_content
 				%h1 That page does not exist!
-		    %h2 Now you are wondering, "what do I do now!?!". Well
-				%ul.bulleted_list"
-					%li make sure that the Web site address displayed in the address bar of your browser is spelled and formatted correctly
-					%li you can try to find the page from the <%= link_to "home page", root_url %>
-					%li if you reached this page by clicking a link, contact the Web site administrator to alert them that the link is incorrectly formatted
-					%li try clicking the <%= link_to 'back', :back %> button to try another link
+				%h2 Now you are wondering, "what do I do now!?!". Well:
+				%ul.bulleted_list
+					%li
+						make sure that the Web site address displayed in the address bar of your browser is spelled and formatted correctly
+					%li
+						you can try to find the page from the
+						= link_to "home page", root_url
+					%li
+						if you reached this page by clicking a link, contact the Web site administrator to alert them that the link is incorrectly formatted
+					%li
+						try clicking the
+						= link_to 'back', :back
+						button to try another link
 				%br/
 				%br/
 				%br/

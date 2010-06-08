@@ -29,3 +29,4 @@ config.action_mailer.default_charset = "utf-8"
 
 # Development only gems
 # config.gem "taps", :version => "0.2.26"
+config.gem "ghost", :version => ">= 0.2.8"
