@@ -1,18 +1,19 @@
 = yield :nav_main
 
-#container_cat
-	#container
-		#cat_content_header
-			#category_header
-				= image_tag @page.photo.url
+#mainContainer
+	#containerCat
+		#container
+			#catContentHeader
+				#categoryHeader
+					= image_tag @page.photo.url
 		
-		.clear
+			.clear
 
-		#cat_content_left
-		#cat_content_middle
-			#body_content_middle
-				= RedCloth.new(@page.content).to_html
+			#catContentLeft
+			#catContentMiddle
+				#bodyContentMiddle
+					= raw RedCloth.new(@page.content).to_html
 		
-		#cat_content_right
+			#catContentRight
 
 .clear

@@ -1,76 +1,74 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :four_oh_fours
+  resources :four_oh_fours
   
-  map.resource :account, :controller => "users"
-  map.resources :users
-  map.resource :user_sessions
+  resource :account, :controller => "users"
+  resources :users
+  resource :user_sessions
   
-  map.login "admin/login", :controller => "user_sessions", :action => "new"
-  map.logout "admin/logout", :controller => "user_sessions", :action => "destroy"
+  match "admin/login" => "user_sessions#new", :as => :login
+  match "admin/logout" => "user_sessions#destroy", :as => :login
   
-  map.resources :leaderships
-  map.resources :pages
-  map.resources :welcome, :only => [:index]
+  resources :leaderships
+  resources :pages
+  resources :welcome, :only => [:index]
   
-  map.namespace :admin do |admin|
-    admin.resources :pages, :leaderships, :four_oh_fours
+  namespace :admin do
+    resources :pages, :leaderships, :four_oh_fours
   end
 
-  map.root :controller => "welcome", :action => "index"
-
 # General routes
-  map.legal 'legal', :controller => 'pages', :action => 'legal'
-  map.privacy 'privacy', :controller => 'pages', :action => 'privacy'
-  map.site_map 'site-map', :controller => 'pages', :action => 'site_map'
+  match 'legal' => 'pages#legal', :as => :legal
+  match 'privacy' => 'pages#privacy', :as => :privacy
+  match 'site-map' => 'pages#site_map', :as => :site_map
 
 # Services Category routes
-  map.services 'services', :controller => 'pages', :action => 'services'
-  map.asset_management 'services/asset-management', :controller => 'pages', :action => 'asset_management'
-  map.performance_modelling 'services/performance-modelling', :controller => 'pages', :action => 'performance_modelling'
-  map.whole_life_approach 'services/whole-life-approach', :controller => 'pages', :action => 'whole_life_approach'
-  map.investment_decision_analysis 'services/investment-decision-analysis', :controller => 'pages', :action => 'investment_decision_analysis'
-  map.risk_services 'services/risk-services', :controller => 'pages', :action => 'risk_services'
-  map.risk_management 'services/risk-management', :controller => 'pages', :action => 'risk_management'
-  map.rams_modelling 'services/rams-modelling', :controller => 'pages', :action => 'rams_modelling'
-  map.systems_safety_assurance 'services/systems-safety-assurance', :controller => 'pages', :action => 'systems_safety_assurance'
-  map.value_management 'services/value-management', :controller => 'pages', :action => 'value_management'
-  map.commercial_management 'services/commercial-management', :controller => 'pages', :action => 'commercial_management'
-  map.quantity_surveying 'services/quantity-surveying', :controller => 'pages', :action => 'quantity_surveying'
-  map.value_engineering 'services/value-engineering', :controller => 'pages', :action => 'value_engineering'
-  map.project_services 'services/project-services', :controller => 'pages', :action => 'project_services'
-  map.project_cost_management 'services/project-cost-management', :controller => 'pages', :action => 'project_cost_management'
-  map.tender_review_evaluation 'services/tender-review-evaluation', :controller => 'pages', :action => 'tender_review_evaluation'
-  map.financial_services 'services/financial-services', :controller => 'pages', :action => 'financial_services'
-  map.financial_management 'services/financial-management', :controller => 'pages', :action => 'financial_management'
-  map.cost_modelling 'services/cost-modelling', :controller => 'pages', :action => 'cost_modelling'
-  map.forensic_audit 'services/forensic-audit', :controller => 'pages', :action => 'forensic_audit'
-  map.information_technology 'services/information-technology', :controller => 'pages', :action => 'information_technology'
-  map.strategy_development 'services/strategy-development', :controller => 'pages', :action => 'strategy_development'
-  map.software_model_engineering 'services/software-model-engineering', :controller => 'pages', :action => 'software_model_engineering'
-  map.systems_integration 'services/systems-integration', :controller => 'pages', :action => 'systems_integration'
+  match 'services' => 'pages#services', :as => :services
+  match 'services/asset-management' => 'pages#asset_management', :as => :asset_management
+  match 'services/performance-modelling' => 'pages#performance_modelling', :as => :performance_modelling
+  match 'services/whole-life-approach' => 'pages#whole_life_approach', :as => :whole_life_approach
+  match 'services/investment-decision-analysis' => 'pages#investment_decision_analysis', :as => :investment_decision_analysis
+  match 'services/risk-services' => 'pages#risk_services', :as => :risk_services
+  match 'services/risk-management' => 'pages#risk_management', :as => :risk_management
+  match 'services/rams-modelling' => 'pages#rams_modelling', :as => :rams_modelling
+  match 'services/systems-safety-assurance' => 'pages#systems_safety_assurance', :as => :systems_safety_assurance
+  match 'services/value-management' => 'pages#value_management', :as => :value_management
+  match 'services/commercial-management' => 'pages#commercial_management', :as => :commercial_management
+  match 'services/quantity-surveying' => 'pages#quantity_surveying', :as => :quantity_surveying
+  match 'services/value-engineering' => 'pages#value_engineering', :as => :value_engineering
+  match 'services/project-services' => 'pages#project_services', :as => :project_services
+  match 'services/project-cost-management' => 'pages#project_cost_management', :as => :project_cost_management
+  match 'services/tender-review-evaluation' => 'pages#tender_review_evaluation', :as => :tender_review_evaluation
+  match 'services/financial-services' => 'pages#financial_services', :as => :financial_services
+  match 'services/financial-management' => 'pages#financial_management', :as => :financial_management
+  match 'services/cost-modelling' => 'pages#cost_modelling', :as => :cost_modelling
+  match 'services/forensic-audit' => 'pages#forensic_audit', :as => :forensic_audit
+  match 'services/information-technology' => 'pages#information_technology', :as => :information_technology
+  match 'services/strategy-development' => 'pages#strategy_development', :as => :strategy_development
+  match 'services/software-model-engineering' => 'pages#software_model_engineering', :as => :software_model_engineering
+  match 'services/systems-integration' => 'pages#systems_integration', :as => :systems_integration
 
 # Industries Category routes
-  map.industries 'industries', :controller => 'pages', :action => 'industries'
-  map.transport 'industries/transport', :controller => 'pages', :action => 'transport'
-  map.rail 'industries/rail', :controller => 'pages', :action => 'rail'
-  map.highways 'industries/highways', :controller => 'pages', :action => 'highways'
-  map.projects 'industries/projects', :controller => 'pages', :action => 'projects'
-  map.pfi 'industries/private-finance-initiative', :controller => 'pages', :action => 'pfi'
-  map.ppp 'industries/public-private-partnership', :controller => 'pages', :action => 'ppp'
-  map.defence 'industries/defence', :controller => 'pages', :action => 'defence'
-  map.government 'industries/government', :controller => 'pages', :action => 'government'
-  map.oil_gas 'industries/oil-gas', :controller => 'pages', :action => 'oil_gas'
+  match 'industries' => 'pages#industries', :as => :industries
+  match 'industries/transport' => 'pages#transport', :as => :transport
+  match 'industries/rail' => 'pages#rail', :as => :rail
+  match 'industries/highways' => 'pages#highways', :as => :highways
+  match 'industries/projects' => 'pages#projects', :as => :projects
+  match 'industries/private-finance-initiative' => 'pages#pfi', :as => :pfi
+  match 'industries/public-private-partnership' => 'pages#ppp', :as => :ppp
+  match 'industries/defence' => 'pages#defence', :as => :defence
+  match 'industries/government' => 'pages#government', :as => :government
+  match 'industries/oil-gas' => 'pages#oil_gas', :as => :oil_gas
 
 # Customers Category routes
-  map.customers 'customers', :controller => 'pages', :action => 'customers'
-  map.client_list 'customers/client-list', :controller => 'pages', :action => 'client_list'
-  map.case_studies 'customers/case-studies', :controller => 'pages', :action => 'case_studies'
+  match 'customers' => 'pages#customers', :as => :customers
+  match 'customers/client-list' => 'pages#client_list', :as => :client_list
+  match 'customers/case-studies' => 'pages#case_studies', :as => :case_studies
 
 # Company Category routes
-  map.company 'company', :controller => 'pages', :action => 'company'
-  map.leadership 'company/leadership', :controller => 'leaderships', :action => 'index'
-  map.news 'company/news', :controller => 'pages', :action => 'news'
-  map.careers 'company/careers', :controller => 'pages', :action => 'careers'
+  match 'company' => 'pages#company', :as => :company
+  match 'company/leadership' => 'leaderships#index', :as => :leadership
+  match 'company/news' => 'pages#news', :as => :news
+  match 'company/careers' => 'pages#careers', :as => :careers
   map.with_options :controller => "contact" do |contact|
     contact.contact '/company/contact',
       :action => 'index',
@@ -81,6 +79,8 @@ ActionController::Routing::Routes.draw do |map|
       :conditions => { :method => :post }
   end
   
+  root :to => "welcome#index"
+  
 # Catch All 404s
-  map.connect '*path', :controller => 'four_oh_fours'
+  match '*path' => 'four_oh_fours#index'
 end

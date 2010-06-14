@@ -504,7 +504,7 @@ p. <span class="apm">apm</span> uses a range of commerical and in-house tools wh
                       :permalink => 'systems_safety_assurance',
                       :content => 'h1. Safety Matters
 
-                      p. Systems Safety Management and Assurance encapsulates risk management from a people perspective. As infrastructure assets become more varied and complex, and consequences of accidents can be enormous, it is necessary for organisations to build upon existing levels of safety, lessons learnt from industry and best practise, and strive to ensure that safety is continuously and successfully improved and managed.
+p. Systems Safety Management and Assurance encapsulates risk management from a people perspective. As infrastructure assets become more varied and complex, and consequences of accidents can be enormous, it is necessary for organisations to build upon existing levels of safety, lessons learnt from industry and best practise, and strive to ensure that safety is continuously and successfully improved and managed.
 
 p. Safety applies throughout the life of a project from initial concept to final disposal. Applying best practise through design and operation integrated with Safety Management ensures that even the fast pace of technological change can be managed throughout the full project life-cycle.
 

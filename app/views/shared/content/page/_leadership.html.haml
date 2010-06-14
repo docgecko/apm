@@ -1,43 +1,44 @@
 = yield :nav_main
 
-#container_bg
-	#container
-		#left_nav
-			= yield :left_nav
+#mainContainer
+	#containerPage
+		#container
+			#leftNav
+				= yield :left_nav
 
-		#sub_content_middle
-			#body_header
-				= image_tag "/assets/pages/photos/43/page/HdrLeadership.jpg"
-				%h1 Leadership
+			#subContentMiddle
+				#bodyHeader
+					= image_tag "/assets/pages/photos/43/page/HdrLeadership.jpg"
+					%h1 Leadership
 
-			#leadership_content{ :style => "padding-left:3px" }
-				%table{ :border => "0" }
-					- @leaderships.each do |leadership|
-						%tr
-							%td.people_text
-								.name
-									- if leadership.email?
-										= mail_to leadership.email, leadership.name
-									- else
-										= leadership.name
+				#leadershipContent{ :style => "padding-left:3px" }
+					%table{ :border => "0" }
+						- @leaderships.each do |leadership|
+							%tr
+								%td.peopleText
+									.name
+										- if leadership.email?
+											= mail_to leadership.email, leadership.name
+										- else
+											= leadership.name
 
-								.title
-									= leadership.title
+									.title
+										= leadership.title
 
-								.bio
-									%br/
-									= RedCloth.new(leadership.content_1).to_html
-
-								.leadership_content_panel
-									%div{ :class => "bio showhide" }
+									.bio
 										%br/
-										= RedCloth.new(leadership.content_2).to_html
-								%br/
-								%br/
+										= raw RedCloth.new(leadership.content_1).to_html
 
-							%td.people_image
-								= leadership_avatar(leadership.email, leadership.avatar_file_size, leadership.avatar.url)
+									.leadershipContentPanel
+										%div{ :class => "bio showhide" }
+											%br/
+											= raw RedCloth.new(leadership.content_2).to_html
+									%br/
+									%br/
 
-					.clear
+								%td.peopleImage
+									= leadership_avatar(leadership.email, leadership.avatar_file_size, leadership.avatar.url)
+
+						.clear
 
 .clear

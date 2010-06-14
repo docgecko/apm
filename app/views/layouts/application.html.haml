@@ -2,7 +2,8 @@
 %html
 	%head
 		%title= @page_title || "Asset Performance Management Ltd."
-		= stylesheet_link_tag 'application', 'superfish', :cache => true
+		= stylesheet_link_tag 'application', 'superfish'
+		-#= stylesheet_link_tag 'application', 'superfish', :cache => 'all'
 		= javascript_include_tag	'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js', 'http://dev.jquery.com/view/trunk/plugins/validate/jquery.validate.js'
 		= javascript_include_tag	'jquery.metadata', 'hoverIntent', 'superfish', 'supersubs', :cache => true
 		
@@ -11,48 +12,37 @@
 				form.contact_form label.error { display: none; }	
 		
 	%body
-		- cache 'logo' do
-			= render 'shared/logo'
+		#header
+			#headerContainer
+				-# cache 'logo' do
+				= render 'shared/logo'
+				= render 'shared/navigation/mini'
+				= render 'shared/navigation/main'
 
-		- if controller.controller_name == 'welcome'
-			#top_home
-				- cache 'menus' do
-					= render 'shared/navigation/mini'
-					= render 'shared/navigation/main'
-		- else
-			#top_bg
-				- cache 'menus' do
-					= render 'shared/navigation/mini'
-					= render 'shared/navigation/main'
-						
+		#main
+			- if controller.controller_name == 'welcome'
+				= yield
+			- elsif [ 'services', 'industries', 'customers', 'company' ].include? action_name
+				= render 'shared/content/category'
+			- elsif [ 'legal', 'privacy', 'site_map' ].include? action_name
+				= render 'shared/content/information'
+			- elsif controller.controller_name == 'contact'
+				= render 'shared/content/page/contact'
+			- elsif controller.controller_name == 'leaderships'
+				= render 'shared/content/page/leadership'
+			- elsif controller.controller_name == 'four_oh_fours'
+				= render 'shared/content/page/four_oh_fours'
+			- else
+				= render 'shared/content/page'
 
-		.clear
-
-		- if [ 'services', 'industries', 'customers', 'company' ].include? action_name
-			= render 'shared/content/category'
-		- elsif [ 'legal', 'privacy', 'site_map' ].include? action_name
-			= render 'shared/content/information'
-		- elsif controller.controller_name == 'welcome'
-			= yield
-		- elsif controller.controller_name == 'contact'
-			= render 'shared/content/page/contact'
-		- elsif controller.controller_name == 'leaderships'
-			= render 'shared/content/page/leadership'
-		- elsif controller.controller_name == 'four_oh_fours'
-			= render 'shared/content/page/four_oh_fours'
-		- else
-			= render 'shared/content/page'
-
-		.clear
-
-		- cache 'footer' do
-			= render 'shared/footer'
-
-			= render 'shared/monitor/google_analytics'
-			
-			= render 'shared/javascript/superfish'
-
-			= render 'shared/javascript/metadata'
-
+		#footer
+			#footerContainer
+				-# cache 'footer' do
+				= render 'shared/footer'
+				
+		= render 'shared/monitor/google_analytics'
+		= render 'shared/javascript/superfish'
+		= render 'shared/javascript/metadata'
+		
 		- if controller.controller_name == 'contact'
 			= render 'shared/javascript/validate'

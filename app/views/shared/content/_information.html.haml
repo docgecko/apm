@@ -1,10 +1,12 @@
-#sub_nav_information
-.clear
-#container_general
-	.container
-		.left_nav
-		#sub_content_middle
-			#general_content
-				= RedCloth.new(@page.content).to_html
+#subNav
+	#subNavInformation
+
+#mainContainer
+	#containerGeneral
+		.container
+			.leftNav
+			#subContentMiddle
+				#generalContent
+					= raw RedCloth.new(@page.content).to_html
 
 .clear

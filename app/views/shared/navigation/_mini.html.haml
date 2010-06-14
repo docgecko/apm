@@ -1,20 +1,20 @@
-#top_nav
-	#util_search
-		#nav_bar_left
+#topNav
+	#utilSearch
+		#navBarLeft
 			= image_tag("nav_bar_left.png", :border => 0)
 
-		#nav_bar_menu
+		#navBarMenu
 			- if current_user
 				= "Welcome <strong>" + current_user.login + "</strong>"
 				&nbsp;&nbsp;|&nbsp;
-				= link_to "Admin", new_user_sessions_url, :class => "nav_bar_link"
+				= link_to "Admin", new_user_sessions_url, :class => "navBarLink"
 				&nbsp;|&nbsp; 
 
-			= link_to "About Us", company_url, :class => "nav_bar_link"
+			= link_to "About Us", company_url, :class => "navBarLink"
 			&nbsp;|&nbsp;
-			= link_to "Careers", careers_url, :class => "nav_bar_link"
+			= link_to "Careers", careers_url, :class => "navBarLink"
 			&nbsp;|&nbsp;
-			= link_to "Contact Us", contact_url, :class => "nav_bar_link"
+			= link_to "Contact Us", contact_url, :class => "navBarLink"
 
-		#nav_bar_right
+		#navBarRight
 			= image_tag("nav_bar_right.png", :border => 0)

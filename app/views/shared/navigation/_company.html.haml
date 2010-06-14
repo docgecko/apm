@@ -1,6 +1,6 @@
-#sub_nav_container
-	%ul.sf-menu
-		%li= link_to content_tag(:span, "Leadership"), leadership_url
-		%li= link_to content_tag(:span, "News"), news_url
-		%li= link_to content_tag(:span, "Careers"), careers_url
-		%li= link_to content_tag(:span, "Contact Us"), contact_url
+- if controller.action_name == 'company'
+	#subNav
+		= render 'shared/navigation/company_container'
+- else
+	#subNavBorder
+		= render 'shared/navigation/company_container'
