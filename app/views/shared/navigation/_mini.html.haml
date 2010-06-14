@@ -5,7 +5,9 @@
 
 		#navBarMenu
 			- if current_user
-				= "Welcome <strong>" + current_user.login + "</strong>"
+				= "Welcome"
+				%strong
+					= current_user.login
 				&nbsp;&nbsp;|&nbsp;
 				= link_to "Admin", new_user_sessions_url, :class => "navBarLink"
 				&nbsp;|&nbsp; 

@@ -1,15 +1,15 @@
 - @page_title = "Admin Login"
 
-- form_for @user_session do |f|
-  = f.error_messages
-  %p
-    = f.label :login
+- form_for @user_session, :url => user_sessions_path do |f|
+	= f.error_messages
+	%p
+		= f.label :login
 		%br/
-    = f.text_field :login
+		= f.text_field :login
 
-  %p
-    = f.label :password
+	%p
+		= f.label :password
 		%br/
-    = f.password_field :password
+		= f.password_field :password
 
-  %p= f.submit "Login"
+	%p= f.submit "Login"

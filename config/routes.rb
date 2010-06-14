@@ -6,7 +6,7 @@ ActionController::Routing::Routes.draw do |map|
   resource :user_sessions
   
   match "admin/login" => "user_sessions#new", :as => :login
-  match "admin/logout" => "user_sessions#destroy", :as => :login
+  match "admin/logout" => "user_sessions#destroy", :as => :logout
   
   resources :leaderships
   resources :pages

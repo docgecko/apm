@@ -1,11 +1,11 @@
-= form_for [:admin, @page], :html => { :multipart => true } do |f|
+- form_for [:admin, @page], :html => { :multipart => true } do |f|
 	= f.error_messages
 
 	.field
 		= f.label :name
 		%br/
 		= f.text_field :name
-  .field
+	.field
 		= f.label :permalink
 		%br/
 		= f.text_field :permalink
