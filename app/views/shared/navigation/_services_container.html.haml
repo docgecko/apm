@@ -1,42 +1,53 @@
 #subNavContainer
 	%ul.sf-menu
 		%li
-			= link_to_with_current_class content_tag(:span, "Asset Management"), asset_management_url
+			= link_to_with_current_class content_tag(:span, "Commercial Services"), commercial_services_path
 			%ul
-				%li= link_to content_tag(:span, "Performance Modelling"), performance_modelling_url
-				%li= link_to content_tag(:span, "Whole Life Approach"), whole_life_approach_url
-				%li= link_to content_tag(:span, "Investment Decision Analysis"), investment_decision_analysis_url
+				%li= link_to content_tag(:span, "Expert Bid & Commercial Support"), expert_bid_commercial_support_path
+				%li= link_to content_tag(:span, "Interim Management"), interim_management_path
+				%li= link_to content_tag(:span, "Resource Provision"), resource_provision_path
+				%li= link_to content_tag(:span, "Forensic Cost Assurance"), forensic_cost_assurance_path
+				%li= link_to content_tag(:span, "Supply Chain Management"), supply_chain_management_path
 
 		%li
-			= link_to_with_current_class content_tag(:span, "Risk Services"), risk_services_url
+			= link_to_with_current_class content_tag(:span, "Asset Modelling"), asset_modelling_path
 			%ul
-				%li= link_to content_tag(:span, "Enterprise Risk Management"), risk_management_url
-				%li= link_to content_tag(:span, "RAMS Modelling"), rams_modelling_url
-				%li= link_to content_tag(:span, "Systems Safety Management & Assurance"), systems_safety_assurance_url
+				%li= link_to content_tag(:span, "Whole Life Costing"), whole_life_costing_path
+				%li= link_to content_tag(:span, "Payment Mechanism Modelling"), payment_mechanism_modelling_path
+				%li= link_to content_tag(:span, "Maintenance & Capital Spend Optimisation"), maintenance_capital_spend_optimisation_path
+				%li= link_to content_tag(:span, "Performance Benchmark & Target Review"), performance_benchmark_target_review_path
 
 		%li
-			= link_to_with_current_class content_tag(:span, "Value Management"), value_management_url
+			= link_to_with_current_class content_tag(:span, "Life Cycle Fund Evaluation"), life_cycle_fund_validation_path
 			%ul
-				%li= link_to content_tag(:span, "Contract & Commercial Management"), commercial_management_url
-				%li= link_to content_tag(:span, "Quantity Surveying"), quantity_surveying_url
-				%li= link_to content_tag(:span, "Value Engineering"), value_engineering_url
+				%li= link_to content_tag(:span, "Robustness Evaluation"), robustness_evaluation_path
+				%li= link_to content_tag(:span, "Fund Benchmarking"), fund_benchmarking_path
+				%li= link_to content_tag(:span, "Operations Impact Strategy"), operations_impact_strategy_path
+				%li= link_to content_tag(:span, "Hand-back Requirements Planning"), handback_requirements_planning_path
 
-		%li
-			= link_to_with_current_class content_tag(:span, "Project Services"), project_services_url
-			%ul
-				%li= link_to content_tag(:span, "Project & Cost Management"), project_cost_management_url
-				%li= link_to content_tag(:span, "Tender Review & Evaluation"), tender_review_evaluation_url
+			%li
+				= link_to_with_current_class content_tag(:span, "PFI Expertise"), pfi_expertise_path
+				%ul
+					%li= link_to content_tag(:span, "Payment Mechanism Modelling & Benchmarking"), payment_mechanism_modelling_benchmarking_path
+					%li= link_to content_tag(:span, "Contract Review"), contract_review_path
+					%li= link_to content_tag(:span, "Bid Strategy Review"), bid_strategy_review_path
+					%li= link_to content_tag(:span, "Capital Works Benchmarking"), capital_works_benchmarking_path
+					%li= link_to content_tag(:span, "Risk Reduction"), risk_reduction_path
+					%li= link_to content_tag(:span, "Business Planning & Optimisation"), business_planning_optimisation_path
+					%li= link_to content_tag(:span, "Bid Resource Support"), bid_resource_support_path
 
-		%li
-			= link_to_with_current_class content_tag(:span, "Financial Services"), financial_services_url
-			%ul
-				%li= link_to content_tag(:span, "Financial Management & Control"), financial_management_url
-				%li= link_to content_tag(:span, "Cost Modelling"), cost_modelling_url
-				%li= link_to content_tag(:span, "Forensic Audit"), forensic_audit_url
+			%li
+				= link_to_with_current_class content_tag(:span, "Risk Management"), risk_management_path
+				%ul
+					%li= link_to content_tag(:span, "Risk Modeling & Benchmarking"), risk_modelling_benchmarking_path
+					%li= link_to content_tag(:span, "Correlated Risk Models"), correlated_risk_models_path
+					%li= link_to content_tag(:span, "Risk Management & Reduction"), risk_management_reduction_path
+					%li= link_to content_tag(:span, "Asset Strategy Impact Assessment"), asset_strategy_impact_assessment_path
 
-		%li
-			= link_to_with_current_class content_tag(:span, "Information Technology"), information_technology_url
-			%ul
-				%li= link_to content_tag(:span, "Strategy & Development"), strategy_development_url
-				%li= link_to content_tag(:span, "Software Model Engineering"), software_model_engineering_url
-				%li= link_to content_tag(:span, "Systems Integration"), systems_integration_url
+			%li
+				= link_to_with_current_class content_tag(:span, "Business Decision Support"), business_decision_support_path
+				%ul
+					%li= link_to content_tag(:span, "Business Planning"), business_planning_path
+					%li= link_to content_tag(:span, "Business Case Validation & Support"), business_case_validation_support_path
+					%li= link_to content_tag(:span, "Asset Planning"), asset_planning_path
+					%li= link_to content_tag(:span, "Optioneering & Solutions Optimisation"), optioneering_solutions_optimisation_path

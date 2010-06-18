@@ -1,3 +1,15 @@
+@font-face {
+  font-family: Museo300;
+  src: url(../fonts/Museo300.otf) format("opentype"); }
+
+@font-face {
+  font-family: Museo500;
+  src: url(../fonts/Museo500.otf) format("opentype"); }
+
+@font-face {
+  font-family: Museo700;
+  src: url(../fonts/Museo700.otf) format("opentype"); }
+
 /* General tag definitions */
 body, div, p, td, th, span, a {
   font-family: arial, helvetica, sans-serif;
@@ -18,9 +30,10 @@ body, div, p, td, th, span, a {
   border: 0;
   margin: 0;
   padding: 0;
-  background: url("../images/background_header.jpg") #537db9 repeat; }
+  background: url("../images/background_header.jpg") #537db9 repeat;
+  border-top: 3px solid #F0F0F0; }
 
-#main {
+#main, #home {
   position: relative;
   top: 0;
   width: 100%;
@@ -39,8 +52,40 @@ body, div, p, td, th, span, a {
   padding-bottom: 15px; }
 
 #headerContainer {
-  height: 102px;
+  height: 110px;
   background-color: #537DB9; }
+
+/* PANEL */
+#panel {
+  position: relative;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: thin solid #BBBCBD;
+  margin: 0;
+  padding: 0;
+  background: #e6dcd8 url("../images/background_panel_grey.png") repeat-x; }
+
+#panelContainer {
+  margin: 0px auto;
+  width: 950px;
+  position: relative;
+  text-align: left; }
+
+#panelText {
+  width: 500px;
+  padding: 25px 25px 15px 25px;
+  font-family: Museo700;
+  font-weight: normal;
+  color: #537DB9;
+  text-shadow: white 1px 1px 1px; }
+  #panelText h1 {
+    font-size: 1.9em;
+    padding: 0;
+    margin: 0; }
+  #panelText h2 {
+    font-size: 1.2em;
+    padding: 10px 0 0 0; }
 
 /* Logo  */
 #logo {
@@ -56,14 +101,14 @@ body, div, p, td, th, span, a {
   left: 0;
   width: 950px;
   font-size: 11px;
-  font-weight: normal; }
+  font-weight: normal;
+  text-shadow: white 2px 2px 2px; }
 
 #utilSearch {
   float: right;
   height: 28px;
   border: 0;
   margin-bottom: 0px;
-  background-color: #F0F0F0;
   color: #537DB9; }
 
 #navBarLeft, #navBarMenu, #navBarRight {
@@ -72,12 +117,28 @@ body, div, p, td, th, span, a {
 #navBarLeft, #navBarMenu {
   float: left; }
 
-#navBarRight {
-  float: right; }
-
 #navBarMenu {
-  padding: 0;
-  margin: 7px 0 0; }
+  height: 21px;
+  background-color: #F0F0F0;
+  padding: 4px 0 0;
+  margin: 0; }
+
+#navBarLeft {
+  width: 15px;
+  height: 25px;
+  background-color: #F0F0F0;
+  -moz-border-radius: 0 0 0 15px;
+  -webkit-border-radius: 0 0 0 15px;
+  behavior: url(border-radius.htc); }
+
+#navBarRight {
+  float: right;
+  width: 15px;
+  height: 25px;
+  background-color: #F0F0F0;
+  -moz-border-radius: 0 0 15px 0;
+  -webkit-border-radius: 0 0 15px 0;
+  behavior: url(border-radius.htc); }
 
 .navBarLink {
   color: #537DB9;
@@ -88,17 +149,16 @@ body, div, p, td, th, span, a {
 /* GLOBAL NAV STYLING */
 #navContainer {
   position: absolute;
-  top: 75px;
+  top: 82px;
   left: 0px;
   margin: 0;
   padding: 0 0 0 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  font-weight: bold;
+  font-size: 12px;
+  font-weight: normal;
+  color: white;
   text-decoration: none;
   letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #F0F0F0; }
+  text-shadow: #3D5E90 1px 1px 1px; }
   #navContainer ul {
     margin: 0;
     padding: 0px 0px 0;
@@ -127,7 +187,7 @@ body, div, p, td, th, span, a {
         background-position: right top; }
   #navContainer a {
     float: left;
-    margin: 0 12px 0 0;
+    margin: 0 22px 0 0;
     padding: 0 0 0 6px;
     text-decoration: none; }
     #navContainer a span {
@@ -249,26 +309,54 @@ body, div, p, td, th, span, a {
 
 /* Home Page - Content */
 #homeContainer {
+  margin: 0px auto;
+  width: 950px;
   position: relative;
-  top: 0px;
-  left: 0px;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-color: #537DB9; }
+  text-align: left; }
 
-#homeContentBody {
-  position: relative;
-  top: -13px;
-  left: 0px;
-  border: 0;
-  padding: 0;
-  margin: 0;
-  background: url("../images/background_main.jpg") #537db9 no-repeat left top;
-  width: 1000px;
-  height: 500px; }
+.homeHeader {
+  margin: 25px 25px 10px 25px;
+  border-bottom: thin solid #a9a9a9; }
+  .homeHeader h2 {
+    padding: 0;
+    margin: 0; }
+    .homeHeader h2 a {
+      font-weight: bold;
+      font-size: 0.7em;
+      color: #736E6D;
+      font-family: Museo500;
+      text-decoration: none;
+      text-transform: uppercase; }
+      .homeHeader h2 a:hover {
+        border-bottom: 2px solid #736E6D; }
 
-#homeContentMain {
+.homeColumn {
+  margin-left: 25px;
+  margin-right: 15px;
+  float: left;
+  width: 275px;
+  color: #736E6D; }
+  .homeColumn h3 {
+    padding: 0;
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+    font-size: 0.9em; }
+    .homeColumn h3 a {
+      color: #537DB9;
+      text-decoration: none; }
+      .homeColumn h3 a:hover {
+        color: #736E6D;
+        text-decoration: none; }
+  .homeColumn p {
+    font-family: Calibri;
+    font-weight: normal;
+    line-height: 1.5em;
+    font-size: 0.8em;
+    color: #333;
+    padding: 0 0 10px 0;
+    margin: 0; }
+
+#homeMain {
   position: relative;
   top: 23px;
   left: 488px;
@@ -278,14 +366,14 @@ body, div, p, td, th, span, a {
   width: 480px;
   height: 400px; }
 
-#homeContentTitle {
+#homeTitle {
   padding: 0;
   margin: 0;
   position: relative;
   top: 17px;
   left: 0px;
   width: 480px; }
-  #homeContentTitle h1 {
+  #homeTitle h1 {
     color: #FFFFFF;
     font-family: Calibri;
     font-size: 27px;
@@ -294,14 +382,14 @@ body, div, p, td, th, span, a {
     vertical-align: middle;
     line-height: normal; }
 
-#homeContentText {
+#homeText {
   padding: 0;
   margin: 0;
   position: relative;
   top: 25px;
   left: 10px;
   width: 469px; }
-  #homeContentText p {
+  #homeText p {
     padding: 5px;
     margin: 0;
     color: #FFFFFF;
@@ -310,12 +398,12 @@ body, div, p, td, th, span, a {
     font-size: 15px;
     font-weight: normal;
     line-height: 18px; }
-  #homeContentText a {
+  #homeText a {
     text-decoration: none;
     color: #FFFFFF;
     font-family: Calibri;
     font-weight: bold; }
-    #homeContentText a:hover {
+    #homeText a:hover {
       text-decoration: underline; }
 
 .bulletListHome {
@@ -428,6 +516,7 @@ body, div, p, td, th, span, a {
 
 #catContentMiddle {
   padding: 0;
+  padding-bottom: 35px;
   position: relative;
   top: 0px;
   left: 0px;
@@ -446,8 +535,7 @@ body, div, p, td, th, span, a {
 
 #bodyContentMiddle {
   margin: 10px 0 0 0;
-  width: 100%;
-  font-family: Calibri; }
+  width: 100%; }
   #bodyContentMiddle a {
     text-decoration: none;
     color: #537DB9;
@@ -459,6 +547,7 @@ body, div, p, td, th, span, a {
     margin: 15px 0 0 0;
     color: #808080;
     text-decoration: none;
+    font-family: Museo500;
     font-size: 24px;
     font-weight: bold;
     line-height: normal; }
@@ -467,6 +556,7 @@ body, div, p, td, th, span, a {
     margin: 10px 0 0 0;
     color: #808080;
     text-decoration: none;
+    font-family: Museo500;
     font-size: 17px;
     font-weight: bold;
     line-height: normal; }
@@ -513,6 +603,7 @@ body, div, p, td, th, span, a {
     margin: 15px 0 0 0;
     color: #808080;
     text-decoration: none;
+    font-family: Museo500;
     font-size: 24px;
     font-weight: bold;
     line-height: 15px; }
@@ -548,6 +639,9 @@ span.apm {
   font-weight: bold;
   color: #537DB9; }
 
+span.bright {
+  color: #669BE9; }
+
 .bulleted_list {
   margin-left: 30px;
   padding: 0;
@@ -580,10 +674,76 @@ li {
   background-color: #ffffff; }
 
 #footerContainer {
-  padding: 16px 10px 0 10px;
+  padding: 40px 0 0 0;
   color: #321b0f;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px; }
+  font-family: Helvetica, sans-serif;
+  font-size: 0.65em; }
+
+ul.siteLinksColumn, ul.consultingColumn, ul.consulting2Column, ul.trainingColumn, ul.industriesColumn {
+  line-height: 1.7em;
+  float: left;
+  text-align: left;
+  padding: 0 0 25px 40px;
+  margin: 0;
+  list-style: none; }
+  ul.siteLinksColumn li, ul.consultingColumn li, ul.consulting2Column li, ul.trainingColumn li, ul.industriesColumn li {
+    margin: 0;
+    padding: 0px 0px 0;
+    text-decoration: none;
+    background-image: none;
+    text-indent: -1em; }
+    ul.siteLinksColumn li a, ul.consultingColumn li a, ul.consulting2Column li a, ul.trainingColumn li a, ul.industriesColumn li a {
+      font-size: 1.05em;
+      color: #736E6D;
+      font-weight: normal;
+      text-decoration: none;
+      font-family: Verdana, Geneva, sans-serif; }
+      ul.siteLinksColumn li a:hover, ul.consultingColumn li a:hover, ul.consulting2Column li a:hover, ul.trainingColumn li a:hover, ul.industriesColumn li a:hover {
+        text-decoration: underline;
+        color: #537DB9; }
+    ul.siteLinksColumn li h3, ul.consultingColumn li h3, ul.consulting2Column li h3, ul.trainingColumn li h3, ul.industriesColumn li h3 {
+      margin: 0;
+      padding: 10px 0 0 0; }
+      ul.siteLinksColumn li h3 a, ul.consultingColumn li h3 a, ul.consulting2Column li h3 a, ul.trainingColumn li h3 a, ul.industriesColumn li h3 a {
+        color: #736E6D;
+        font-family: Museo500;
+        font-weight: bold;
+        text-decoration: none; }
+        ul.siteLinksColumn li h3 a:hover, ul.consultingColumn li h3 a:hover, ul.consulting2Column li h3 a:hover, ul.trainingColumn li h3 a:hover, ul.industriesColumn li h3 a:hover {
+          color: #537DB9;
+          text-decoration: none;
+          border-bottom: 2px solid #537DB9; }
+    ul.siteLinksColumn li h4, ul.consultingColumn li h4, ul.consulting2Column li h4, ul.trainingColumn li h4, ul.industriesColumn li h4 {
+      margin: 0;
+      padding: 10px 0 0 0; }
+      ul.siteLinksColumn li h4 a, ul.consultingColumn li h4 a, ul.consulting2Column li h4 a, ul.trainingColumn li h4 a, ul.industriesColumn li h4 a {
+        color: #808080;
+        text-decoration: none;
+        font-family: Museo700;
+        font-size: 1.2em;
+        text-shadow: white 1px 1px 1px; }
+
+ul.siteLinksColumn {
+  width: 90px; }
+
+ul.consultingColumn {
+  width: 170px; }
+
+ul.consulting2Column {
+  width: 170px;
+  padding-top: 28px; }
+
+ul.trainingColumn {
+  width: 150px; }
+
+ul.industriesColumn {
+  width: 140px; }
+
+#footerBase {
+  height: 40px;
+  margin: 25px;
+  padding-top: 25px;
+  border-top: thin solid #808080; }
 
 .links {
   float: right;
@@ -671,6 +831,7 @@ table.contactDetails {
     margin: 15px 0 0 0;
     color: #808080;
     text-decoration: none;
+    font-family: Museo500;
     font-size: 24px;
     font-weight: bold;
     line-height: 15px; }
@@ -679,6 +840,7 @@ table.contactDetails {
     margin: 10px 0 0 0;
     color: #808080;
     text-decoration: none;
+    font-family: Museo500;
     font-size: 17px;
     font-weight: bold;
     line-height: normal; }

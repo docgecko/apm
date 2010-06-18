@@ -20,7 +20,7 @@ gem 'authlogic', '>= 2.1.5'
 
 group :development do
 	gem 'sqlite3-ruby',					:require => 'sqlite3'
-#	gem 'unicorn'
+	gem 'unicorn'
 #	gem 'thin'
 	gem 'bundlemate'
 	gem 'ghost'

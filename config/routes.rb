@@ -23,29 +23,52 @@ ActionController::Routing::Routes.draw do |map|
 
 # Services Category routes
   match 'services' => 'pages#services', :as => :services
-  match 'services/asset-management' => 'pages#asset_management', :as => :asset_management
-  match 'services/performance-modelling' => 'pages#performance_modelling', :as => :performance_modelling
-  match 'services/whole-life-approach' => 'pages#whole_life_approach', :as => :whole_life_approach
-  match 'services/investment-decision-analysis' => 'pages#investment_decision_analysis', :as => :investment_decision_analysis
-  match 'services/risk-services' => 'pages#risk_services', :as => :risk_services
+
+  # Commercial Services route
+  match 'services/commercial-services' => 'pages#commercial_services', :as => :commercial_services
+  match 'services/expert-bid-commercial-support' => 'pages#expert_bid_commercial_support', :as => :expert_bid_commercial_support
+  match 'services/interim-management' => 'pages#interim_management', :as => :interim_management
+  match 'services/resource-provision' => 'pages#resource_provision', :as => :resource_provision
+  match 'services/forensic-cost-assurance' => 'pages#forensic_cost_assurance', :as => :forensic_cost_assurance
+  match 'services/supply-chain-management' => 'pages#supply_chain_management', :as => :supply_chain_management
+
+  # Asset Modelling
+  match 'services/asset-modelling' => 'pages#asset_modelling', :as => :asset_modelling
+  match 'services/whole-life-costing' => 'pages#whole_life_costing', :as => :whole_life_costing
+  match 'services/payment-mechanism-modelling' => 'pages#payment_mechanism_modelling', :as => :payment_mechanism_modelling
+  match 'services/maintenance-capital-spend-optimisation' => 'pages#maintenance_capital_spend_optimisation', :as => :maintenance_capital_spend_optimisation
+  match 'services/performance-benchmark-target-review' => 'pages#performance_benchmark_target_review', :as => :performance_benchmark_target_review
+  
+  # Life Cycle Fund Evaluation
+  match 'services/life-cycle-fund-validation' => 'pages#life_cycle_fund_validation', :as => :life_cycle_fund_validation
+  match 'services/robustness-evaluation' => 'pages#robustness_evaluation', :as => :robustness_evaluation
+  match 'services/fund-benchmarking' => 'pages#fund_benchmarking', :as => :fund_benchmarking
+  match 'services/operations-impact-strategy' => 'pages#operations_impact_strategy', :as => :operations_impact_strategy
+  match 'services/handback-requirements-planning' => 'pages#handback_requirements_planning', :as => :handback_requirements_planning
+  
+  # PFI Expertise
+  match 'services/pfi-expertise' => 'pages#pfi_expertise', :as => :pfi_expertise
+  match 'services/payment-mechanism-modelling-benchmarking' => 'pages#payment_mechanism_modelling_benchmarking', :as => :payment_mechanism_modelling_benchmarking
+  match 'services/contract-review' => 'pages#contract_review', :as => :contract_review
+  match 'services/bid-strategy-review' => 'pages#bid_strategy_review', :as => :bid_strategy_review
+  match 'services/capital-works-benchmarking' => 'pages#capital_works_benchmarking', :as => :capital_works_benchmarking
+  match 'services/risk-reduction' => 'pages#risk_reduction', :as => :risk_reduction
+  match 'services/business-planning-optimisation' => 'pages#business_planning_optimisation', :as => :business_planning_optimisation
+  match 'services/bid-resource-support' => 'pages#bid_resource_support', :as => :bid_resource_support
+
+  # Risk Management
   match 'services/risk-management' => 'pages#risk_management', :as => :risk_management
-  match 'services/rams-modelling' => 'pages#rams_modelling', :as => :rams_modelling
-  match 'services/systems-safety-assurance' => 'pages#systems_safety_assurance', :as => :systems_safety_assurance
-  match 'services/value-management' => 'pages#value_management', :as => :value_management
-  match 'services/commercial-management' => 'pages#commercial_management', :as => :commercial_management
-  match 'services/quantity-surveying' => 'pages#quantity_surveying', :as => :quantity_surveying
-  match 'services/value-engineering' => 'pages#value_engineering', :as => :value_engineering
-  match 'services/project-services' => 'pages#project_services', :as => :project_services
-  match 'services/project-cost-management' => 'pages#project_cost_management', :as => :project_cost_management
-  match 'services/tender-review-evaluation' => 'pages#tender_review_evaluation', :as => :tender_review_evaluation
-  match 'services/financial-services' => 'pages#financial_services', :as => :financial_services
-  match 'services/financial-management' => 'pages#financial_management', :as => :financial_management
-  match 'services/cost-modelling' => 'pages#cost_modelling', :as => :cost_modelling
-  match 'services/forensic-audit' => 'pages#forensic_audit', :as => :forensic_audit
-  match 'services/information-technology' => 'pages#information_technology', :as => :information_technology
-  match 'services/strategy-development' => 'pages#strategy_development', :as => :strategy_development
-  match 'services/software-model-engineering' => 'pages#software_model_engineering', :as => :software_model_engineering
-  match 'services/systems-integration' => 'pages#systems_integration', :as => :systems_integration
+  match 'services/risk-modelling-benchmarking' => 'pages#risk_modelling_benchmarking', :as => :risk_modelling_benchmarking
+  match 'services/correlated-risk-models' => 'pages#correlated_risk_models', :as => :correlated_risk_models
+  match 'services/risk-management-reduction' => 'pages#risk_management_reduction', :as => :risk_management_reduction
+  match 'services/asset-stratgey-impact-assessment' => 'pages#asset_strategy_impact_assessment', :as => :asset_strategy_impact_assessment
+  
+  # Business Decision Support
+  match 'services/business-decision-support' => 'pages#business_decision_support', :as => :business_decision_support
+  match 'services/business-planning' => 'pages#business_planning', :as => :business_planning
+  match 'services/business-case-validation-support' => 'pages#business_case_validation_support', :as => :business_case_validation_support
+  match 'services/asset-planning' => 'pages#asset_planning', :as => :asset_planning
+  match 'services/optioneering-solutions-optimisation' => 'pages#optioneering_solutions_optimisation', :as => :optioneering_solutions_optimisation
 
 # Industries Category routes
   match 'industries' => 'pages#industries', :as => :industries

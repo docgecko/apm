@@ -17,12 +17,12 @@ p. Our specialist disciplines are underpinned and enhanced by our integrated tec
 
 p. Our core services encapuslate:
 
-(bulleted_list)* <a href="services/asset-management">Asset Management</a>
-* <a href="services/risk-services">Risk Services</a>
-* <a href="services/value-management">Value Management</a>
-* <a href="services/project-services">Project Services</a>
-* <a href="services/financial-services">Financial Services</a>
-* <a href="services/information-technology">Information Technology</a>'
+(bulleted_list)* <a href="services/commercial-services">Commercial Services</a>
+* <a href="services/asset-modelling">Asset Modelling</a>
+* <a href="services/life-cycle-fund-evaluation">Life Cycle Fund Evaluation</a>
+* <a href="services/pfi-expertise">PFI Expertise</a>
+* <a href="services/risk-management">Risk Management</a>
+* <a href="services/business-decision-support">Business Decision Support</a>'
                     },
                     {
                       :name => 'Industries',

@@ -67,9 +67,13 @@ class PagesController < ApplicationController
   def site_map
   end
 
-  def asset_management
+  # Asset Modelling pages
+  def asset_modelling    
   end
   
+  def asset_management
+  end
+    
   def performance_modelling    
   end
   
@@ -79,6 +83,11 @@ class PagesController < ApplicationController
   def investment_decision_analysis    
   end
   
+  # Fund Validation pages
+  def fund_validation    
+  end
+  
+  # Risk Services pages
   def risk_services    
   end
   
@@ -91,6 +100,7 @@ class PagesController < ApplicationController
   def systems_safety_assurance    
   end
   
+  # PFI Expertise pages
   def value_management    
   end
   
@@ -103,7 +113,7 @@ class PagesController < ApplicationController
   def value_engineering    
   end
   
-  def project_services    
+  def commercial_services    
   end
   
   def project_cost_management    

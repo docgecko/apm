@@ -3,9 +3,10 @@
 	%head
 		%title= @page_title || "Asset Performance Management Ltd."
 		= stylesheet_link_tag 'application', 'superfish'
-		-#= stylesheet_link_tag 'application', 'superfish', :cache => 'all'
+		-#= stylesheet_link_tag 'application', 'superfish', :cache => true
 		= javascript_include_tag	'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js', 'http://dev.jquery.com/view/trunk/plugins/validate/jquery.validate.js'
-		= javascript_include_tag	'jquery.metadata', 'hoverIntent', 'superfish', 'supersubs', :cache => true
+		= javascript_include_tag	'jquery.metadata', 'hoverIntent', 'superfish', 'supersubs'
+		-#= javascript_include_tag	'jquery.metadata', 'hoverIntent', 'superfish', 'supersubs', :cache => true
 		
 		- if controller.controller_name == 'contact'
 			:css
