@@ -1,1 +1,4 @@
-- @page_title = @page.name + " | Asset Performance Management Ltd."
+- if controller.controller_name == 'courses'
+	- @page_title = @course.name + " | Asset Performance Management Ltd."
+- else
+	- @page_title = @page.name + " | Asset Performance Management Ltd."

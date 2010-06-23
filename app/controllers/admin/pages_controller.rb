@@ -24,8 +24,6 @@ class Admin::PagesController < ApplicationController
       @page = Page.find(params[:id])
     end
 
-#    render :action => params[:page]
-
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @page }

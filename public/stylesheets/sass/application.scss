@@ -366,7 +366,6 @@ body, div, p, td, th, span, a {
 		padding: 0;
 		margin: 0;
 		a {
-			font-weight: bold;
 			font-size: 0.7em;
 			color: #736E6D;
 			font-family: Museo500;
@@ -648,6 +647,7 @@ body, div, p, td, th, span, a {
   top: 0px;
   font-size: 13px;
   font-weight: normal;
+	min-height: 535px;
 }
 
 #bodyContent, #leadershipContent {
@@ -806,11 +806,15 @@ ul.siteLinksColumn, ul.consultingColumn, ul.consulting2Column, ul.trainingColumn
 			margin: 0;
 			padding: 10px 0 0 0;
 			a {
-				color: #808080;
+				color: #537DB9;
 			  text-decoration: none;
 			  font-family: Museo700;
 				font-size: 1.2em;
 				text-shadow: white 1px 1px 1px;
+				&:hover {
+					color: #808080;
+			  	text-decoration: underline;
+				}				
 			}
 		}
 	}

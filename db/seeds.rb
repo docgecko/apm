@@ -19,10 +19,15 @@ p. Our core services encapuslate:
 
 (bulleted_list)* <a href="services/commercial-services">Commercial Services</a>
 * <a href="services/asset-modelling">Asset Modelling</a>
-* <a href="services/life-cycle-fund-evaluation">Life Cycle Fund Evaluation</a>
+* <a href="services/life-cycle-fund-validation">Life Cycle Fund Validation</a>
 * <a href="services/pfi-expertise">PFI Expertise</a>
-* <a href="services/risk-management">Risk Management</a>
+* <a href="services/risk-services">Risk Services</a>
 * <a href="services/business-decision-support">Business Decision Support</a>'
+                    },
+                    {
+                      :name => 'Training',
+                      :permalink => 'training',
+                      :content => ''
                     },
                     {
                       :name => 'Industries',
@@ -327,34 +332,236 @@ h2. "Site Map":site-map
 [site-map]/site-map'
                     },
                     {
-                      :name => 'Asset Management',
-                      :permalink => 'asset_management',
-                      :content => 'p. <span class="apm">apm</span> is a leading provider of techniques, processes, and business intellegence tools for successful and sustainable Asset Management*.
+                      :name => 'Commercial Services',
+                      :permalink => 'commercial_services',
+                      :content => 'p. <span class="apm">apm</span> realises that all projects are unique at some level and so are the specific objectives and requirements of each client. We therefore focus on fully absorbing each clients&#39; objectives such that we consistently deliver a successful and sustainable service.
 
-p. We offer a range of consultancy services and related products, to enable infrastructure owners to manage their assets over their entire lifecycle.
+p. As a core service of <span class="apm">apm</span>, we have been providing Project Services from our very inception in both the UK and the Netherlands, initially on two of the largest <a href="../industries/private-finance-initiative">Private Finance Initiative</a> (PFI) and <a href="../industries/public-private-partnership">Public Private Partnership</a> (PPP) rail projects: (1) Dutch Southern High Speed Rail, and; (2) Tube Lines Limited.
 
-p. Our focus and objectives are to support clients in developing and implementing asset management plans that:
+h1. Encompassing
 
-(bulleted_list)* Minimise maintenance, renewal and improvement expenditure
-* Minimise disruption of service to customers
-* Maximise asset life and usage
-* Maximise any return on investment
-* Optimise performance
-* Enhance asset performance knowledge
-* Reduce risk of both expenditure and performance
+p. We continue to extend our expertise and knowlegde-base whilst helping clients in the <a href="../industries/defence">Defence</a>, <a href="../industries/rail">Rail</a> and <a href="../industries/highways">Highways</a> industries on an ever increasing number of PFI deals.
 
-<div id="reference">* Asset Management in terms of <a href="http://en.wikipedia.org/wiki/Infrastructure_asset_management" target="_blank">Infrastructure Asset Management</a>, not to be confused with <a href="http://en.wikipedia.org/wiki/Asset_Management" target="_blank">Investment Asset Management</a></div>'
+p. We support our clients through the application of a broad range of Commercial Services, including:
+
+(bulleted_list)* Pre-Qualification Preparation
+* Feasibility and Option Appraisal
+* <a href="../services/enterprise-risk-management">Enterprise Risk Management</a>
+* Tender Preparation
+* Due Diligence & Appraisals
+* Bid Management
+* Contract Management
+* <a href="../services/tender-review-evaluation">Tender Review and Evaluation</a>
+* Programme and <a href="../services/project-cost-management">Project Management</a>
+* Planning and Programming
+* Business Process Modelling'
                     },
                     {
-                      :name => 'Performance Modelling',
-                      :permalink => 'performance_modelling',
-                      :content => 'p. Since 2000, apm has been at the forefront of developing Performance Models for major asset owners and maintainers. We believe we have unrivalled experience in such systems and methodologies, and have supported major clients including Amey, Bechtel, Fluor, Tube Lines, Network Rail and the Dutch government on some of the largest investment projects in Europe today.
+                      :name => 'Expert Bid & Commercial Support',
+                      :permalink => 'expert_bid_commercial_support',
+                      :content => 'p. As contracts become larger and more complex, Contract & Commercial Management succeeds through application at both a policy and transactional level. To this end, <span class="apm">apm</span> is dedicated to ensuring that policies and associated strategies and objectives are correctly implemented within commercial contracts, commercial relationships are compliant, and financial and risk implications are well managed.
 
-p. Our approach takes the generic underlying functionality required to model the performance of assets (e.g. asset failure and degradation, and its associated consequences) and ties it to the specific Key Performance Indicators of a client&#39;s business, such as a specific Performance-Penalty regime*, and predicts how the performance of assets impacts on client&#39;s revenue.
+p. Our mission is to provide superior and consistent delivery in terms of contractual commitments, and in doing so protecting the reputation and optimising revenues of our clients.
+
+p. Depending on the scale and type of project, we tailor our offering to match the requirements of our client.
+
+p. Our services include:
+
+(bulleted_list)* Tender Documentation Preparation
+* Performance Benchmarking
+* <a href="../services/value-management">Value Management</a>
+* <a href="../services/enterprise-risk-management">Risk Management</a>
+* Contracts Negotiation
+* Project and Contract Administration
+* Cost Monitoring and Budget Control
+* <a href="../services/quantity_surveying">Quantity Surveying</a> Management
+* Supply Chain Management
+* Procurement Advice
+* Variations Evaluation
+* Claims Preparation
+* Work In Progress Evaluation
+* Final Account & Settlement Agreement'
+                    },
+                    {
+                      :name => 'Project & Cost Management',
+                      :permalink => 'project_cost_management',
+                      :content => 'p. Successful organisations have grown to realise the benefits of organising work around projects and the critical need to communicate and co-ordinate work across the business - Project and Cost Management provides such an approach.
+
+p. Project and Cost Management lends itself to a number definitions, from short to long term, low to high complexity and static to evolutionary. <span class="apm">apm</span>&#39;s domain centers towards the latter in which we constantly evolve and implement what we consider best practice, particularly when addressing complex requirements of a large client initiative.
+
+h1. Expectations
+
+p. Projects vary and as such we focus on aligining ourselves with the expectations of our clients allowing us to more efficiently manage their projects in terms of Time, Quality, Cost and Scope. We review our clients expectations by deconstructing their business and project requirements into a set of useful components, which can be used to balance expectations and ambition against ability.
+
+p. You could say it was like thoroughly inspecting the working parts of an engine and then fine tuning the components, making it run more efficiently, quickly, and save on wear and tear. Consequently, project investment can be fine tuned to the most critical project and business areas. <span class="apm">apm</span>&#39;s approach to Project and Cost Management provides added value by:
+
+(bulleted_list)* Minimising risk, while
+* Optimising performance, and
+* Maximising return on investments.
+
+p. <span class="apm">apm</span>&#39;s core approach goes further than a basic methodology by adjusting to each client and project.'
+                    },
+                    {
+                      :name => 'Interim Management',
+                      :permalink => 'interim_management',
+                      :content => 'h1. Capacity to Strategise and Implement
+
+p. <span class="apm">apm</span> has supported many clients in an interim managerial role on many recent tenders and projects, thus bringing with it the latest thinking, a strategic capability, an independent focus, experience with operating at both management and board level and the ability to fast-track critical projects.
+
+p. We offer not only professional and experienced people, but managers who have the ability to lead, support change management and offer an independent view in the interests of the client.
+
+p. Most recently, <span class="apm">apm</span> has had interim board and lead roles on a number of significant PFI and PPP projects including Tube Lines ltd., the M25 DBFO shadow running and tender phases, and the Dutch High Speed rail link.'
+                    },
+                    {
+                      :name => 'Tender Review & Evaluation',
+                      :permalink => 'tender_review_evaluation',
+                      :content => 'p. Many infrastructure organisations tender out some aspect of their activities, be it maintenance, logistics, production services, IT, business processes or corporate services. Outsourcing parts of a business and work is a means by which organisations survive the pace of change at a time when business activities need to be focused on the right activities and resources need to be kept lean and aligned with the core business.
+
+p. The competitive nature of a tender process encourages suppliers to deliver best value for money and allows <span class="apm">apm</span> to support organisations in evolving and maturing the selection decision criteria.
+
+h1. High-Value Experience
+
+p. We support the Tender Review and Evaluation process and have done so previously on some of the largest <a href="../industries/private-finance-initiative">Private Finance Initiative</a> (PFI) and <a href="../industries/public-private-partnership">Public Private Partnership</a> (PPP) projects in the UK and the Netherlands.
+
+p. We have supported clients in the <a href="../industries/highways">Highways</a>, <a href="../industries/rail">Rail</a> and <a href="../industries/defence">Defence</a> sectors.
+
+h1. Multi-Skilled
+
+p. In order to help clients during the tender evaluation process, our broad skills base includes:
+
+(bulleted_list)* Evaluation Criteria Development
+* Tender Compliance & Evaluation
+* Value for Money & Affordability
+* Due Dilligence
+* Action Planning
+* Tender <a href="../services/risk-management">Risk Management</a>
+* Robustness of Cost & Tender Normalisation
+* Performance-Penalty Evaluation
+* Communication with Stakeholders
+* Negotiation with Tenderers'
+                    },
+                    {
+                      :name => 'Forensic Cost Assurance',
+                      :permalink => 'forensic_cost_assurance',
+                      :content => 'p. Economic crime is an unpleasent situation that has brought about the growing need for Financial and Data Forensic Services. Enhanced management of fraud risk, compliance exposure and other inappropriate behaviour is an important priority for many organisations, whatever the industry.
+
+h1. Resolution & Control
+
+p. <span class="apm">apm</span> not only helps its clients to detect, investigate, analyse, prevent and resolve regulatory compliance and business issues, misconduct and financial disputes, but assesses their vulnerabilities of such activities with a view to developing controls and programmes to address the risks. We assist our clients in maintaining their reputation and high standards of business integrity.
+
+p. Our mix of technological and financial professionals provide a unique approach that can align well to complex commercial disputes and investigative issues.
+
+p. <span class="apm">apm</span>&#39;s Forensic Services are tailored to meet our clients&#39; legal and business environments and include:
+
+(bulleted_list)* Investigations
+* Commerical Disputes
+* Business Valuation
+* Forensic Accounting
+* Asset Tracing
+* Records Management
+* Capital Project Services
+* Performance Investigation
+* Misconduct Risk Assessment
+* Data Investigation & Forensics
+* Claims Management'
+                    },
+                    {
+                      :name => 'Quantity Surveying',
+                      :permalink => 'quantity_surveying',
+                      :content => 'p. <span class="apm">apm</span> provides a full range of Quantity Surveying services based on a foundation of technical, commercial and legal skills that have been developed and enhanced to reflect the changing requirements of the contracting market and the wider business environment.
+
+p. We have extensive experience of working in specialist engineering sectors including <a href="../industries/rail">Rail</a> and <a href="../industries/highways">Highways</a> sectors.
+
+p. The advice and services that we offer our clients compliments our <a href="../services/commercial-services">Commercial Managament</a> activities and is applicable during the full asset life-cycle.
+
+p. Our QS services include:
+
+(bulleted_list)* Feasibility Studies
+* Estimating and Budgeting
+* Cost Planning, Monitoring & Reporting
+* Preparing Bill of Quantities
+* Measurement Audits
+* Support to <a href="../services/value-management">Value Management</a>
+* Tender Submissions Review
+* Support to Procurement Strategy
+* <a href="../services/project-cost-management">Project Management</a>
+* Pre-qualifications
+* Risk Analysis
+* Claim Preparation and Support
+* Post Contract Support'
+                    },
+                    {
+                      :name => 'Value Management',
+                      :permalink => 'value_management',
+                      :content => 'h1. Satisfaction
+
+p. Value Management focuses on the balance between satisfying business needs (such as completing a project) against the recourses used (such as time and cost) to reach the level of such needs. Consequently, greater value is achieved when less resourse is used or the satisfaction of needs is higher.
+
+p. Performance and benefits optimisation is a core <span class="apm">apm</span> objective. Through Value Management we are able offer our clients the ability to maximise overall value by optimising the benefits of investments over their full economic life cycle, at an affordable cost, with an acceptable level of risk.
+
+p. Throughout the life-cycle of a project, we are able to help our clients to:
+
+(bulleted_list)* Understand key business needs and client success criteria
+* Improve decision-making and risk-mitigation
+* Enhance technological and process innovation
+* Implement common values: shared ownership, understanding & commitment
+* Develop multi-disciplinary teams with improved communication
+* Improve products and services
+* Reduce capital and business costs
+
+h1. Performance Early Warning
+
+p. <span class="apm">apm</span> implements Value Management as part of its  <a href="../services/project-cost-management">Project Management</a> toolbox in the form of Earned Value Management: the technique targeted at measuring project progress, scope, schedule, and cost in a single integrated system.
+
+p. EVM ensures that we can quantify the accomplishment of work, and demonstrate value during the progress of a project.
+
+h1. Managing Risk
+
+p. There is a strong synergy between Value Management and <a href="../services/enterprise-risk-management">Risk Management</a> due to the inherent uncertainty that exists to some degree in all projects. We integrate <a href="../services/enterprise-risk-management">Risk Management</a> in order to add value by: (1) promoting better decisions and demonstrating that they are optimal, and; (2) systematically minimising the impact of all risks to the project.'
+                    },
+                    {
+                      :name => 'Asset Modelling',
+                      :permalink => 'asset_modelling',
+                      :content => 'p. Since 2000, apm has been at the forefront of developing Asset Models for major asset owners and maintainers. We believe we have unrivalled experience in such systems and methodologies, and have supported major clients including Highways Agency, Crossrail, Amey, Bechtel, Tube Lines, Network Rail and the Dutch government on some of the largest investment projects in Europe today.
+                      
+h1. Asset Knowledge linked to Business Drivers
+
+p. Core to <span class="apm">apm</span>\'s is our ability to understand and model the life cycle characteristics of assets.  Our models consider not only the mean failure rate or condition of assets but account for uncertainty in such values, e.g. we are able to include distributed values in our models that allow us to also understand the uncertainty.
+
+p. We are also link assets failure and condition to business drivers, e.g. via a Performance-Penalty regime, as is common in PFI and PPP project.  This provides a unique ability to understand how assets and asset interventions, such as maintenance and capital works, have on the business today and into the future, sometimes up to 30 years.
+
+p. We support our clients through the application of a broad range of Asset Modelling skills, including:
+
+(bulleted_list)* <a href="../services/whole-life-costing">Whole Life Cost Modelling</a>
+* <a href="../services/asset-performance-modelling">Performance Modelling</a> of assets
+* Performance Benchmarking
+* Optimisation of both Operations and Capital Works programmes and spend
+* Asset Condition Modelling
+* Linking Asset Performance to Payment Mechanisms
+* Predicting Life Cycle Characteristics of Assets
+* Assessing impact of Operational and Infrastructural Changes on Asset and Businesses'
+                    },
+                    {
+                      :name => 'Whole Life Costing',
+                      :permalink => 'whole_life_costing',
+                      :content => 'p. The Whole Life Costing* (WLC) approach to Asset Management is a structured and integrated means by which the overall cost of an asset over its anticipated life-span can be minimised, while maximizing service to the customer. Born out of clients demanding that infrastructure and assets demonstrate Value for Money over the long-term, WLA has become a standard Asset Management requirement in many industry sectors.
+
+p. The approach has shown particular relevance within <a href="../industries/private-finance-initiative">Private Finance Initiative</a> (PFI) and <a href="../industries/public-private-partnership">Public Private Partnership</a> (PPP) projects in which asset owners expect the asset to perform to agreed targets and that the asset, when handed back to the client, can demonstrate minimum expected remaining life.
+
+p. apm supports its client&#39;s approach to Whole Life Cycle Costing from a strategic level to the actual assessment and optimisation of Whole Life Asset Plans, by employing our <a href="../services/asset-modelling">Asset Modelling</a> techniques.
+
+p. Integral to the success of the WLA is the implementation of <a href="../services/enterprise-risk-management">Risk Management</a> techniques, which not only enables <span class="Apm">apm</span> to manage risks directly related to projects, but also allows us to forecast the potential investment risks associated with each project due to variability in historical performance or asset failure data, integrated with our <a href="../services/asset-modelling">Asset Modelling</a> techniques.
+
+<div id="reference">* Also known as Life Cycle Costing (LLC), Whole Life Cycle Costing (WLCC) and Whole Life Cycle Analysis (WLCA)</div>'
+                    },
+                    {
+                      :name => 'Asset Performance Modelling',
+                      :permalink => 'asset_performance_modelling',
+                      :content => 'p. Our approach to Performance Modelling takes the generic underlying functionality required to model the performance of assets (e.g. asset failure and degradation, and its associated consequences) and ties it to the specific Key Performance Indicators of a client&#39;s business, such as a specific Performance-Penalty regime*, and predicts how the performance of assets impacts on client&#39;s revenue.
 
 h1. Risk-based
 
-p. <span class="apm">apm</span>&#39;s approach considers two major factor
+p. <span class="apm">apm</span>\'s approach considers two major factor
 
 (bulleted_list)* Data Uncertainty: Asset owners may have a number of different asset data repository systems, as well as tacit data
 * Data Variability: The performance of assets, such as asset failure frequency, varies with time - changing from one month to the next
@@ -382,37 +589,130 @@ p. The fact that the approach can use data in a relatively raw form means that i
 <div id="reference">* Typical of Private Finance Initiative (PFI) and Public Private Partnership (PPP) contracts</div>'
                     },
                     {
-                      :name => 'Whole Life Approach',
-                      :permalink => 'whole_life_approach',
-                      :content => 'p. The Whole Life Approach* (WLA) to Asset Management is a structured and integrated means by which the overall cost of an asset over its anticipated life-span can be minimised, while maximizing service to the customer. Born out of clients demanding that infrastructure and assets demonstrate Value for Money over the long-term, WLA has become a standard Asset Management requirement in many industry sectors.
+                      :name => 'Maintenance & Capital Spend Optimisation',
+                      :permalink => 'maintenance_capital_spend_optimisation',
+                      :content => 'p. Maintenance and Capital Works tend to exist in 2 distinct organisations.  Often planning of each takes place within those 2 distinct boundaries.  However, since both are interventions of the same assets, there is also some degree of relationship in planning.  But how much real planning and budget optimisation takes place between the two?
+                      
+h1. Joining-Up Joint Ventures
 
-p. The approach has shown particular relevance within <a href="../industries/private-finance-initiative">Private Finance Initiative</a> (PFI) and <a href="../industries/public-private-partnership">Public Private Partnership</a> (PPP) projects in which asset owners expect the asset to perform to agreed targets and that the asset, when handed back to the client, can demonstrate minimum expected remaining life.
+p. <span class="apm">apm</span> has been involved in many PFI and PPP deals in which the Maintenance and Capital Works organisation have been separate companies / directorates of the same Joint Venture, and often owning 50% share of the JV organisation.  As such motivation to optimise asset interventions between the two is complex as the overall size of budgets tend to be fixed at the bid stage.  In fact, there is more of a drive to reduce the budgets of each, which tends to have a greater impact on the Maintenance Operations being able to keep the assets working over full duration of the project.  
 
-p. apm supports its client&#39;s approach to Whole Life Cycle Costing from a strategic level to the actual assessment and optimisation of Whole Life Asset Plans, by employing our <a href="../services/performance-modelling">Performance Modelling</a> techniques.
+p. However, on a year-on-year basis, using our Asset Modelling techniques, we have been able to bring together the planning of the two directorates to demonstrate how they are able to optimise a combined plan to better programme major capital works and gain the most return from maintenance interventions via performance-penalty regimes, and ultimately hand-back the assets with acceptable remaining life.
 
-p. Integral to the success of the WLA is the implementation of <a href="../services/risk-management">Risk Management</a> techniques, which not only enables <span class="Apm">apm</span> to manage risks directly related to projects, but also allows us to forecast the potential investment risks associated with each project due to variability in historical performance or asset failure data, integrated with our <a href="../services/performance-modelling">Performance Modelling</a> techniques.
-
-<div id="reference">* Also known as Life Cycle Costing (LLC), Whole Life Cycle Costing (WLCC) and Whole Life Cycle Analysis (WLCA)</div>'
+p. We have achieved this by overlaying Planned and Reactive Maintenance Operations and Capital Works Plans, over the failure and condition characteristics of assets.'
                     },
                     {
-                      :name => 'Investment Decision Analysis',
-                      :permalink => 'investment_decision_analysis',
-                      :content => 'p. <span class="apm">apm</span>&#39;s core business provides its clients with the means to make better informed business investment decisions, at a long-term business strategy level, through medium-term major project planning, and short-term operational maintenance planning.
+                      :name => 'Performance Benchmark & Target Review',
+                      :permalink => 'performance_benchmark_target_review',
+                      :content => 'p. Performance Benchmarks or Targets tend to be based on historical asset performance data.  However, some projects manage existing assets, and others are creating completely new assets.  How do we set or review benchmarks and targets of each?
+                      
+h1. New or Existing Assets
 
-p. This is achieved by linking system and asset performance characteristics to businesses costs drivers, such as revenue KPIs or a performance-penalty regime. Using reliability and historical performance data, in conjunction with future plans, future performance can be modelled and predicted. Since historical data tends to be variable in nature, the risk of such uncertainty on a system&#39;s operational delivery can also be quantified.
+p. As part of the Southern Dutch High Speed Rail Link, <span class="apm">apm</span> helped the Dutch Government to design the Performance-Penalty regime of the PFI contract.  With no existing assets, we employed our Asset Modelling techniques combined with reliability and availability methods and data from similar existing rails systems to dervive an appropriate regime and associated benchmarks.  This process was not only bought into by the Dutch Government but also by the PFI funding organisations and technical specialists on the project.
 
-p. To assist in this process, <span class="apm">apm</span> has developed <a href="../services/performance-modelling">performance-based models</a> and software tools, including a package called LIBRA*, containing core functionality that can be configured or adapted to a clients specific requirements.
+p. In developing benchmarks and targets, <span class="apm">apm</span> not only focuses understanding the average historical asset performance, but also understands the potential variance on performance.  On the Tube Lines project, we found that on average it was possible performance under the benchmarks on average, but due to large variations in the performance data, there was great potential to easily go above the benchmarks.  The variation in the data was a great risk to the Consortium, and thus allowed us to support the client in advising on benchmark changes or the inclusion of adequate risk funds.
 
-p. Using this approach <span class="apm">apm</span> is able to offer its clients an unparallelled approach to:
+p. When designing Performance Benchmarks, <span class="apm">apm</span>\'s ability to analyse variations in performance data has been consistent and fundamental to the design and management of performance risks on many PFI and PPP projects.'
+                    },
+                    {
+                      :name => 'Software & Model Development',
+                      :permalink => 'software_model_development',
+                      :content => 'h1. Excellence
 
-(bulleted_list)* Modelling and forecasting the likely financial benefits of planned investments (for both existing and new systems)
-* Identification of critical areas for improvement
-* Identification of financial risks associated with such investments
-* Optimisation of a client&#39;s businesses investment plan
-* Assessment of performance or spend targets
-* Impact assessment of project late or early delivery
+p. <span class="apm">apm</span> has been providing performance and financial models, data analysis tools and bespoke decision support software since the companies inception in 2000.
 
-<div id="reference">* Life-cycle Investment and Business Risk Analysis</div>'
+p. Our broad experience and varied application has enabled us to become technically proficient in a wide range of Microsoft Development and Office suites, and a number of integrated 3rd-party products, including:
+
+(bulleted_list)* Visual Basic for Applications (VBA) for Microsoft Excel
+* @Risk & @Risk Optimiser, integrated with Microsoft Excel
+* @Risk RDK, integrated with .NET developments
+* Business Objectives, integrated with .NET & Microsoft Excel
+* Visual Basic 6+ & Dynamic Link Library (.dll) development
+* Visual C# & .NET 3.5 Application development (including LINQ & XML)
+* SQL Server 2000-2005 development
+* Microsoft Access data interrogation & analysis'
+                    },
+                    {
+                      :name => 'Life Cycle Fund Validation',
+                      :permalink => 'life_cycle_fund_validation',
+                      :content => 'p. PFI projects often include a Life Cycle Fund: money set aside to ensure Maintenance and Capital Works are possible throughout the duration of the project, and consideration of Performance-Penalty payments.
+                      
+h1. Ring-fenced Money
+                      
+p. <span class="apm">apm</span> has developed and reviewed a range of complex Life Cycle Funds.  Using our benchmark data we are able to ensure that the Fund is robust and is designed correctly around the needs of infrastructure assets, whilst reflecting the needs of investors, and ensuring risks are correctly managed.'
+                    },
+                    {
+                      :name => 'Robustness Evaluation',
+                      :permalink => 'robustness_evaluation',
+                      :content => 'p. Life Cycle Funds are created prior to Financial Close and are a reflection of an initially lower level of asset and business knowledge. <span class="apm">apm</span> has supported a number of PFI and PPP deals ensure adequate robustness of the Life Cycle Fund based on an initial weak level of knowledge during the tender phase.
+
+p. Once a project has been won and work begins, the winning business is faced with increased knowledge of the work ahead.  They gain a greater understanding of the business, and begin to realise the true reality of the years to come.  It is at these points in time, and potentially at prescribed contractual times that a re-review and re-evaluation of the Life Cycle fund is also required.
+  
+h1. Powerfully Built Funds
+  
+p. It has been at times when re-evaluation takes place that <span class="apm">apm</span> has been able support its clients in re-negotiating contracts, optimising intevention plans and generating more value for money. With greater knowledge, we have been able to identify potential risk reduction scenarios and opportunities, leading to a better use of funds.'
+                    },
+                    {
+                      :name => 'Fund Benchmarking',
+                      :permalink => 'fund_benchmarking',
+                      :content => 'h1. Continual Improvement
+
+p. Benchmarking is an important process for measuring success and value for money of a PFI or PPP project. However, benchmarking a project at a high level with other comparable projects is currently difficult to achieve due to the relatively short and shallow history of private infrastructure funds. Benchmarking at a lower level: of asset costs and asset performance is more redily feasible and has been a focus of <span class="apm">apm</span>.
+                    
+p. We have been supporting our clients since 1999 in a process of continual benchmarking and improvement of Asset Performance and reduction of Asset Costs, leading to increased earnings via performance-penalty schemes and reduced costs via improved combined maintenance and capital works planning.'
+                    },
+                    {
+                      :name => 'Operations Impact Strategy',
+                      :permalink => 'operations_impact_strategy',
+                      :content => 'p. The scope of Capital Works tends to be prescribed in nature. In the case of Rail projects, capital works may relate to the upgrade of a station or the extension of the line. Relative to Maintenance Operations, costs are easier to determine.
+
+p. Maintenance Operations are also planned to a large degree in the form of Planned Maintenance and an expected amount of Reactive Maintenance activities.  However, Operations requires some degree of flexibility due to uncertain future unseen faults.
+
+h1. Flexible and Responsive
+
+p. Defining an Operations Strategy therefore must at least consider the risks associated with unknown incidents, as well as what is Planned Maintenance.  In addition however, if Capital Works are carried out at times different to originally planned, Maintenance must respond to such changes.
+
+p. As such, <span class="apm">apm</span> has tended to support the Operations directorates of an organisation, aswell as businesses at a strategic level.  For example, we have supported Maintenance Operations to reassess the impact of Capital Works projects, in terms of both reprogramming and changes to scope, and relate this back to the available Funds, with a helping support a transfer of funds between directorates or even the release of risk funds.'
+                    },
+                    {
+                      :name => 'Hand-back Requirements Planning',
+                      :permalink => 'handback_requirements_planning',
+                      :content => 'Achieving the handback requirements of a PFI or PPP contract determines'
+                    },
+                    {
+                      :name => 'PFI Expertise',
+                      :permalink => 'pfi_expertise',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Payment Mechanism Modelling & Benchmarking',
+                      :permalink => 'payment_mechanism_modelling_benchmarking',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Contract Review',
+                      :permalink => 'contract_review',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Bid Strategy Review',
+                      :permalink => 'bid_strategy_review',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Capital Works Benchmarking',
+                      :permalink => 'capital_works_benchmarking',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Risk Reduction',
+                      :permalink => 'risk_reduction',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Bid Resource Support',
+                      :permalink => 'bid_resource_support',
+                      :content => ''
                     },
                     {
                       :name => 'Risk Services',
@@ -424,10 +724,20 @@ p. <span class="apm">apm</span>&#39;s approach entails planning, organising, and
 p. With extensive experience in providing risk services, we are able to meet the needs of our clients and their businesses.'
                     },
                     {
+                      :name => 'Risk Modelling & Benchmarking',
+                      :permalink => 'risk_modelling_benchmarking',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Correlated Risk Models',
+                      :permalink => 'correlated_risk_models',
+                      :content => ''
+                    },
+                    {
                       :name => 'Enterprise Risk Management',
-                      :permalink => 'risk_management',
+                      :permalink => 'enterprise_risk_management',
                       :content => 'h1. Probability of Failure x Effect on Business = Risk
-                      
+
 p. The fundamental tasks of Risk Management are to limit adverse exposure to risk and exploit risk opportunities to acceptable levels.
 
 p. As a provider of Enterprise Risk Management, <span class="apm">apm</span> offers its client&#39;s the ability to manage risks across different business functions and risk types, within an integrated framework.
@@ -439,6 +749,11 @@ p. <span class="apm">apm</span>&#39;s comprehensive risk management functionalit
 p. We offer a consistent and sustainable framework for identifying and managing risks resulting from threats from, for example, processes, technology, people, or external events.
 
 p. We offer an approach that focuses on providing a clearer understanding of management information and delivering a better understanding of the trade-offs between risk and reward.'
+                    },
+                    {
+                      :name => 'Asset Strategy Impact Assessment',
+                      :permalink => 'asset_strategy_impact_assessment',
+                      :content => ''
                     },
                     {
                       :name => 'RAMS Modelling',
@@ -539,215 +854,54 @@ h2. Standards:
 <span class="apm">apm</span> has experience in the implemetation of EN50126, EN50128 & EN50129 and other international best practices and standards.'
                     },
                     {
-                      :name => 'Value Management',
-                      :permalink => 'value_management',
-                      :content => 'h1. Satisfaction
-
-p. Value Management focuses on the balance between satisfying business needs (such as completing a project) against the recourses used (such as time and cost) to reach the level of such needs. Consequently, greater value is achieved when less resourse is used or the satisfaction of needs is higher.
-
-p. Performance and benefits optimisation is a core <span class="apm">apm</span> objective. Through Value Management we are able offer our clients the ability to maximise overall value by optimising the benefits of investments over their full economic life cycle, at an affordable cost, with an acceptable level of risk.
-
-p. Throughout the life-cycle of a project, we are able to help our clients to:
-
-(bulleted_list)* Understand key business needs and client success criteria
-* Improve decision-making and risk-mitigation
-* Enhance technological and process innovation
-* Implement common values: shared ownership, understanding & commitment
-* Develop multi-disciplinary teams with improved communication
-* Improve products and services
-* Reduce capital and business costs
-
-h1. Performance Early Warning
-
-p. <span class="apm">apm</span> implements Value Management as part of its  <a href="../services/project-cost-management">Project Management</a> toolbox in the form of Earned Value Management: the technique targeted at measuring project progress, scope, schedule, and cost in a single integrated system.
-
-p. EVM ensures that we can quantify the accomplishment of work, and demonstrate value during the progress of a project.
-
-h1. Managing Risk
-
-p. There is a strong synergy between Value Management and <a href="../services/risk-management">Risk Management</a> due to the inherent uncertainty that exists to some degree in all projects. We integrate <a href="../services/risk-management">Risk Management</a> in order to add value by: (1) promoting better decisions and demonstrating that they are optimal, and; (2) systematically minimising the impact of all risks to the project.'
+                      :name => 'Business Decision Support',
+                      :permalink => 'business_decision_support',
+                      :content => ''
                     },
                     {
-                      :name => 'Contract & Commercial Management',
-                      :permalink => 'commercial_management',
-                      :content => 'p. As contracts become larger and more complex, Contract & Commercial Management succeeds through application at both a policy and transactional level. To this end, <span class="apm">apm</span> is dedicated to ensuring that policies and associated strategies and objectives are correctly implemented within commercial contracts, commercial relationships are compliant, and financial and risk implications are well managed.
-
-p. Our mission is to provide superior and consistent delivery in terms of contractual commitments, and in doing so protecting the reputation and optimising revenues of our clients.
-
-p. Depending on the scale and type of project, we tailor our offering to match the requirements of our client.
-
-p. Our services include:
-
-(bulleted_list)* Tender Documentation Preparation
-* Performance Benchmarking
-* <a href="../services/value-management">Value Management</a> and <a href="../services/value-engineering">Value Engineering</a>
-* <a href="../services/risk-management">Risk Management</a>
-* Contracts Negotiation
-* Project and Contract Administration
-* Cost Monitoring and Budget Control
-* <a href="../services/quantity_surveying">Quantity Surveying</a> Management
-* Supply Chain Management
-* Procurement Advice
-* Variations Evaluation
-* Claims Preparation
-* Work In Progress Evaluation
-* Final Account & Settlement Agreement'
+                      :name => 'Business Planning & Optimisation',
+                      :permalink => 'business_planning_optimisation',
+                      :content => ''
                     },
                     {
-                      :name => 'Quantity Surveying',
-                      :permalink => 'quantity_surveying',
-                      :content => 'p. <span class="apm">apm</span> provides a full range of Quantity Surveying services based on a foundation of technical, commercial and legal skills that have been developed and enhanced to reflect the changing requirements of the contracting market and the wider business environment.
+                      :name => 'Investment Decision Analysis',
+                      :permalink => 'investment_decision_analysis',
+                      :content => 'p. <span class="apm">apm</span>&#39;s core business provides its clients with the means to make better informed business investment decisions, at a long-term business strategy level, through medium-term major project planning, and short-term operational maintenance planning.
 
-p. We have extensive experience of working in specialist engineering sectors including <a href="../industries/rail">Rail</a> and <a href="../industries/highways">Highways</a> sectors.
+p. This is achieved by linking system and asset performance characteristics to businesses costs drivers, such as revenue KPIs or a performance-penalty regime. Using reliability and historical performance data, in conjunction with future plans, future performance can be modelled and predicted. Since historical data tends to be variable in nature, the risk of such uncertainty on a system&#39;s operational delivery can also be quantified.
 
-p. The advice and services that we offer our clients compliments our <a href="../services/commercial-management">Commercial Management</a> activities and is applicable during the full asset life-cycle.
+p. To assist in this process, <span class="apm">apm</span> has developed <a href="../services/performance-modelling">performance-based models</a> and software tools, including a package called LIBRA*, containing core functionality that can be configured or adapted to a clients specific requirements.
 
-p. Our QS services include:
+p. Using this approach <span class="apm">apm</span> is able to offer its clients an unparallelled approach to:
 
-(bulleted_list)* Feasibility Studies
-* Estimating and Budgeting
-* Cost Planning, Monitoring & Reporting
-* Preparing Bill of Quantities
-* Measurement Audits
-* Support to <a href="../services/value-engineering">Value Engineering</a>
-* Tender Submissions Review
-* Support to Procurement Strategy
-* <a href="../services/project-cost-management">Project Management</a>
-* Pre-qualifications
-* Risk Analysis
-* Claim Preparation and Support
-* Post Contract Support'
+(bulleted_list)* Modelling and forecasting the likely financial benefits of planned investments (for both existing and new systems)
+* Identification of critical areas for improvement
+* Identification of financial risks associated with such investments
+* Optimisation of a client&#39;s businesses investment plan
+* Assessment of performance or spend targets
+* Impact assessment of project late or early delivery
+
+<div id="reference">* Life-cycle Investment and Business Risk Analysis</div>'
                     },
                     {
-                      :name => 'Value Engineering',
-                      :permalink => 'value_engineering',
-                      :content => 'p. alue Engineering is at the heart of the Value Management process, focusing on the design and construction phases of a project.  It is both a creative effort and an organised process that analyses the functions of systems, processes, services and the supply chain for the purpose of reducing the <a href="../
-services/whole-life-approach">whole life costs</a>, while being consistent with other requirements such as those of <a href="../services/performance-modelling">performance</a>, <a href="../services/risk-management">risk</a>, <a href="../services/rams-modelling">reliability</a> and <a href="../services/systems-safety-assurance">safety</a>.
-
-h1. Adding Value
-
-p. We can apply Value Engineering at any point in a project, even during construction. However, typically the earlier it is applied the higher the return on the time and effort invested. Typically we focus on:
-
-(bulleted_list)* <strong>Information:</strong> identification and gathering of the functional and performance requirements of the project
-* <strong>Alternatives:</strong> generation of alternative means of meeting the requirements
-* <strong>Analysis:</strong> alternatives are assessed in terms of how they meet the required functions, and the added value obtained
-* <strong>Decision:</strong> alternative chosen and presented to client
-* <strong>Follow-up:</strong> monitoring and assessment of alternative implementation'
+                      :name => 'Business Case Validation & Support',
+                      :permalink => 'business_case_validation_support',
+                      :content => ''
                     },
                     {
-                      :name => 'Project Services',
-                      :permalink => 'project_services',
-                      :content => 'p. <span class="apm">apm</span> realises that all projects are unique at some level and so are the specific objectives and requirements of each client. We therefore focus on fully absorbing each clients&#39; objectives such that we consistently deliver a successful and sustainable service.
-
-p. As a core service of <span class="apm">apm</span>, we have been providing Project Services from our very inception in both the UK and the Netherlands, initially on two of the largest <a href="../industries/private-finance-initiative">Private Finance Initiative</a> (PFI) and <a href="../industries/public-private-partnership">Public Private Partnership</a> (PPP) rail projects: (1) Dutch Southern High Speed Rail, and; (2) Tube Lines Limited.
-
-h1. Encompassing
-
-p. We continue to extend our expertise and knowlegde-base whilst helping clients in the <a href="../industries/defence">Defence</a>, <a href="../industries/rail">Rail</a> and <a href="../industries/highways">Highways</a> industries on an ever increasing number of PFI deals.
-
-p. We support our clients through the application of a broad range of Project Services, including:
-
-(bulleted_list)* Pre-Qualification Preparation
-* Feasibility and Option Appraisal
-* <a href="../services/risk-management">Risk Management</a>
-* Tender Preparation
-* Due Diligence & Appraisals
-* Bid Management
-* Contract Management
-* <a href="../services/tender-review-evaluation">Tender Review and Evaluation</a>
-* Programme and <a href="../services/project-cost-management">Project Management</a>
-* Planning and Programming
-* Business Process Modelling'
+                      :name => 'Asset Management Planning',
+                      :permalink => 'asset_management_planning',
+                      :content => ''
                     },
                     {
-                      :name => 'Project & Cost Management',
-                      :permalink => 'project_cost_management',
-                      :content => 'p. Successful organisations have grown to realise the benefits of organising work around projects and the critical need to communicate and co-ordinate work across the business - Project and Cost Management provides such an approach.
-                      
-p. Project and Cost Management lends itself to a number definitions, from short to long term, low to high complexity and static to evolutionary. <span class="apm">apm</span>&#39;s domain centers towards the latter in which we constantly evolve and implement what we consider best practice, particularly when addressing complex requirements of a large client initiative.
-
-h1. Expectations
-
-p. Projects vary and as such we focus on aligining ourselves with the expectations of our clients allowing us to more efficiently manage their projects in terms of Time, Quality, Cost and Scope. We review our clients expectations by deconstructing their business and project requirements into a set of useful components, which can be used to balance expectations and ambition against ability.
-
-p. You could say it was like thoroughly inspecting the working parts of an engine and then fine tuning the components, making it run more efficiently, quickly, and save on wear and tear. Consequently, project investment can be fine tuned to the most critical project and business areas. <span class="apm">apm</span>&#39;s approach to Project and Cost Management provides added value by:
-
-(bulleted_list)* Minimising risk, while
-* Optimising performance, and
-* Maximising return on investments.
-
-p. <span class="apm">apm</span>&#39;s core approach goes further than a basic methodology by adjusting to each client and project.'
-                    },
-                    {
-                      :name => 'Tender Review & Evaluation',
-                      :permalink => 'tender_review_evaluation',
-                      :content => 'p. Many infrastructure organisations tender out some aspect of their activities, be it maintenance, logistics, production services, IT, business processes or corporate services. Outsourcing parts of a business and work is a means by which organisations survive the pace of change at a time when business activities need to be focused on the right activities and resources need to be kept lean and aligned with the core business.
-
-p. The competitive nature of a tender process encourages suppliers to deliver best value for money and allows <span class="apm">apm</span> to support organisations in evolving and maturing the selection decision criteria.
-
-h1. High-Value Experience
-
-p. We support the Tender Review and Evaluation process and have done so previously on some of the largest <a href="../industries/private-finance-initiative">Private Finance Initiative</a> (PFI) and <a href="../industries/public-private-partnership">Public Private Partnership</a> (PPP) projects in the UK and the Netherlands.
-
-p. We have supported clients in the <a href="../industries/highways">Highways</a>, <a href="../industries/rail">Rail</a> and <a href="../industries/defence">Defence</a> sectors.
-
-h1. Multi-Skilled
-
-p. In order to help clients during the tender evaluation process, our broad skills base includes:
-
-(bulleted_list)* Evaluation Criteria Development
-* Tender Compliance & Evaluation
-* Value for Money & Affordability
-* Due Dilligence
-* Action Planning
-* Tender <a href="../services/risk-management">Risk Management</a>
-* Robustness of Cost & Tender Normalisation
-* Performance-Penalty Evaluation
-* Communication with Stakeholders
-* Negotiation with Tenderers'
-                    },
-                    {
-                      :name => 'Financial Services',
-                      :permalink => 'financial_services',
-                      :content => 'p. <span class="apm">apm</span>&#39;s comprehensive experience in financial and business analysis enables us to tailor our Financial Services to meet the full range of our clients&#39; needs. We support our clients at various stages of their business maturity and size, and through tender to operational phases.
-
-h1. Complimentary & Progressive
-
-p. Our Financial Services not only help our clients directly, but offer further value when integrated with our complimentary services of <a href="../services/asset-management">Asset Management</a>, <a href="../services/risk-management">Risk Management</a>, <a href="../services/value-management">Value Management</a>, and our <a href="../services/project-services">Project Services</a>.
-
-p. We focus on continuous improvement, encapusulate best practice and exploit new technologies when implementing our Financial Services, offering our clients a comprehensive, expert and advanced capability.'
-                    },
-                    {
-                      :name => 'Financial Management & Control',
-                      :permalink => 'financial_management',
-                      :content => 'p. Organisations face pressure from the raised expectations of their shareholders to generate immediate profit, and also from the dynamics of a business environment. Inevitably a balance is required when financial planning, making the role of Finance Directors and Managers more interesting and complex. They need an integrated view of the business, in both operational and strategic dimensions.
-
-h1. Expert & Technological Solutions
-
-p. <span class="apm">apm</span> can help clients adapt to changing market conditions. From strategic alignment of financial and business processes to shared services to cost reduction analysis and reporting best practices, our in-depth knowledge and expertise in Finance Management and Control will ensure faster and sustainable results.
-
-p. We also exploit technology to serve the needs of the Finance Director in order to better define Key Performance Indicators (KPIs) for reporting, creating performance dashboards with the best Business Intelligence for enhanced visibility and proactive management.
-
-p. <span class="apm">apm</span> proves expert Financial support to its clients, including the following services:
-
-(bulleted_list)* Business Control
-* Performance Management
-* Financial Decision Support
-* <a href="../services/cost-modelling">Cost Modelling</a>
-* Budgeting and Financial Planning
-* Internal Control
-* Financial Planning
-* Accouting Arrangements
-* Best Practise Reporting
-* Costing & Pricing
-* <a href="../services/forensic-audit">Forensic Audit</a>
-* Income & Expenditure
-* Insurance'
+                      :name => 'Optioneering & Solutions Optimisation',
+                      :permalink => 'optioneering_solutions_optimisation',
+                      :content => ''
                     },
                     {
                       :name => 'Cost Modelling',
                       :permalink => 'cost_modelling',
-:content => 'p. <span class="apm">apm</span> offers Financial and Cost Modelling services that complement its other disciplines. By applying cost models, integrated with risk-based <a href="../services/performance-modelling">Performance Models</a>, <a href="../services/whole-life-approach">Life Cycle Cost models</a>, and with the aid of a client&#39;s statistical data, we can estimate future financial performance including the impact of uncertainty.
+                      :content => 'p. <span class="apm">apm</span> offers Financial and Cost Modelling services that complement its other disciplines. By applying cost models, integrated with risk-based <a href="../services/performance-modelling">Performance Models</a>, <a href="../services/whole-life-approach">Life Cycle Cost models</a>, and with the aid of a client&#39;s statistical data, we can estimate future financial performance including the impact of uncertainty.
 
 p. It is a valuable tool when bidding for contracts as it allows for the optimisation of costs and offers the best value for money to a potential client. The same also applies for the optimisation of existing businesses, for example when conducting refinancing deals.
 
@@ -756,97 +910,19 @@ h1. Consistently Proven
 p. <span class="apm">apm</span> has developed cost models for a number of multi-billion pound and complex infrastructure projects within the UK, using its standard approach to model development, adapted to meet clients needs. This approach is taken to ensure consistency, simplicity, clarity and auditability. However, <span class="apm">apm</span> also specialises in developing tailor made models, when more appropriate.'
                     },
                     {
-                      :name => 'Forensic Audit',
-                      :permalink => 'forensic_audit',
-                      :content => 'p. Economic crime is an unpleasent situation that has brought about the growing need for Financial and Data Forensic Services. Enhanced management of fraud risk, compliance exposure and other inappropriate behaviour is an important priority for many organisations, whatever the industry.
-                      
-h1. Resolution & Control
-
-p. <span class="apm">apm</span> not only helps its clients to detect, investigate, analyse, prevent and resolve regulatory compliance and business issues, misconduct and financial disputes, but assesses their vulnerabilities of such activities with a view to developing controls and programmes to address the risks. We assist our clients in maintaining their reputation and high standards of business integrity.
-
-p. Our mix of technological and financial professionals provide a unique approach that can align well to complex commercial disputes and investigative issues.
-
-p. <span class="apm">apm</span>&#39;s Forensic Services are tailored to meet our clients&#39; legal and business environments and include:
-
-(bulleted_list)* Investigations
-* Commerical Disputes
-* Business Valuation
-* Forensic Accounting
-* Asset Tracing
-* Records Management
-* Capital Project Services
-* Performance Investigation
-* Misconduct Risk Assessment
-* Data Investigation & Forensics
-* Claims Management'
+                      :name => 'Executive Training',
+                      :permalink => 'executive_training',
+                      :content => ''
                     },
                     {
-                      :name => 'Information Technology',
-                      :permalink => 'information_technology',
-                      :content => 'h1. Rapid Advice Support
-
-p. <span class="apm">apm</span> substantiates its advice and support to clients through data, financial or business analysis. Due to the progressively more complex needs of our clients&#39; businesses and to enable rapid, repeatable and auditable results, some degree of model or software development is required in the analysis.
-
-p. Our Information Technology services have supported our clients stategy to IT, helped to develop asset and business plans, analysed major asset closures or upgrades, optimised maintenance activities, and even supported the implementation of new technologies.
-
-p. Through our application of Information Technologies, we are able to echance many aspects of the services we deliver to our clients, including:
-
-(bulleted_list)* <a href="../services/asset-management">Asset Management</a>
-* <a href="../services/performance-modelling">Performance Modelling</a>
-* <a href="../services/investment-decision-analysis">Investment Decision Analysis</a>
-* <a href="../services/whole-life-approach">Whole Life Cost Analysis</a>
-* <a href="../services/cost-modelling">Cost Modelling</a>
-* <a href="../services/risk-management">Risk Management</a>
-* <a href="../services/rams-modelling">RAMS Modelling</a> &amp; <a href="../services/systems-safety-assurance">System Safety Management and Assurance</a>
-* <a href="../services/value-engineering">Value Engineering</a> &amp; <a href="../services/value-management">Value Management</a>
-* <a href="../services/tender-review-evaluation">Tender Review and Evaluation</a>
-* <a href="../services/forensic-audit">Forensic Audit</a>'
+                      :name => 'Risk Analysis & Management',
+                      :permalink => 'risk_analysis_management_training',
+                      :content => ''
                     },
                     {
-                      :name => 'Strategy & Development',
-                      :permalink => 'strategy_development',
-                      :content => 'h1. Architectural & Aligned
-
-p. <span class="apm">apm</span> has supported clients at various stages of Information Technology development and implementation, from the development of Enterprise level IT Strategies, through the generation of Business and Software Requirements, and to the design and development of tailored or bespoke software.
-
-p. We focus on:
-
-(bulleted_list)* Aligning IT decisions with Business Objectives
-* Increasing operational efficiency and performance effectiveness
-* Developing a flexible and integrated system
-
-p. Our expertise has helped major infrastructure clients to identify, understand, manage and convert multiple, scattered legacy data sources and systems into single integrated Asset Management systems supported by our <a href="../services/investment-decision-analysis">Investment Decision Support</a> and <a href="../services/performance-modelling">Performance Modelling</a> tools.
-
-h1. Development Flexibility
-
-p. We are well versed in the use of different development cycles in order to satisfy various types of model or software developments. An Agile approach is more robust when rapidly developing models when requirements less known or changing, whereas certain clients require a more structured development approach such as an Iterative or Waterfall approach, when developing more bespoke systems requiring integration with new or legacy systems.'
-                    },
-                    {
-                      :name => 'Software & Model Engineering',
-                      :permalink => 'software_model_engineering',
-                      :content => 'h1. Excellence
-                      
-p. <span class="apm">apm</span> has been providing performance and financial models, data analysis tools and bespoke decision support software since the companies inception in 2000.
-
-p. Our broad experience and varied application has enabled us to become technically proficient in a wide range of Microsoft Development and Office suites, and a number of integrated 3rd-party products, including:
-
-(bulleted_list)* Visual Basic for Applications (VBA) for Microsoft Excel
-* @Risk & @Risk Optimiser, integrated with Microsoft Excel
-* @Risk RDK, integrated with .NET developments
-* Business Objectives, integrated with .NET & Microsoft Excel
-* Visual Basic 6+ & Dynamic Link Library (.dll) development
-* Visual C# & .NET 3.5 Application development (including LINQ & XML)
-* SQL Server 2000-2005 development
-* Microsoft Access data interrogation & analysis'
-                    },
-                    {
-                      :name => 'Systems Integration',
-                      :permalink => 'systems_integration',
-                      :content => 'p. Increasingly IT solutions require a combination of legacy, commercial off-the-shelf (COTS) and bespoke software and hardware, integrated as a single Enterprise system.
-                      
-h1. Safe and Reliable
-
-p. <span class="apm">apm</span> supports this process, including the integration of its systems, as part of an overall delivery, in order to meet specific client requirements. We provide management and technical disciplines to ensure solutions are innovative and secure, and test them to ensure that functional and performance requirements are met.'
+                      :name => 'Availability & Asset Modelling',
+                      :permalink => 'availability_asset_modelling_training',
+                      :content => ''
                     },
                     {
                       :name => 'Transport',
@@ -1152,6 +1228,64 @@ leaderships = Leadership.create([
                       :content_2 => 'Mark is a well-rounded individual who has the ability to communicate with board members or at an operational level. Mark is an influential leader and has the ability to target key issues whilst developing solutions. He has worked in teams that have negotiated at the highest levels within various Government Departments. Mark&#39;s unique strength is that he has represented major projects from both Client and Contractor perspectives and is therefore able to give a balanced and practical view of risk and performance issues.'
                     }
 
+])
+
+course = Course.create([
+                    {
+                      :name => 'Rapport',
+                      :permalink => 'rapport',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Strategies for Success',
+                      :permalink => 'strategies_success',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Negotiation',
+                      :permalink => 'negotiation',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Presentations',
+                      :permalink => 'presentations',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Effective Sales',
+                      :permalink => 'effective_sales',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Risk Analysis',
+                      :permalink => 'risk_analysis',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Risk Management',
+                      :permalink => 'risk_management',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Risk Planning',
+                      :permalink => 'risk_planning',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Reliability & Availability Modelling',
+                      :permalink => 'reliability_availability_modelling',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Asset Modelling',
+                      :permalink => 'asset_modelling',
+                      :content => ''
+                    },
+                    {
+                      :name => 'Performance Penalty Modelling',
+                      :permalink => 'performance_penalty_modelling',
+                      :content => ''
+                    }
 ])
 
 user = User.create([

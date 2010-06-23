@@ -1,0 +1,21 @@
+- form_for [:admin, @course] do |f|
+	= f.error_messages
+
+	.field
+		= f.label :name
+		%br/
+		= f.text_field :name
+
+	.field
+		= f.label :permalink
+		%br/
+		= f.text_field :permalink
+
+	.field
+		= f.label :content
+		%br/
+		= f.text_field :content
+		%br/
+
+	.actions
+		= f.submit

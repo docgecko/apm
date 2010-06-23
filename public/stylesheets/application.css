@@ -321,7 +321,6 @@ body, div, p, td, th, span, a {
     padding: 0;
     margin: 0; }
     .homeHeader h2 a {
-      font-weight: bold;
       font-size: 0.7em;
       color: #736E6D;
       font-family: Museo500;
@@ -580,7 +579,8 @@ body, div, p, td, th, span, a {
   left: 220px;
   top: 0px;
   font-size: 13px;
-  font-weight: normal; }
+  font-weight: normal;
+  min-height: 535px; }
 
 #bodyContent, #leadershipContent {
   margin: 10px 0 0 0;
@@ -717,11 +717,14 @@ ul.siteLinksColumn, ul.consultingColumn, ul.consulting2Column, ul.trainingColumn
       margin: 0;
       padding: 10px 0 0 0; }
       ul.siteLinksColumn li h4 a, ul.consultingColumn li h4 a, ul.consulting2Column li h4 a, ul.trainingColumn li h4 a, ul.industriesColumn li h4 a {
-        color: #808080;
+        color: #537DB9;
         text-decoration: none;
         font-family: Museo700;
         font-size: 1.2em;
         text-shadow: white 1px 1px 1px; }
+        ul.siteLinksColumn li h4 a:hover, ul.consultingColumn li h4 a:hover, ul.consulting2Column li h4 a:hover, ul.trainingColumn li h4 a:hover, ul.industriesColumn li h4 a:hover {
+          color: #808080;
+          text-decoration: underline; }
 
 ul.siteLinksColumn {
   width: 90px; }

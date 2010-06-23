@@ -9,7 +9,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100403143256) do
+ActiveRecord::Schema.define(:version => 20100622091143) do
+
+  create_table "courses", :force => true do |t|
+    t.string   "name"
+    t.string   "permalink"
+    t.text     "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "four_oh_fours", :force => true do |t|
     t.string   "host"

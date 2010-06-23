@@ -1,0 +1,17 @@
+= yield :nav_main
+
+#mainContainer
+	#containerPage
+		#container
+			#leftNav
+				= yield :left_nav
+
+			#subContentMiddle
+				#bodyHeader
+					
+					%h1= @course.name
+
+				#bodyContent
+					= raw RedCloth.new(@course.content).to_html
+
+.clear

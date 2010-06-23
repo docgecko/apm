@@ -27,6 +27,8 @@
 				= render 'shared/content/category'
 			- elsif [ 'legal', 'privacy', 'site_map' ].include? action_name
 				= render 'shared/content/information'
+			- elsif controller.controller_name == 'courses'	
+				= render 'shared/content/course'
 			- elsif controller.controller_name == 'contact'
 				= render 'shared/content/page/contact'
 			- elsif controller.controller_name == 'leaderships'
