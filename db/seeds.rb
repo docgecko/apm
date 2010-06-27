@@ -677,7 +677,13 @@ p. As such, <span class="apm">apm</span> has tended to support the Operations di
                     {
                       :name => 'Hand-back Requirements Planning',
                       :permalink => 'handback_requirements_planning',
-                      :content => 'Achieving the handback requirements of a PFI or PPP contract determines'
+                      :content => 'p. When a Life Cycle Fund is initially fixed at the beginning of a project, it is based on a plan of works over the entire contract period.  Handback forms part of the project plan and thus costs associated with acheiving Handback Requirements are built into the Fund.  The question is, as the project progresses and changes take place, as they inevitably will, can the Requirements still be met, and at what cost?
+                      
+h1. Maximise Return on Return
+
+p. Providing Value for Money to the client (including the client\'s cusomters), while maximising Return on Investment, is an appropriate objective of any business going into a PFI or PPP contract. Meeting Handback Requirements is a matter of motivation via the contract.
+
+p. <span class="apm">apm</span> combines Asset Condition or Asset Performance Handback targets and their associated penalties with other ongoing Performance requirements to support its clients in deciding upon the correct level of Capital Works and Maintenance, especially during the final years of the contract.  We use our Asset and Performance models to optimise the final works to ensure contractual obligations are met while ensuring Return on Investment is maximised.'
                     },
                     {
                       :name => 'PFI Expertise',
@@ -687,22 +693,64 @@ p. As such, <span class="apm">apm</span> has tended to support the Operations di
                     {
                       :name => 'Payment Mechanism Modelling & Benchmarking',
                       :permalink => 'payment_mechanism_modelling_benchmarking',
-                      :content => ''
+                      :content => 'p. Payment Mechanisms can be based on condition, performance and usage requirements of a an entire system or network of assets down to groups or individual assets, depending on the service being provided by the assets. There can also be a number of mechanisms that can work independently or even operate in conjunction with each other, the later being a more complicated situation.
+                      
+The data used to calculate the performance or condition also may or may not be readily available, depending on a number of factors, including: (1) do the assets have a history of usage; (2) has the client collected comparable performance and condition data that can be used in the Payment Mechanism calculations, and; (3) how subjective is the data.
+                      
+h1. Expert Exposure
+
+p. At <span class="apm">apm</span>, we have been exposed to various types of performance- and condition-based payment mechamisms on both <a href="/industries/rail">Rail</a> and <a href="/industries/highways">Highways</a> <a href="/industries/public-private-partnership">PPP</a> and <a href="/industries/private-finance-initiative">PFI</a> projects.
+
+p. As part of the Tube Lines tender and operational stages, we developed a condition- and performance-based software system to model 5 performance-penalty mechamisms feeding into a single Payment Mechamism. The model was used to many activities, including the following:
+
+(bulleted_list)* Model Condition and Performance over a 30 years period
+* Calculate the cost of risk due to data uncertainty
+* Support the agreement on acceptible condition and performance benchmarks, which formed the Payment Mechanism part of the PPP contract
+* Provide input to the tender cost
+* Re-assess Condition and Performance Benchmarks on a yearly basis
+* Assess the impact of new data as it becomes available on a monthly basis
+* Assess the impact of upgrades to infrastructure or services operation, e.g. increasing train services at peak times, or adding additional carriages to trains
+* Calculate the revenues lost via infrastructure closes, e.g. closure of parts of the Piccadilly line during the Heathrow Terminal 5 works'
                     },
                     {
                       :name => 'Contract Review',
                       :permalink => 'contract_review',
-                      :content => ''
+                      :content => 'p. <span class="apm">apm</span> has supported <a href="/industries/private-finance-initiative">PFI</a> clients contractual relationships and requirements from a number of angles, such as between:
+
+(bulleted_list)* the PFI organisation and the government body
+* the PFI organisation and its subcontractors
+
+h1. Contract Performance Success
+
+p. During a tender process, we have ensured that the PFI tendering organisation is fully aware of the commercial, financial and performance-based risks surrounding the contract, and how to manage and minimise such risks and their associated costs.
+
+p. During a PFI operational phase, as the reality of the contract has more immediate effect on the business, <span class="apm">apm</span> continues to support the PFI client in minimising risks, but understanding how actual performance of the assets is impacting on the business via the contract. For example, as major capital works and maintenance operations take place, we help the PFI organisation to realise the impact of such works, and how they affect revenue to the business today and into the future.
+
+p. Using our combined contracts knowledge and asset modelling techniques, we are able to support our analysis both qualitatively and quantitatively.'
                     },
                     {
                       :name => 'Bid Strategy Review',
                       :permalink => 'bid_strategy_review',
-                      :content => ''
+                      :content => 'h1. Stategically Positioned
+
+p. <span class="apm">apm</span> has not only been part of a number of major PPP and PFI bids, but has had interim roles at board and lead levels allowing us to positively influence the direction of the bid strategy.
+
+p. As part of the Network Rail buy-out by the government and the Tube Lines PPP bid, <span class="apm">apm</span> operated at board level, in Maintenance and Financial Director posisions, as well as directly supporting Business Planning and Maintenance Operations directorates at lead and middle management levels.
+
+p. During the M25 DBFO (Design Build Finance Operate) PFI project, <span class="apm">apm</span> supported the Highways Agency and the Hyder-Halcrow Joint Venture in correctly setting, managing and reviewing the tender process.
+
+p. In all our roles, <span class="apm">apm</span> has provided continous influence on developing appropriate Bid Strategies, for government bodies and PFI organisations.'
                     },
                     {
                       :name => 'Capital Works Benchmarking',
                       :permalink => 'capital_works_benchmarking',
-                      :content => ''
+                      :content => 'p. Capital Works have a huge influence over the performance of assets over the long-term.  Each time major works take place to upgrade or modernise existing assets, there will be a definate and obvious affect on the life of those assets.  However, delay to the inception and completion of such works has a major effect on Maintenance Operations.  Late projects can lead to assets requiring additional maintenance to extend their lives and to reduce potential increased increased failures or extra reduced asset conditions.  Extra maintenance will tend to require additional budgetary support.
+                      
+h1. Optimising Plans
+
+p. At the tender stage, <span class="apm">apm</span> has supported clients in initially benchmarking both Captial Works and Maintenance Operations in terms of their impact of their plans on: (1) Asset Condition and Performance, (2) Handback Capability, (3) Performance-Penalty Payments, and (4) associated Risks.
+
+p. Once a project begins, we have been able to update the impact of actual works that have taken place with a view to comparing it with the initial benchmark, and support the replanning of future works to ensure the requirements or targets of (1) to (4) are still met.  Where they can\'t be met or where budget changes are required, we have supported the relevant directorates or JV companies in obtaining the appropriate budgetary changes.'
                     },
                     {
                       :name => 'Risk Reduction',
