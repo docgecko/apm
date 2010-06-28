@@ -1,34 +1,40 @@
-Apm::Application.configure do
-  # Settings specified here will take precedence over those in config/environment.rb
+# Settings specified here will take precedence over those in config/environment.rb
 
-  # In the development environment your application's code is reloaded on
-  # every request.  This slows down response time but is perfect for development
-  # since you don't have to restart the webserver when you make code changes.
-  config.cache_classes = true
+# The production environment is meant for finished, "live" apps.
+# Code is not reloaded between requests
+config.cache_classes = true
 
-  # Log error messages when you accidentally call methods on nil.
-  config.whiny_nils = true
+# Full error reports are disabled and caching is turned on
+config.action_controller.consider_all_requests_local = false
+config.action_controller.perform_caching             = true
+config.action_view.cache_template_loading            = true
 
-  # Show full error reports and disable caching
-  config.action_controller.consider_all_requests_local = true
-  config.action_view.debug_rjs                         = true
-  config.action_controller.perform_caching             = true
+# See everything in the log (default is :info)
+# config.log_level = :debug
 
-  # Use a different cache store in development
-  # config.cache_store = :mem_cache_store
+# Use a different logger for distributed setups
+# config.logger = SyslogLogger.new
 
-  # Don't care if the mailer can't send
-  config.action_mailer.raise_delivery_errors = false
+# Use a different cache store in production
+# config.cache_store = :mem_cache_store
 
-  ### ActionMailer Config
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-  # A dummy setup for development - no deliveries, but logged
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.perform_deliveries = false
-  config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default_charset = "utf-8"
+# Enable serving of images, stylesheets, and javascripts from an asset server
+# config.action_controller.asset_host = "http://assets.example.com"
 
-  # Development only gems
-  # config.gem "taps", :version => "0.2.26"
-  # config.gem "ghost", :version => ">= 0.2.8"
-end
+# Disable delivery errors, bad email addresses will be ignored
+config.action_mailer.raise_delivery_errors = false
+
+### ActionMailer Config
+config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+# A dummy setup for development - no deliveries, but logged
+config.action_mailer.delivery_method = :smtp
+config.action_mailer.perform_deliveries = false
+config.action_mailer.raise_delivery_errors = true
+config.action_mailer.default_charset = "utf-8"
+
+# Development Gems
+config.gem 'sqlite3-ruby', :lib => 'sqlite3', :version => '>=1.3.0'
+# config.gem 'unicorn', :version => '>=1.0.0'
+config.gem 'thin'
+# config.gem 'bundlemate', :version => '>=0.1.1'
+config.gem 'ghost', :version => '>=0.2.8'

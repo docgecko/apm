@@ -27,12 +27,12 @@
 
 									.bio
 										%br/
-										= raw RedCloth.new(leadership.content_1).to_html
+										= RedCloth.new(leadership.content_1).to_html
 
 									.leadershipContentPanel
 										%div{ :class => "bio showhide" }
 											%br/
-											= raw RedCloth.new(leadership.content_2).to_html
+											= RedCloth.new(leadership.content_2).to_html
 									%br/
 									%br/
 

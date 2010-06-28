@@ -12,6 +12,6 @@
 					%h1= @page.name
 
 				#bodyContent
-					= raw RedCloth.new(@page.content).to_html
+					= RedCloth.new(@page.content).to_html
 
 .clear

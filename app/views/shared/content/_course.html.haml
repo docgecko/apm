@@ -12,6 +12,6 @@
 					%h1= @course.name
 
 				#bodyContent
-					= raw RedCloth.new(@course.content).to_html
+					= RedCloth.new(@course.content).to_html
 
 .clear
