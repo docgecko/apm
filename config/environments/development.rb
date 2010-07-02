@@ -33,7 +33,8 @@ config.action_mailer.raise_delivery_errors = true
 config.action_mailer.default_charset = "utf-8"
 
 # Development Gems
-config.gem 'sqlite3-ruby', :lib => 'sqlite3', :version => '>=1.3.0'
+# config.gem 'taps', :version => '>=0.3.9'
+config.gem 'sqlite3-ruby', :lib => 'sqlite3'
 # config.gem 'unicorn', :version => '>=1.0.0'
 config.gem 'thin'
 # config.gem 'bundlemate', :version => '>=0.1.1'

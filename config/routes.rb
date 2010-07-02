@@ -57,14 +57,12 @@ ActionController::Routing::Routes.draw do |map|
   map.bid_strategy_review 'services/bid-strategy-review', :controller => 'pages', :action => 'bid_strategy_review'
   map.capital_works_benchmarking 'services/capital-works-benchmarking', :controller => 'pages', :action => 'capital_works_benchmarking'
   map.risk_reduction 'services/risk-reduction', :controller => 'pages', :action => 'risk_reduction'
-  map.bid_resource_support 'services/bid-resource-support', :controller => 'pages', :action => 'bid_resource_support'
 
   # Risk Management
   map.risk_services 'services/risk-services', :controller => 'pages', :action => 'risk_services'
   map.risk_modelling_benchmarking 'services/risk-modelling-benchmarking', :controller => 'pages', :action => 'risk_modelling_benchmarking'
   map.correlated_risk_models 'services/correlated-risk-models', :controller => 'pages', :action => 'correlated_risk_models'
   map.enterprise_risk_management 'services/enterprise-risk-management', :controller => 'pages', :action => 'enterprise_risk_management'
-  map.asset_strategy_impact_assessment 'services/asset-strategy-impact-assessment', :controller => 'pages', :action => 'asset_strategy_impact_assessment'
   map.rams_modelling 'services/rams-modelling', :controller => 'pages', :action => 'rams_modelling'
   map.systems_safety_assurance 'services/systems-safety-assurance', :controller => 'pages', :action => 'systems_safety_assurance'
   
@@ -88,7 +86,7 @@ ActionController::Routing::Routes.draw do |map|
   map.effective_sales_training 'training/effective-sales', :controller => 'courses', :action => 'effective_sales'
   
   # Risk Training routes
-  map.risk_analysis_management_training 'training/risk-analysis-management', :controller => 'pages#risk_analysis_management_training'
+  map.risk_analysis_management_training 'training/risk-analysis-management', :controller => 'pages', :action => 'risk_analysis_management_training'
   map.risk_analysis_training 'training/risk-analysis', :controller => 'courses', :action => 'risk_analysis'
   map.risk_management_training 'training/risk-management', :controller => 'courses', :action => 'risk_management'
   map.risk_planning_training 'training/risk-planning', :controller => 'courses', :action => 'risk_planning'

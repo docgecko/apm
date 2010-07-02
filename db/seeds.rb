@@ -73,12 +73,12 @@ p. We are proactive in applying our insight, experience and knowledge to generat
 
 p. Our principal services include:
 
-(bulleted_list)* <a href="../services/asset-management">Asset Management</a>
-* <a href="../services/risk-services">Risk Services</a>
-* <a href="../services/value-management">Value Management</a>
-* <a href="../services/project-services">Project Services</a>
-* <a href="../services/financial-services">Financial Services</a>
-* <a href="../services/information-technology">Information Technology</a>
+(bulleted_list)* <a href="services/commercial-services">Commercial Services</a>
+* <a href="services/asset-modelling">Asset Modelling</a>
+* <a href="services/life-cycle-fund-validation">Life Cycle Fund Validation</a>
+* <a href="services/pfi-expertise">PFI Expertise</a>
+* <a href="services/risk-services">Risk Services</a>
+* <a href="services/business-decision-support">Business Decision Support</a>
 
 p. We have particular expertise in the following industries:
 
@@ -198,47 +198,82 @@ p. This Site Map provides an overview of the entire Web site with links to each 
 
 h2. "Home Page":home
 
-h2. "Services":services
+h2. "Consulting":services
 
-h3. "Asset Management":asset-management
+h3. "Commercial Services":commercial-services
 
-(bulleted_list)* "Performance Modelling":performance-modelling
-* "Whole Life Approach":whole-life-approach
-* "Investment Decision Analysis":investment-decision-analysis
+(bulleted_list)* "Expert Bid & Commercial Support":expert-bid-commercial-support
+* "Project & Cost Management":project-cost-management
+* "Tender Review & Evaluation":tender-review-evaluation
+* "Interim Management":interim-management
+* "Forensic Cost Assurance":forensic-cost-assurance
+* "Quantity Surveying":quantity-surveying
+* "Value Management":value-management
+
+h3. "Asset Modelling":asset-modelling
+
+(bulleted_list)* "Whole Life Costing":whole-life-costing
+* "Asset Performance Modelling":asset-performance-modelling
+* "Maintenance & Capital Spend Optimisation":maintenance-capital-spend-optimisation
+* "Performance Benchmark & Target Review":performance-benchmark-target-review
+* "Software & Model Development":software-model-development
+
+h3. "Life Cycle Fund Evaluation":life-cycle-fund-validation
+
+(bulleted_list)* "Robustness Evaluation":robustness-evaluation
+* "Fund Benchmarking":fund-benchmarking
+* "Operations Impact Strategy":operations-impact-strategy
+* "Hand-back Requirements Planning":handback-requirements-planning
+
+h3. "PFI Expertise":pfi-expertise
+
+(bulleted_list)* "Payment Mechanism Modelling & Benchmarking":payment-mechanism-modelling-benchmarking
+* "Contract Review":contract-review
+* "Bid Strategy Review":bid-strategy-review
+* "Capital Works Benchmarking":capital-works-benchmarking
+* "Risk Reduction":risk-reduction
 
 h3. "Risk Services":risk-services
 
-(bulleted_list)* "Enterprise Risk Management":risk-management
+(bulleted_list)* "Risk Modeling & Benchmarking":risk-modelling-benchmarking
+* "Correlated Risk Models":correlated-risk-models
+* "Enterprise Risk Management":enterprise-risk-management
 * "RAMS Modelling":rams-modelling
 * "Systems Safety Management & Assurance":systems-safety-assurance
 
-h3. "Value Management":value-management
+h3. "Business Decision Support":business-decision-support
 
-(bulleted_list)* "Contract & Commercial Management":commercial-management
-* "Quantity Surveying":quantity-surveying
-* "Value Engineering":value-engineering
-
-h3. "Project Services":project-services
-
-(bulleted_list)* "Project & Cost Management":project-cost-management
-* "Tender Review & Evaluation":tender-review-evaluation
-
-h3. "Financial Services":financial-services
-
-(bulleted_list)* "Financial Management & Control":financial-management
-* "Cost Modelling":cost-modelling
-* "Forensic Audit":forensic-audit
-
-h3. "Information Technology":information-technology
-
-(bulleted_list)* "Strategy & Development":strategy-development
-* "Cost Modelling":cost-modelling
-* "Software & Model Engineering":software-model-engineering
-* "Systems Integration":systems-integration
+(bulleted_list)* "Business Planning & Optimisation":business-planning-optimisation
+* "Investment Decision Analysis":investment-decision-analysis
+* "Business Case Validation & Support":business-case-validation-support
+* "Asset Management Planning":asset-management-planning
+* "Optioneering & Solutions Optimisation":optioneering-solutions-optimisation
 
 </td>
 
 <td valign="top" style="width:290px;">
+
+h2. "Training":training
+
+h3. "Executive Coaching":executive-training
+
+(bulleted_list)* "Rapport":rapport-training
+* "Strategies For Success":strategies-success-training
+* "Negotiation":negotiation-training
+* "Presentations":presentations-training
+* "Effective Sales":effective-sales-training
+
+h3. "Risk Analysis & Management":risk-analysis-management-training
+
+(bulleted_list)* "Risk Analysis":risk-analysis-training
+* "Risk Management":risk-management-training
+* "Risk Planning":risk-planning-training
+
+h3. "Availability & Asset Modelling":availability-asset-modelling-training
+
+(bulleted_list)* "Reliability & Availability Modelling":reliability-availability-modelling-training
+* "Asset Modelling":asset-modelling-training
+* "Performance Penalty Modelling":performance-penalty-modelling-training
 
 h2. "Industries":industries
 
@@ -286,29 +321,60 @@ h2. "Site Map":site-map
 
 [home]/
 [services]/services
-[asset-management]/services/asset-management
-[performance-modelling]/services/performance-modelling
-[whole-life-approach]/services/whole-life-approach
-[investment-decision-analysis]/services/investment-decision-analysis
-[risk-management]/services/risk-management
-[rams-modelling]/services/rams-modelling
-[systems-safety-assurance]/services/systems-safety-assurance
-[value-management]/services/value-management
-[commercial-management]/services/commercial-management
-[quantity-surveying]/services/quantity-surveying
-[value-engineering]/services/value-engineering
-[project-services]/services/project-services
+[commercial-services]/services/commercial-services
+[expert-bid-commercial-support]/services/expert-bid-commercial-support
 [project-cost-management]/services/project-cost-management
 [tender-review-evaluation]/services/tender-review-evaluation
-[financial-services]/services/financial-services
-[financial-management]/services/financial-management
-[cost-modelling]/services/cost-modelling
-[forensic-audit]/services/forensic-audit
-[information-technology]/services/information-technology
-[strategy-development]/services/strategy-development
-[cost-modelling]/services/cost-modelling
-[software-model-engineering]/services/software-model-engineering
-[systems-integration]/services/systems-integration
+[interim-management]/services/interim-management
+[forensic-cost-assurance]/services/forensic-cost-assurance
+[quantity-surveying]/services/quantity-surveying
+[value-management]/services/value-management
+[asset-modelling]/services/asset-modelling
+[whole-life-costing]/services/whole-life-costing
+[asset-performance-modelling]/services/asset-performance-modelling
+[maintenance-capital-spend-optimisation]/services/maintenance-capital-spend-optimisation
+[performance-benchmark-target-review]/services/performance-benchmark-target-review
+[software-model-development]/services/software-model-development
+[life-cycle-fund-validation]/services/life-cycle-fund-validation
+[robustness-evaluation]/services/robustness-evaluation
+[fund-benchmarking]/services/fund-benchmarking
+[operations-impact-strategy]/services/operations-impact-strategy
+[handback-requirements-planning]/services/handback-requirements-planning
+[pfi-expertise]/services/pfi-expertise
+[payment-mechanism-modelling-benchmarking]/services/payment-mechanism-modelling-benchmarking
+[contract-review]/services/contract-review
+[bid-strategy-review]/services/bid-strategy-review
+[capital-works-benchmarking]/services/capital-works-benchmarking
+[risk-reduction]/services/risk-reduction
+[risk-services]/services/risk-services
+[risk-modelling-benchmarking]/services/risk-modelling-benchmarking
+[correlated-risk-models]/services/correlated-risk-models
+[enterprise-risk-management]/services/enterprise-risk-management
+[rams-modelling]/services/rams-modelling
+[systems-safety-assurance]/services/systems-safety-assurance
+[business-decision-support]/services/business-decision-support
+[business-planning-optimisation]/services/business-planning-optimisation
+[investment-decision-analysis]/services/investment-decision-analysis
+[business-case-validation-support]/services/business-case-validation-support
+[asset-management-planning]/services/asset-management-planning
+[optioneering-solutions-optimisation]/services/optioneering-solutions-optimisation
+
+[training]/training
+[executive-training]/training/executive
+[rapport-training]/training/rapport
+[strategies-success-training]/training/strategies-success
+[negotiation-training]/training/negotiation
+[presentations-training]/training/presentations
+[effective-sales-training]/training/effective-sales
+[risk-analysis-management-training]/training/risk-analysis-management
+[risk-analysis-training]/training/risk-analysis
+[risk-management-training]/training/risk-management
+[risk-planning-training]/training/risk-planning
+[availability-asset-modelling-training]/training/availability-asset-modelling
+[reliability-availability-modelling-training]/training/reliability-availability-modelling
+[asset-modelling-training]/training/asset-modelling
+[performance-penalty-modelling-training]/training/performance-penalty-modelling
+
 [industries]/industries
 [transport]/industries/transport
 [rail]/industries/rail
@@ -336,11 +402,11 @@ h2. "Site Map":site-map
                       :permalink => 'commercial_services',
                       :content => 'p. <span class="apm">apm</span> realises that all projects are unique at some level and so are the specific objectives and requirements of each client. We therefore focus on fully absorbing each clients&#39; objectives such that we consistently deliver a successful and sustainable service.
 
-p. As a core service of <span class="apm">apm</span>, we have been providing Project Services from our very inception in both the UK and the Netherlands, initially on two of the largest <a href="../industries/private-finance-initiative">Private Finance Initiative</a> (PFI) and <a href="../industries/public-private-partnership">Public Private Partnership</a> (PPP) rail projects: (1) Dutch Southern High Speed Rail, and; (2) Tube Lines Limited.
+p. As a core service of <span class="apm">apm</span>, we have been providing Commercial Services from our very inception in both the UK and the Netherlands, initially on two of the largest <a href="../industries/private-finance-initiative">Private Finance Initiative</a> and <a href="../industries/public-private-partnership">Public Private Partnership</a> rail projects: (1) Dutch Southern High Speed Rail, and; (2) Tube Lines Limited.
 
 h1. Encompassing
 
-p. We continue to extend our expertise and knowlegde-base whilst helping clients in the <a href="../industries/defence">Defence</a>, <a href="../industries/rail">Rail</a> and <a href="../industries/highways">Highways</a> industries on an ever increasing number of PFI deals.
+p. We continue to extend our expertise and knowlegde-base whilst helping clients in the <a href="../industries/defence">Defence</a>, <a href="../industries/rail">Rail</a> and <a href="../industries/highways">Highways</a> industries on an ever increasing number of Private Finance Initiative deals.
 
 p. We support our clients through the application of a broad range of Commercial Services, including:
 
@@ -359,7 +425,7 @@ p. We support our clients through the application of a broad range of Commercial
                     {
                       :name => 'Expert Bid & Commercial Support',
                       :permalink => 'expert_bid_commercial_support',
-                      :content => 'p. As contracts become larger and more complex, Contract & Commercial Management succeeds through application at both a policy and transactional level. To this end, <span class="apm">apm</span> is dedicated to ensuring that policies and associated strategies and objectives are correctly implemented within commercial contracts, commercial relationships are compliant, and financial and risk implications are well managed.
+                      :content => 'p. As contracts become larger and more complex, Tender & Commercial Management succeed through application at both a policy and transactional level. To this end, <span class="apm">apm</span> is dedicated to ensuring that policies and associated strategies and objectives are correctly implemented within commercial contracts, commercial relationships are compliant, and financial and risk implications are well managed.
 
 p. Our mission is to provide superior and consistent delivery in terms of contractual commitments, and in doing so protecting the reputation and optimising revenues of our clients.
 
@@ -374,7 +440,7 @@ p. Our services include:
 * Contracts Negotiation
 * Project and Contract Administration
 * Cost Monitoring and Budget Control
-* <a href="../services/quantity_surveying">Quantity Surveying</a> Management
+* <a href="../services/quantity-surveying">Quantity Surveying</a> Management
 * Supply Chain Management
 * Procurement Advice
 * Variations Evaluation
@@ -387,13 +453,13 @@ p. Our services include:
                       :permalink => 'project_cost_management',
                       :content => 'p. Successful organisations have grown to realise the benefits of organising work around projects and the critical need to communicate and co-ordinate work across the business - Project and Cost Management provides such an approach.
 
-p. Project and Cost Management lends itself to a number definitions, from short to long term, low to high complexity and static to evolutionary. <span class="apm">apm</span>&#39;s domain centers towards the latter in which we constantly evolve and implement what we consider best practice, particularly when addressing complex requirements of a large client initiative.
+p. Project and Cost Management lends itself to a number definitions, from short to long term, low to high complexity and static to evolutionary. <span class="apm">apm</span>&#39;s domain centers around the latter in which we constantly evolve and implement what we consider best practice, particularly when addressing complex requirements of a large client initiative.
 
 h1. Expectations
 
-p. Projects vary and as such we focus on aligining ourselves with the expectations of our clients allowing us to more efficiently manage their projects in terms of Time, Quality, Cost and Scope. We review our clients expectations by deconstructing their business and project requirements into a set of useful components, which can be used to balance expectations and ambition against ability.
+p. Projects vary and as such we focus on aligining ourselves with the expectations of our clients allowing us to more efficiently manage their projects in terms of Time, Quality, Cost and Scope. We review our clients expectations by deconstructing their business and project requirements into a set of useful components, which can be used to balance expectations and ambition against capability.
 
-p. You could say it was like thoroughly inspecting the working parts of an engine and then fine tuning the components, making it run more efficiently, quickly, and save on wear and tear. Consequently, project investment can be fine tuned to the most critical project and business areas. <span class="apm">apm</span>&#39;s approach to Project and Cost Management provides added value by:
+p. You could say it is like thoroughly inspecting the working parts of an engine and then fine tuning the components, making it run more efficiently, quickly, and save on wear and tear. Consequently, project investment can be fine tuned to the most critical project and business areas. <span class="apm">apm</span>&#39;s approach to Project and Cost Management provides added value by:
 
 (bulleted_list)* Minimising risk, while
 * Optimising performance, and
@@ -410,7 +476,7 @@ p. <span class="apm">apm</span> has supported many clients in an interim manager
 
 p. We offer not only professional and experienced people, but managers who have the ability to lead, support change management and offer an independent view in the interests of the client.
 
-p. Most recently, <span class="apm">apm</span> has had interim board and lead roles on a number of significant PFI and PPP projects including Tube Lines ltd., the M25 DBFO shadow running and tender phases, and the Dutch High Speed rail link.'
+p. Most recently, <span class="apm">apm</span> has had interim board and lead roles on a number of significant <a href="../industries/private-finance-initiative">Private Finance Initiative</a> and <a href="../industries/public-private-partnership">Public Private Partnership</a> projects including Tube Lines ltd., the M25 DBFO shadow running and tender phases, and the Dutch High Speed rail link.'
                     },
                     {
                       :name => 'Tender Review & Evaluation',
@@ -421,7 +487,7 @@ p. The competitive nature of a tender process encourages suppliers to deliver be
 
 h1. High-Value Experience
 
-p. We support the Tender Review and Evaluation process and have done so previously on some of the largest <a href="../industries/private-finance-initiative">Private Finance Initiative</a> (PFI) and <a href="../industries/public-private-partnership">Public Private Partnership</a> (PPP) projects in the UK and the Netherlands.
+p. We support the Tender Review and Evaluation process and have done so previously on some of the largest <a href="../industries/private-finance-initiative">Private Finance Initiative</a> and <a href="../industries/public-private-partnership">Public Private Partnership</a> projects in the UK and the Netherlands.
 
 p. We have supported clients in the <a href="../industries/highways">Highways</a>, <a href="../industries/rail">Rail</a> and <a href="../industries/defence">Defence</a> sectors.
 
@@ -436,7 +502,7 @@ p. In order to help clients during the tender evaluation process, our broad skil
 * Action Planning
 * Tender <a href="../services/risk-management">Risk Management</a>
 * Robustness of Cost & Tender Normalisation
-* Performance-Penalty Evaluation
+* <a href="../services/payment-mechanism-modelling-benchmarking">Performance-Penalty Evaluation</a>
 * Communication with Stakeholders
 * Negotiation with Tenderers'
                     },
@@ -528,7 +594,7 @@ h1. Asset Knowledge linked to Business Drivers
 
 p. Core to <span class="apm">apm</span>\'s is our ability to understand and model the life cycle characteristics of assets.  Our models consider not only the mean failure rate or condition of assets but account for uncertainty in such values, e.g. we are able to include distributed values in our models that allow us to also understand the uncertainty.
 
-p. We are also link assets failure and condition to business drivers, e.g. via a Performance-Penalty regime, as is common in PFI and PPP project.  This provides a unique ability to understand how assets and asset interventions, such as maintenance and capital works, have on the business today and into the future, sometimes up to 30 years.
+p. We are also link assets failure and condition to business drivers, e.g. via a Performance-Penalty regime, as is common in Private Finance Initiative and Public Private Partnership project.  This provides a unique ability to understand how assets and asset interventions, such as maintenance and capital works, have on the business today and into the future, sometimes up to 30 years.
 
 p. We support our clients through the application of a broad range of Asset Modelling skills, including:
 
@@ -546,7 +612,7 @@ p. We support our clients through the application of a broad range of Asset Mode
                       :permalink => 'whole_life_costing',
                       :content => 'p. The Whole Life Costing* (WLC) approach to Asset Management is a structured and integrated means by which the overall cost of an asset over its anticipated life-span can be minimised, while maximizing service to the customer. Born out of clients demanding that infrastructure and assets demonstrate Value for Money over the long-term, WLA has become a standard Asset Management requirement in many industry sectors.
 
-p. The approach has shown particular relevance within <a href="../industries/private-finance-initiative">Private Finance Initiative</a> (PFI) and <a href="../industries/public-private-partnership">Public Private Partnership</a> (PPP) projects in which asset owners expect the asset to perform to agreed targets and that the asset, when handed back to the client, can demonstrate minimum expected remaining life.
+p. The approach has shown particular relevance within <a href="../industries/private-finance-initiative">Private Finance Initiative</a> and <a href="../industries/public-private-partnership">Public Private Partnership</a> projects in which asset owners expect the asset to perform to agreed targets and that the asset, when handed back to the client, can demonstrate minimum expected remaining life.
 
 p. apm supports its client&#39;s approach to Whole Life Cycle Costing from a strategic level to the actual assessment and optimisation of Whole Life Asset Plans, by employing our <a href="../services/asset-modelling">Asset Modelling</a> techniques.
 
@@ -570,7 +636,7 @@ p. Our approach allows data to be taken in many forms and levels, and accounts f
 
 p. In terms of taking a risk-based approach to performance modelling, this is crucial when attempting to make informed asset investment decisions, as it allows a client to understand how its assets will perform: (a) on average (at the mean or 50th percentile), and; (b) at the worst case (e.g. at the 95th percentile). This information can be used to determine how the uncertainty of asset performance impacts a clients KPIs and/or revenue.
 
-p. The difference between the mean and the 95th is risk generated through data uncertainty and variability, and would normally be held in a Risk Register as part of a businesses <a href="../services/risk-management">Risk Management</a> system, or would form part of a Risk Contingency Fund as part of a Tendering process.
+p. The difference between the mean and the 95th is risk generated through data uncertainty and variability, and would normally be held in a Risk Register as part of a businesses <a href="../services/enterprise-risk-management">Risk Management</a> system, or would form part of a Risk Contingency Fund as part of a Tendering process.
 
 h1. Benefits Analysis
 
@@ -586,7 +652,7 @@ p. The full benefits of <span class="apm">apm</span>&#39;s Performance Modelling
 
 p. The fact that the approach can use data in a relatively raw form means that it can generate results very quickly. After which, data gathering and integrated systems not only provide the basis for collecting the right data, and more efficiently, but greatly speed up our ability to provide more refined performance, KPI and revenue predictions.
 
-<div id="reference">* Typical of Private Finance Initiative (PFI) and Public Private Partnership (PPP) contracts</div>'
+<div id="reference">* Typical of Private Finance Initiative and Public Private Partnership contracts</div>'
                     },
                     {
                       :name => 'Maintenance & Capital Spend Optimisation',
@@ -595,9 +661,9 @@ p. The fact that the approach can use data in a relatively raw form means that i
                       
 h1. Joining-Up Joint Ventures
 
-p. <span class="apm">apm</span> has been involved in many PFI and PPP deals in which the Maintenance and Capital Works organisation have been separate companies / directorates of the same Joint Venture, and often owning 50% share of the JV organisation.  As such motivation to optimise asset interventions between the two is complex as the overall size of budgets tend to be fixed at the bid stage.  In fact, there is more of a drive to reduce the budgets of each, which tends to have a greater impact on the Maintenance Operations being able to keep the assets working over full duration of the project.  
+p. <span class="apm">apm</span> has been involved in many <a href="../industries/private-finance-initiative">Private Finance Initiative</a> and <a href="../industries/public-private-partnership">Public Private Partnership</a> deals in which the Maintenance and Capital Works organisation have been separate companies / directorates of the same Joint Venture, and often owning 50% share of the JV organisation.  As such motivation to optimise asset interventions between the two is complex as the overall size of budgets tend to be fixed at the bid stage.  In fact, there is more of a drive to reduce the budgets of each, which tends to have a greater impact on the Maintenance Operations being able to keep the assets working over full duration of the project.  
 
-p. However, on a year-on-year basis, using our Asset Modelling techniques, we have been able to bring together the planning of the two directorates to demonstrate how they are able to optimise a combined plan to better programme major capital works and gain the most return from maintenance interventions via performance-penalty regimes, and ultimately hand-back the assets with acceptable remaining life.
+p. However, on a year-on-year basis, using our <a href="../services/asset-modelling">Asset Modelling</a> techniques, we have been able to bring together the planning of the two directorates to demonstrate how they are able to optimise a combined plan to better programme major capital works and gain the most return from maintenance interventions via performance-penalty regimes, and ultimately hand-back the assets with acceptable remaining life.
 
 p. We have achieved this by overlaying Planned and Reactive Maintenance Operations and Capital Works Plans, over the failure and condition characteristics of assets.'
                     },
@@ -608,11 +674,11 @@ p. We have achieved this by overlaying Planned and Reactive Maintenance Operatio
                       
 h1. New or Existing Assets
 
-p. As part of the Southern Dutch High Speed Rail Link, <span class="apm">apm</span> helped the Dutch Government to design the Performance-Penalty regime of the PFI contract.  With no existing assets, we employed our Asset Modelling techniques combined with reliability and availability methods and data from similar existing rails systems to dervive an appropriate regime and associated benchmarks.  This process was not only bought into by the Dutch Government but also by the PFI funding organisations and technical specialists on the project.
+p. As part of the Southern Dutch High Speed Rail Link, <span class="apm">apm</span> helped the Dutch Government to design the Performance-Penalty regime of the <a href="../industries/private-finance-initiative">Private Finance Initiative</a> contract.  With no existing assets, we employed our <a href="../services/asset-modelling">Asset Modelling</a> techniques combined with reliability and availability methods and data from similar existing rails systems to derive an appropriate regime and associated benchmarks.  This process was not only bought into by the Dutch Government but also by the <a href="../industries/private-finance-initiative">Private Finance Initiative</a> funding organisations and technical specialists on the project.
 
-p. In developing benchmarks and targets, <span class="apm">apm</span> not only focuses understanding the average historical asset performance, but also understands the potential variance on performance.  On the Tube Lines project, we found that on average it was possible performance under the benchmarks on average, but due to large variations in the performance data, there was great potential to easily go above the benchmarks.  The variation in the data was a great risk to the Consortium, and thus allowed us to support the client in advising on benchmark changes or the inclusion of adequate risk funds.
+p. In developing benchmarks and targets, <span class="apm">apm</span> not only focuses on understanding the average historical asset performance, but also on understanding the potential variance on performance.  On the Tube Lines project, we found that on average it was possible to perform under the benchmarks on average, but due to large variations in the performance data, there was great potential to easily go above the benchmarks, which was a great risk to the Consortium.  The analysis allowed us to support the client in advising on benchmark changes or the inclusion of adequate risk funds.
 
-p. When designing Performance Benchmarks, <span class="apm">apm</span>\'s ability to analyse variations in performance data has been consistent and fundamental to the design and management of performance risks on many PFI and PPP projects.'
+p. When designing Performance Benchmarks, <span class="apm">apm</span>\'s ability to analyse variations in performance data has been consistent and fundamental to the design and management of performance risks on many <a href="../industries/private-finance-initiative">Private Finance Initiative</a> and <a href="../industries/public-private-partnership">Public Private Partnership</a> projects.'
                     },
                     {
                       :name => 'Software & Model Development',
@@ -635,60 +701,89 @@ p. Our broad experience and varied application has enabled us to become technica
                     {
                       :name => 'Life Cycle Fund Validation',
                       :permalink => 'life_cycle_fund_validation',
-                      :content => 'p. PFI projects often include a Life Cycle Fund: money set aside to ensure Maintenance and Capital Works are possible throughout the duration of the project, and consideration of Performance-Penalty payments.
+                      :content => 'p. <a href="../industries/private-finance-initiative">Private Finance Initiative</a> projects often include a Life Cycle Fund: money set aside to ensure Maintenance and Capital Works are possible throughout the duration of the project, and inclustion of money that accounts for potential Performance-Penalty payments.
                       
 h1. Ring-fenced Money
                       
-p. <span class="apm">apm</span> has developed and reviewed a range of complex Life Cycle Funds.  Using our benchmark data we are able to ensure that the Fund is robust and is designed correctly around the needs of infrastructure assets, whilst reflecting the needs of investors, and ensuring risks are correctly managed.'
+p. <span class="apm">apm</span> has developed and reviewed a range of complex Life Cycle Funds.  Using industry and our own benchmark data we are able to ensure that Funds are robust and are designed correctly around the needs of infrastructure assets, whilst reflecting the needs of investors, and ensuring risks are correctly managed.
+
+p. We support our clients through the application of a broad range of Life Cycle Fund skills, including:
+
+(bulleted_list)* <a href="../services/robustness-evaluation">Robustness Evaluation</a>
+* <a href="../services/fund-benchmarking">Fund Benchmarking</a>
+* <a href="../services/operations-impact-strategy">Operations Impact Strategy</a>
+* Capital Works Impact Strategy
+* <a href="../services/handback-requirements-planning">Hand-Back Requirements Planning</a>
+* Risk Fund Optimisation'
                     },
                     {
                       :name => 'Robustness Evaluation',
                       :permalink => 'robustness_evaluation',
-                      :content => 'p. Life Cycle Funds are created prior to Financial Close and are a reflection of an initially lower level of asset and business knowledge. <span class="apm">apm</span> has supported a number of PFI and PPP deals ensure adequate robustness of the Life Cycle Fund based on an initial weak level of knowledge during the tender phase.
+                      :content => 'p. Life Cycle Funds are created prior to Financial Close and are a reflection of an initially lower level of asset and business knowledge. <span class="apm">apm</span> has supported a number of <a href="../industries/private-finance-initiative">Private Finance Initiative</a> and <a href="../industries/public-private-partnership">Public Private Partnership</a> deals ensure adequate robustness of the Life Cycle Fund based on the initial weak level of knowledge during the tender phase.
 
-p. Once a project has been won and work begins, the winning business is faced with increased knowledge of the work ahead.  They gain a greater understanding of the business, and begin to realise the true reality of the years to come.  It is at these points in time, and potentially at prescribed contractual times that a re-review and re-evaluation of the Life Cycle fund is also required.
+p. Once a project has been won and work begins, the winning business is faced with a better understanding of the work ahead.  They gain a greater understanding of the business, and begin to realise the true reality of the years to come.  It is at these points in time, and potentially at prescribed contractual times that a re-review and re-evaluation of the Life Cycle Fund is required.
   
 h1. Powerfully Built Funds
   
-p. It has been at times when re-evaluation takes place that <span class="apm">apm</span> has been able support its clients in re-negotiating contracts, optimising intevention plans and generating more value for money. With greater knowledge, we have been able to identify potential risk reduction scenarios and opportunities, leading to a better use of funds.'
+p. It has been at re-evaluation times that <span class="apm">apm</span> has been able support its clients in re-negotiating contracts, optimising intevention plans and generating more value for money. With greater knowledge, we have been able to identify potential risk reduction scenarios and opportunities, leading to a better use of funds.'
                     },
                     {
                       :name => 'Fund Benchmarking',
                       :permalink => 'fund_benchmarking',
                       :content => 'h1. Continual Improvement
 
-p. Benchmarking is an important process for measuring success and value for money of a PFI or PPP project. However, benchmarking a project at a high level with other comparable projects is currently difficult to achieve due to the relatively short and shallow history of private infrastructure funds. Benchmarking at a lower level: of asset costs and asset performance is more redily feasible and has been a focus of <span class="apm">apm</span>.
+p. Benchmarking is an important process for measuring success and value for money of a <a href="../industries/private-finance-initiative">Private Finance Initiative</a> or <a href="../industries/public-private-partnership">Public Private Partnership</a> project. However, benchmarking a project at a high level with other comparable projects is currently difficult to achieve due to the relatively short and shallow history of private infrastructure funds. Benchmarking at a lower level, of asset costs and asset performance, is more redily feasible and has been a focus of <span class="apm">apm</span>.
                     
 p. We have been supporting our clients since 1999 in a process of continual benchmarking and improvement of Asset Performance and reduction of Asset Costs, leading to increased earnings via performance-penalty schemes and reduced costs via improved combined maintenance and capital works planning.'
                     },
                     {
                       :name => 'Operations Impact Strategy',
                       :permalink => 'operations_impact_strategy',
-                      :content => 'p. The scope of Capital Works tends to be prescribed in nature. In the case of Rail projects, capital works may relate to the upgrade of a station or the extension of the line. Relative to Maintenance Operations, costs are easier to determine.
+                      :content => 'p. The scope of Capital Works tend to be prescribed by the client. In the case of Rail projects, capital works may relate to the upgrade of a station or the extension of the line.
 
-p. Maintenance Operations are also planned to a large degree in the form of Planned Maintenance and an expected amount of Reactive Maintenance activities.  However, Operations requires some degree of flexibility due to uncertain future unseen faults.
+p. Maintenance Operations are also planned to a large degree in the form of Planned Maintenance and an expected amount of Reactive Maintenance activities.  Minimum maintenance requirements tend to be also prescribed by the client; however, it is likely that additional maintenance is required: Operations requires some degree of flexibility due to uncertain future unseen faults.  As such costing is more difficult to determine at early stages.
 
 h1. Flexible and Responsive
 
-p. Defining an Operations Strategy therefore must at least consider the risks associated with unknown incidents, as well as what is Planned Maintenance.  In addition however, if Capital Works are carried out at times different to originally planned, Maintenance must respond to such changes.
+p. Defining an Operations Strategy therefore must at least consider the risks associated with unknown incidents, as well as Planned Maintenance.  In addition however, if Capital Works are carried out at times different to originally planned, Maintenance must respond to such changes.
 
-p. As such, <span class="apm">apm</span> has tended to support the Operations directorates of an organisation, aswell as businesses at a strategic level.  For example, we have supported Maintenance Operations to reassess the impact of Capital Works projects, in terms of both reprogramming and changes to scope, and relate this back to the available Funds, with a helping support a transfer of funds between directorates or even the release of risk funds.'
+p. As such, <span class="apm">apm</span> has tended to support the Operations Directorates of an organisation, aswell as businesses at a strategic level.  For example, we have supported Maintenance Operations to reassess the impact of Capital Works projects, in terms of both reprogramming and changes to scope.  Relating this back to the available Funds, we have been able to support the transfer of funds between directorates or even the release of risk funds.'
                     },
                     {
                       :name => 'Hand-back Requirements Planning',
                       :permalink => 'handback_requirements_planning',
-                      :content => 'p. When a Life Cycle Fund is initially fixed at the beginning of a project, it is based on a plan of works over the entire contract period.  Handback forms part of the project plan and thus costs associated with acheiving Handback Requirements are built into the Fund.  The question is, as the project progresses and changes take place, as they inevitably will, can the Requirements still be met, and at what cost?
+                      :content => 'p. When a Life Cycle Fund is initially fixed at the beginning of a project, it is based on a plan of works over the entire contract period.  Handback forms part of the project plan and thus costs associated with acheiving Handback Requirements are built into the Fund.  The question is, as the project progresses and changes take place as they inevitably will, can the Requirements still be met, and at what cost?
                       
 h1. Maximise Return on Return
 
-p. Providing Value for Money to the client (including the client\'s cusomters), while maximising Return on Investment, is an appropriate objective of any business going into a PFI or PPP contract. Meeting Handback Requirements is a matter of motivation via the contract.
+p. Providing Value for Money to the client (including the client\'s customers), while maximising Return on Investment, is an appropriate objective of any business going into a <a href="../industries/private-finance-initiative">Private Finance Initiative</a> or <a href="../industries/public-private-partnership">Public Private Partnership</a> contract. Meeting Handback Requirements is a matter of motivation via the contract.
 
 p. <span class="apm">apm</span> combines Asset Condition or Asset Performance Handback targets and their associated penalties with other ongoing Performance requirements to support its clients in deciding upon the correct level of Capital Works and Maintenance, especially during the final years of the contract.  We use our Asset and Performance models to optimise the final works to ensure contractual obligations are met while ensuring Return on Investment is maximised.'
                     },
                     {
                       :name => 'PFI Expertise',
                       :permalink => 'pfi_expertise',
-                      :content => ''
+                      :content => 'p. Since our inception, <span class="apm">apm</span> has been involved in some of the largest <a href="../industries/private-finance-initiative">Private Finance Initiative</a> and <a href="../industries/public-private-partnership">Public Private Partnership</a> projects, in both the <a href="../industries/rail">Rail</a> and <a href="../industries/highways">Highways</a> industries.
+                      
+h1. Real Roads and Rail Experience
+                      
+p. Our rail and highways experience has been varied and multi-level, including:
+
+(bulleted_list)* Dutch High Speed Rail Link Private Finance Initiative: Commercial Support, Interim Management, Risk Management, Performance Modelling, Contract Management and Client / Government Negotiations
+* Tube Lines Public Private Partnership Tender: Asset Management, Performance and Condition Modelling, Business Planning, IT Strategy, Business Decision Support, Business Process Development, Financial Director
+* Tube Lines Ltd: Investment Planning, Annual Asset Management Planning, IT Strategy Development
+* Network Rail: Finance Director, Maintenance Director, Commercial Management
+* M25 DBFO Shadow Running: Lane Availability modelling, Risk Management
+* M25 DBFO Tender Robustness Review: Risk Management, Commercial Management, Interim Lead Management, Financial Robustness Review, Performance Penalty Normalisation
+
+p. We have supported our Private Finance Initiative (and Public Private Partnership) clients through the application of a broad range of activities, including:
+
+(bulleted_list)* <a href="../services/payment-mechanism-modelling-benchmarking">Payment Mechanism Modelling & Benchmarking</a>
+* <a href="../services/contract-review">Contract Review</a>
+* <a href="../services/capital-works-benchmarking">Capital Works Benchmarking</a>
+* Optimised Maintenance Operations and Capital Works planning
+* <a href="../services/risk-reduction">Risk Reduction</a>
+* <a href="../services/correlated-risk-models">Risk Register Correlation</a> modelling'
                     },
                     {
                       :name => 'Payment Mechanism Modelling & Benchmarking',
@@ -699,87 +794,113 @@ The data used to calculate the performance or condition also may or may not be r
                       
 h1. Expert Exposure
 
-p. At <span class="apm">apm</span>, we have been exposed to various types of performance- and condition-based payment mechamisms on both <a href="/industries/rail">Rail</a> and <a href="/industries/highways">Highways</a> <a href="/industries/public-private-partnership">PPP</a> and <a href="/industries/private-finance-initiative">PFI</a> projects.
+p. At <span class="apm">apm</span>, we have been exposed to various types of performance- and condition-based payment mechamisms on both <a href="/industries/rail">Rail</a> and <a href="/industries/highways">Highways</a> <a href="/industries/public-private-partnership">Public Private Partnership</a> and <a href="/industries/private-finance-initiative">Private Finance Initiative</a> projects.
 
 p. As part of the Tube Lines tender and operational stages, we developed a condition- and performance-based software system to model 5 performance-penalty mechamisms feeding into a single Payment Mechamism. The model was used to many activities, including the following:
 
 (bulleted_list)* Model Condition and Performance over a 30 years period
 * Calculate the cost of risk due to data uncertainty
-* Support the agreement on acceptible condition and performance benchmarks, which formed the Payment Mechanism part of the PPP contract
+* Support the agreement on acceptible condition and performance benchmarks, which formed the Payment Mechanism part of the Public Private Partnership contract
 * Provide input to the tender cost
 * Re-assess Condition and Performance Benchmarks on a yearly basis
-* Assess the impact of new data as it becomes available on a monthly basis
+* Assess the impact of new data as it became available on a monthly basis
 * Assess the impact of upgrades to infrastructure or services operation, e.g. increasing train services at peak times, or adding additional carriages to trains
 * Calculate the revenues lost via infrastructure closes, e.g. closure of parts of the Piccadilly line during the Heathrow Terminal 5 works'
                     },
                     {
                       :name => 'Contract Review',
                       :permalink => 'contract_review',
-                      :content => 'p. <span class="apm">apm</span> has supported <a href="/industries/private-finance-initiative">PFI</a> clients contractual relationships and requirements from a number of angles, such as between:
+                      :content => 'p. <span class="apm">apm</span> has supported <a href="/industries/private-finance-initiative">Private Finance Initiative</a> clients contractual relationships and requirements from a number of angles, such as between:
 
-(bulleted_list)* the PFI organisation and the government body
-* the PFI organisation and its subcontractors
+(bulleted_list)* the Private Finance Initiative organisation and the government body
+* the Private Finance Initiative organisation and its subcontractors
 
 h1. Contract Performance Success
 
-p. During a tender process, we have ensured that the PFI tendering organisation is fully aware of the commercial, financial and performance-based risks surrounding the contract, and how to manage and minimise such risks and their associated costs.
+p. During a tender process, we have ensured that the <a href="/industries/private-finance-initiative">Private Finance Initiative</a> tendering organisation is fully aware of the commercial, financial and performance-based risks surrounding the contract, and how to manage and minimise such risks and their associated costs.
 
-p. During a PFI operational phase, as the reality of the contract has more immediate effect on the business, <span class="apm">apm</span> continues to support the PFI client in minimising risks, but understanding how actual performance of the assets is impacting on the business via the contract. For example, as major capital works and maintenance operations take place, we help the PFI organisation to realise the impact of such works, and how they affect revenue to the business today and into the future.
+p. During a <a href="/industries/private-finance-initiative">Private Finance Initiative</a> operational phase, as the reality of the contract has more immediate effect on the business, <span class="apm">apm</span> continues to support the <a href="/industries/private-finance-initiative">Private Finance Initiative</a> client in minimising risks, but understanding how actual performance of the assets is impacting on the business via the contract. For example, as major capital works and maintenance operations take place, we help the <a href="/industries/private-finance-initiative">Private Finance Initiative</a> organisation to realise the impact of such works, and how they affect revenue to the business today and into the future.
 
 p. Using our combined contracts knowledge and asset modelling techniques, we are able to support our analysis both qualitatively and quantitatively.'
                     },
                     {
                       :name => 'Bid Strategy Review',
                       :permalink => 'bid_strategy_review',
-                      :content => 'h1. Stategically Positioned
+                      :content => 'p. <span class="apm">apm</span> has not only been part of a number of major <a href="/industries/public-private-partnership">Public Private Partnership</a> and <a href="/industries/private-finance-initiative">Private Finance Initiative</a> bids, but has had interim roles at board and lead levels allowing us to positively influence the direction of the bid strategy.
+                      
+h1. Stategically Positioned
 
-p. <span class="apm">apm</span> has not only been part of a number of major PPP and PFI bids, but has had interim roles at board and lead levels allowing us to positively influence the direction of the bid strategy.
+p. As part of the Network Rail buy-out by the government and the Tube Lines Public Private Partnership bid, <span class="apm">apm</span> operated at board level, in Maintenance and Financial Director posisions, as well as directly supporting Business Planning and Maintenance Operations directorates at lead and middle management levels.
 
-p. As part of the Network Rail buy-out by the government and the Tube Lines PPP bid, <span class="apm">apm</span> operated at board level, in Maintenance and Financial Director posisions, as well as directly supporting Business Planning and Maintenance Operations directorates at lead and middle management levels.
+p. During the M25 DBFO (Design Build Finance Operate) Private Finance Initiative project, <span class="apm">apm</span> supported the Highways Agency and the Hyder-Halcrow Joint Venture in correctly setting, managing and reviewing the tender process.
 
-p. During the M25 DBFO (Design Build Finance Operate) PFI project, <span class="apm">apm</span> supported the Highways Agency and the Hyder-Halcrow Joint Venture in correctly setting, managing and reviewing the tender process.
-
-p. In all our roles, <span class="apm">apm</span> has provided continous influence on developing appropriate Bid Strategies, for government bodies and PFI organisations.'
+p. In all our roles, <span class="apm">apm</span> has provided continous influence on developing appropriate Bid Strategies, for government bodies and Private Finance Initiative organisations.'
                     },
                     {
                       :name => 'Capital Works Benchmarking',
                       :permalink => 'capital_works_benchmarking',
-                      :content => 'p. Capital Works have a huge influence over the performance of assets over the long-term.  Each time major works take place to upgrade or modernise existing assets, there will be a definate and obvious affect on the life of those assets.  However, delay to the inception and completion of such works has a major effect on Maintenance Operations.  Late projects can lead to assets requiring additional maintenance to extend their lives and to reduce potential increased increased failures or extra reduced asset conditions.  Extra maintenance will tend to require additional budgetary support.
+                      :content => 'p. Capital Works have a huge influence over the performance of assets over the long-term.  Each time major works take place to upgrade or modernise existing assets, there will be a definate and obvious affect on the life of those assets.
+                      
+p. However, delay to the inception and completion of such works has a major effect on Maintenance Operations.  Late projects can lead to assets requiring additional maintenance to extend their lives and to reduce potential increased failures or extra reduced asset conditions.  Extra maintenance will tend to require additional budgetary support.
                       
 h1. Optimising Plans
 
 p. At the tender stage, <span class="apm">apm</span> has supported clients in initially benchmarking both Captial Works and Maintenance Operations in terms of their impact of their plans on: (1) Asset Condition and Performance, (2) Handback Capability, (3) Performance-Penalty Payments, and (4) associated Risks.
 
-p. Once a project begins, we have been able to update the impact of actual works that have taken place with a view to comparing it with the initial benchmark, and support the replanning of future works to ensure the requirements or targets of (1) to (4) are still met.  Where they can\'t be met or where budget changes are required, we have supported the relevant directorates or JV companies in obtaining the appropriate budgetary changes.'
+p. Once a project begins, we have been able to update the impact of actual works that have taken place with a view to comparing it with the initial benchmark, and support the re-planning of future works to ensure the requirements or targets of (1) to (4) are still met.  Where they can\'t be met or where budget changes are required, we have supported the relevant directorates or JV companies in obtaining the appropriate budgetary changes.'
                     },
                     {
                       :name => 'Risk Reduction',
                       :permalink => 'risk_reduction',
-                      :content => ''
-                    },
-                    {
-                      :name => 'Bid Resource Support',
-                      :permalink => 'bid_resource_support',
-                      :content => ''
+                      :content => 'p. A Risk Reduction strategy must be initially based on not only identifying risks and quantifying them, but to also realise two other important factors:
+                      
+(bulleted_list)* Uncertainty in the risk quantification, and
+* Correlation between all risks
+
+A great deal of Private Finance Initiative Risk Registers contain potential issues that are inadequately understood, and thus are not managed correctly.  In addition, the overall monies appearing in Risk Registers may initially appear to be, on some occasions, huge and can lead to projects appearing to have low value for money.
+
+h1. Positive Opportunities
+
+p. <span class="apm">apm</span>\'s approach to Risk Reduction has always been to ensure we not only better understand each major risk, but ensures risks are adequately correlated to others.  This has been gained via experience from a number of high value Private Finance Initiative projects; however, the overall approach ensures that costs associated with risks and their uncertainties are initially minimised via risk correlation, prior to pursuing other Risk Reduction activities, such as Risk Transfer and other Mitigation methods.
+  
+p. As well as Risk Reduction, <span class="apm">apm</span> has always used this process to also drive out potential opportunities: we have focused on reducing existing risk and adding further value through observing other commercial, financial, or technical opportunities through the Risk Register.'
                     },
                     {
                       :name => 'Risk Services',
                       :permalink => 'risk_services',
                       :content => 'p. Our Enterprise Risk Services are more than just about balancing risk and reward, they go beyond regulatory compliance, they focus on embedding risk services into everyday processes at all levels of an organization in order to truly drive business evolution.
+                      
+h1. Risks Minimised and Opportunities Found
 
-p. <span class="apm">apm</span>&#39;s approach entails planning, organising, and leading the activities of our clients&#39; businesses in order to minimise the effects of risk. We expand this to include not only risks associated with accidental losses, but also to include financial, strategic, operational, capital and other risks.
+p. <span class="apm">apm</span>\'s approach entails planning, organising, and leading the activities of our clients\' businesses in order to minimise the effects of risk. We expand this to include not only risks associated with accidental losses, but also to include financial, strategic, operational, capital and other risks.
 
 p. With extensive experience in providing risk services, we are able to meet the needs of our clients and their businesses.'
                     },
                     {
                       :name => 'Risk Modelling & Benchmarking',
                       :permalink => 'risk_modelling_benchmarking',
-                      :content => ''
+                      :content => 'p. Risk Modelling is a core capability of <span class="apm">apm</span>.  We have been developing risk-based models since 1999 to assess asset failure, condition and performance and their impacts on organisations via contractual performance-penalty regimes.
+
+p. When involved in a Private Finance Initiative or Public Private Partnership tender process, we have supported clients in determining the correct performance benchmarks, based upon the potential risks of operating the entire infrastructure base over the full term of a contract, even up to 30 years in duration.
+
+h1. Benchmarking Supports Uncertainty
+
+p. On occasion, <span class="apm">apm</span> has demonstrated that average performance has been financially acceptable against performance benchmarks.  However, once uncertaintly of assset failure, condition and performance is considered, benchmarks have to be adjusted to account for additional potential financial risk or an appropriate risk fund must be set-aside in case such risks are realised.
+
+p. As projects move from the tender to the operational phase, <span class="apm">apm</span> has continued to support its clients by re-modelling risks to account for additional asset data (as it comes available) and also to measure the impact of both Maintenance Operations and Major Capital Works projects.'
                     },
                     {
                       :name => 'Correlated Risk Models',
                       :permalink => 'correlated_risk_models',
-                      :content => ''
+                      :content => 'p. As Risk Registers grow, so do the amounts of money required to manage all of the risk if they become realised.  However, not all items in the register may happen independently of others.
+
+h1. Optimised Risk Funds
+
+p. An example of a correlated risk could be the effect of weather and infrastructure / operational issues: transportation systems, both rail and highways suffer from such hazards.  Freezing weather could not only lead to ice on roads or freezing rail points, but correlated with bad driving or failure of points heaters can lead to accidents and loss of service.
+
+p. <span class="apm">apm</span> has supported the development and Monte Carlo simulation of correlated Risk Registers with a view to ensuring that correlations are rightly considered and that the degree of correlation is realistic.
+
+p. We ensure that the monies set-aside in the client\'s risk fund are optimised as far as is practicable, and in doing so provide a clear, more realistic view of risk to the client and the contracting Public body.'
                     },
                     {
                       :name => 'Enterprise Risk Management',
@@ -788,20 +909,15 @@ p. With extensive experience in providing risk services, we are able to meet the
 
 p. The fundamental tasks of Risk Management are to limit adverse exposure to risk and exploit risk opportunities to acceptable levels.
 
-p. As a provider of Enterprise Risk Management, <span class="apm">apm</span> offers its client&#39;s the ability to manage risks across different business functions and risk types, within an integrated framework.
+p. As a provider of Enterprise Risk Management, <span class="apm">apm</span> offers its client\'s the ability to manage risks across different business functions and risk types, within an integrated framework.
 
 p. Many high-risk and asset-intensive organisations are facing high levels of complexity, changing geopolitical threats, new regulations and legislation, and increasing shareholder demands. To address these challenges, many organisation are embracing Risk Management in the planning, assessment and monitoring of all risks associated with their buisnesses.
 
-p. <span class="apm">apm</span>&#39;s comprehensive risk management functionality provides its clients with the ablity to assess strategic risks and objectives across the entire business, link strategic objectives with enterprise risks, minimize loss, and enhance the decision-making process.
+p. <span class="apm">apm</span>\'s comprehensive risk management functionality provides its clients with the ablity to assess strategic risks and objectives across the entire business, link strategic objectives with enterprise risks, minimize loss, and enhance the decision-making process.
 
 p. We offer a consistent and sustainable framework for identifying and managing risks resulting from threats from, for example, processes, technology, people, or external events.
 
 p. We offer an approach that focuses on providing a clearer understanding of management information and delivering a better understanding of the trade-offs between risk and reward.'
-                    },
-                    {
-                      :name => 'Asset Strategy Impact Assessment',
-                      :permalink => 'asset_strategy_impact_assessment',
-                      :content => ''
                     },
                     {
                       :name => 'RAMS Modelling',
@@ -904,12 +1020,45 @@ h2. Standards:
                     {
                       :name => 'Business Decision Support',
                       :permalink => 'business_decision_support',
-                      :content => ''
+                      :content => '<span class="apm">apm</span> has been supporting clients to make better informed business decisions since 1999, through the continued development of business intelligence and decision support tools, processes and approaches.
+
+h1. Quantified and Qualified Business Decisions
+
+p. Private Finance Initiative and Public Private Partnership projects consistantly provide a means for enabling the quantification of decisions: <strong>Contractual Performance-Penalty regimes</strong>. Utilising such specific contractual requirements, it is possible to link all activities to costs and revenues.
+
+p. For example, activities may include:
+
+(bulleted_list)* Planned Upgrades and Modernisations
+* Other Capital Works (additional requirements)
+* Planned Maintenance Tasks
+* Reactive Maintenance Tasks
+* Infrastructure Changes or Extensions
+* Increased Traffic or Passenger flows
+
+p. In doing so, our approach provides a means to determine other financial calculations such as (Net) Present Value, Internal Rate of Return (IRR) and Cost Benefit Analysis to support business cases and budgetary requirements, and to compare different options and solutions.  Our range of skills includes:
+
+(bulleted_list)* <a href="../services/business-planning-optimisation">Business Planning & Optimisation</a>
+* <a href="../services/investment-decision-analysis">Investment Decision Analysis</a>
+* <a href="../services/business-case-validation-support">Business Case Validation & Support</a>
+* Cost Modelling
+* <a href="../services/asset-management-planning">Asset Management Planning</a>
+* <a href="../services/optioneering-solutions-optimisation">Optioneering & Solutions Optimisation</a>'
                     },
                     {
                       :name => 'Business Planning & Optimisation',
                       :permalink => 'business_planning_optimisation',
-                      :content => ''
+                      :content => 'p. Optimising Maintenance Operations and Capital Works\' plans is a core capability of <span class="apm">apm</span>.  At both tender and operational phases, we have supported client\'s to:
+                      
+(bulleted_list)* Plan the timing of Capitals Works activities accounting for specific scopes
+* Expertly optimise Planned Maintenance activities to ensure performance targets are met
+* Ensure contractual Handback requirements are planned to be met
+* Optimise a combined Capital Works and Maintenance Operations plan
+
+h1. Continual Optimisation
+
+p. During the operational phase, works that actually take place may not fully align with original plans, leading to a knock-on effect to other works and operations, as well as impacting on originally expected and planned-for revenues.
+
+p. <span class="apm">apm</span> has supported its clients to assess such impacts with a view to re-baselining and re-optimising plans, assisting in the generation of new business cases, and developing a strategy of bringing the company back into line with its original plans or defining a new overall optimised plan.'
                     },
                     {
                       :name => 'Investment Decision Analysis',
@@ -934,17 +1083,49 @@ p. Using this approach <span class="apm">apm</span> is able to offer its clients
                     {
                       :name => 'Business Case Validation & Support',
                       :permalink => 'business_case_validation_support',
-                      :content => ''
+                      :content => 'p. Business Cases can come about from many reasons, including:
+
+(bulleted_list)* Driven out on a yearly basis, as a result of the Annual Asset Management Plan (AAMP)
+* A sudden requirement due to incidents or failing assets requiring immediate attention
+* A specific asset type that is having a critical affect on the systemn
+* An operational change requiring major infrastructure changes
+* A result of legislative or policy changes
+
+h1. Strategic to Asset Specific Support
+
+p. <span class="apm">apm</span> not only models the assets of entire infrastructures, and in doing so assists clients in identifying critical assets and locations, but has modelled and helped to generate Business Cases for specific individual assets.
+
+p. Since our modelling is linked directly to the cost of assets, the cost of interventions of those assets and the revenue gained from those assets (as generated through contractual performance-penalty regimes), we are able to calculate the required business and financial information needed to support any business case, including refining and optimising cases as required.'
                     },
                     {
                       :name => 'Asset Management Planning',
                       :permalink => 'asset_management_planning',
-                      :content => ''
+                      :content => 'p. Asset Management Plans may be strategic in nature, but are the defacto plans for managing all assets on a yearly basis, as well as potentially providing higher level planning over the mid- and long-term, and up to the full life-cycle of the contract. They are based upon a current level of asset, infrastructure, operations and resource knowledge, linked to budgetary and risk funds.
+
+h1. Service Delivered
+
+p. Asset Condition and Performance have a major role in the development of the plan.  The plan must contain, as a minimum, the current understanding of how assets are performing.  This information acts as the baseline for why the document sets out a plan of maintaining or improving service inline with current contractual requirements and any additional projects that may have been introduced by the contracting Public body.
+
+p. <span class="apm">apm</span> ensures that the historical asset peformance data is understood in order to explain current performance.  In addition, we assess, model and review current plans to provide future performance predictions, which form part of the revenue projections of the plan.  Future performance in itself will become a baseline for the next year iteration of the plan, against which actual performance can be compared.  Variations between predicted and actual performance can then be reviewed against planned and actual works, with a review to refining plans for future years.'
                     },
                     {
                       :name => 'Optioneering & Solutions Optimisation',
                       :permalink => 'optioneering_solutions_optimisation',
-                      :content => ''
+                      :content => 'p. Being an engineering activity, optioneering tends to be focused on technical, operational and financial requirements.  Risk has also had some input, but has tended to be considered a method of identifying minor design changes.  However, in recent years, it has become increasing more common to select a design option based on its <a href="../services/whole-life-costing">Whole Life Costs</a>.
+
+h1. Life-Cycle Costs Drive Asset Selection
+
+p. <span class="apm">apm</span> has been fortunate enough to have been involved in developing Life Cycle models, in various forms, since its incorporation.  Most commonly, such models have predicted costs and revenue of assets over 1, 7 and even 30 years.  They have been used to decide upon the correct overall asset strategy to be taken.
+
+p. More recently, we applied our modelling capability to specifically assess more than 40 different locations of the Crossrail route accross London, each location having up to 3 different design options, containing various asset types, new and existing assets.  <span class="apm">apm</span> modelled every design option, providing whole life costs for each.  Results formed part of the Options Selection process, from which a single option was taken forward to the next detailed design iteration.
+
+p. It was clear from the exercise that <a href="../services/whole-life-costing">Whole Life Costs</a> proved to be a major driver in the final selection decision.  This was primarily due to the full spectrum of costs and revenues that can be considered by such models, including:
+
+(bulleted_list)* Initial asset costs (design and build)
+* On-going capital costs as a result of upgrades or modernisations
+* Planned maintenance costs
+* Reactive maintenance costs
+* Revenue earned via performance-penalties costs'
                     },
                     {
                       :name => 'Cost Modelling',
@@ -997,17 +1178,7 @@ p. We have successfully supported organisations during, pre-qualification, tende
 
 p. On a number of occasions we have been actively involved at board level in the application of our Financial and Asset Management services, and have supported both Business Planning and Maintenance Operations directorates at an Operational Advisory level.
 
-p. <span class="apm">apm</span> has also been involved in some of the largest <a href="../industries/private-finance-initiative">Private Finance Initiative</a> and <a href="../industries/public-private-partnership">Public Private Partnership</a> rail project deals since 2000, in both the UK and the Netherlands..
-
-p. For more information about our Rail capability, see our pages relating to this content:
-
-(bulleted_list)* <a href="../services/asset-management">Asset Management</a>, including <a href="../services/performance-modelling">Performance Modelling</a>, <a href="../services/whole-life-approach">Whole Life Approach</a> and <a href="../services/investment-decision-analysis">Investment Decision Support</a>
-* <a href="../services/risk-services">Risk Services</a> including, <a href="../services/risk-management">Risk Management</a>, <a href="../services/rams-modelling">RAMS Modelling</a> and <a href="../services/systems-safety-assurance">Systems Assurance</a>
-* <a href="../services/commercial-management">Commercial Management</a> (as part of our <a href="../services/value-management">Value Management</a> service)
-* <a href="../services/project-services">Project Services</a>, including <a href="../services/tender-review-evaluation">Tender Review and Evaluation</a>
-* <a href="../services/financial-services">Financial Services</a>, including <a href="../services/cost-modelling">Cost Modelling</a>
-* <a href="../services/information-technology">Information Technology</a> services, including <a href="../services/strategy-development">IT Strategy</a> development
-* <a href="../industries/private-finance-initiative">Private Finance Initiative</a> and <a href="../industries/public-private-partnership">Public Private Partnership</a> (within <a href="../services/projects">Projects</a>)'
+p. <span class="apm">apm</span> has also been involved in some of the largest <a href="../industries/private-finance-initiative">Private Finance Initiative</a> and <a href="../industries/public-private-partnership">Public Private Partnership</a> rail project deals since 2000, in both the UK and the Netherlands.'
                     },
                     {
                       :name => 'Highways',
@@ -1020,16 +1191,7 @@ p. <span class="apm">apm</span> has supported Highways infrastructure owners inc
 
 p. As part of our role as an independent tender evaluator, we focus on Value for Money, conducting exercises such as: Robustness of Price and Normalisation; Performance-Penalty and -Bonus Projections analysis; Project Accounting IT Systems and Reporting review, and; Risk Management review.
 
-p. We have supported the development of Safe and Reliable Roads in Singapore providing <a href="../services/systems-safety-assurance">Systems Safety Management and Assurance</a> and <a href="../services/rams-modelling">RAMS Modelling</a> works to the Land Transport Authority as part of the development of a new Road and Tunnel.
-
-p. For more information about our Highways capability, see our pages relating to this content:
-
-(bulleted_list)* <a href="../services/asset-management">Asset Management</a>, including <a href="../services/performance-modelling">Performance Modelling</a> and <a href="../services/whole-life-approach">Whole Life Approach</a>
-* <a href="../services/risk-services">Risk Services</a> including, <a href="../services/risk-management">Risk Management</a>, <a href="../services/rams-modelling">RAMS Modelling</a> and <a href="../services/systems-safety-assurance">Systems Assurance</a>
-* <a href="../services/commercial-management">Commercial Management</a> (as part of our <a href="../services/value-management">Value Management</a> service)
-* <a href="../services/project-services">Project Services</a>, including <a href="../services/tender-review-evaluation">Tender Review and Evaluation</a>
-* <a href="../services/financial-services">Financial Services</a>, including <a href="../services/cost-modelling">Cost Modelling</a>
-* <a href="../industries/private-finance-initiative">Private Finance Initiative</a> (within <a href="../industries/projects">Projects</a>)'
+p. We have supported the development of Safe and Reliable Roads in Singapore providing <a href="../services/systems-safety-assurance">Systems Safety Management and Assurance</a> and <a href="../services/rams-modelling">RAMS Modelling</a> works to the Land Transport Authority as part of the development of a new Road and Tunnel.'
                     },
                     {
                       :name => 'Projects',
@@ -1048,35 +1210,26 @@ p. For more information about are Projects capability, see our pages relating to
                     {
                       :name => 'Private Finance Initiative',
                       :permalink => 'pfi',
-                      :content => 'p. The Private Finance Initiative (PFI) industry was developed by the government of the United Kingdom, aimed at delivering publically owned infrastructure by the private sector, including <a href="../industries/highways">Highways</a>, <a href="../industries/rail">Rail</a>, Hospitals, Schools, and even Social Housing.  It has now spread across many European, Asian countries, and the United States and Canada supporting wider programmes of privatisation and deregulation.
+                      :content => 'p. The Private Finance Initiative industry was developed by the government of the United Kingdom, aimed at delivering publically owned infrastructure by the private sector, including <a href="../industries/highways">Highways</a>, <a href="../industries/rail">Rail</a>, Hospitals, Schools, and even Social Housing.  It has now spread across many European, Asian countries, and the United States and Canada supporting wider programmes of privatisation and deregulation.
 
 h1. Internationally Focused Performance
 
-p. Since <span class="apm">apm</span>&#39;s inception, it has been involved in some of the largest PFI projects in the UK and the Netherlands. For example, we provided advice and support to the High Speed Rail industry in the Netherlands to both the Dutch <a href="../industries/government">Government</a> and a private consortia, UK <a href="../industries/government">Government</a> buildings and infrastructure, and a British <a href="../industries/defence">Defence</a> vehicles contract.
+p. Since <span class="apm">apm</span>&#39;s inception, it has been involved in some of the largest Private Finance Initiative projects in the UK and the Netherlands. For example, we provided advice and support to the High Speed Rail industry in the Netherlands to both the Dutch <a href="../industries/government">Government</a> and a private consortia, UK <a href="../industries/government">Government</a> buildings and infrastructure, and a British <a href="../industries/defence">Defence</a> vehicles contract.
 
 p. As part of our work with the Dutch Government, we have been both a guiding and a driving force behind the development and enhancement of performance-based contracts in the <a href="../industries/rail">Rail</a> industry, in which availability targets are high.  Through our <a href="../services/performance-modelling">Performance Modelling</a> approach, we were also able to minimise and relocate maintenance rapid response teams, demonstrating an overall improved <a href="../services/whole-life-approach">Whole Life Cost</a>.
 
-p. More recently, we have provided independent advice to the UK Highways Agency as part of the largest Highways PFI to-date, supporting <a href="../services/risk-management">Risk Management</a>, <a href="../services/tender-review-evaluation">Value for Money</a> and <a href="../services/tender-review-evaluation">Robustness of Price</a> exercises, and ensuring systems and reporting compliance by the preferred bidder.
-
-p. For more information about our PFI capability, see our pages relating to this content:
-
-(bulleted_list)* <a href="../services/asset-management">Asset Management</a>, including <a href="../services/performance-modelling">Performance Modelling</a>, <a href="../services/whole-life-approach">Whole Life Approach</a> and <a href="../services/investment-decision-analysis">Investment Decision Support</a>
-* <a href="../services/risk-services">Risk Services</a> including, <a href="../services/risk-management">Risk Management</a>, <a href="../services/rams-modelling">RAMS Modelling</a> and <a href="../services/systems-safety-assurance">Systems Assurance</a>
-* <a href="../services/commercial-management">Commercial Management</a> (as part of our <a href="../services/value-management">Value Management</a> service)
-* <a href="../services/project-services">Project Services</a>, including <a href="../services/tender-review-evaluation">Tender Review and Evaluation</a> and <a href="../services/project-cost-management">Project Management</a>
-* <a href="../services/financial-services">Financial Services</a>, including <a href="../services/cost-modelling">Cost Modelling</a> and <a href="../services/financial-management">Financial Management</a>
-* <a href="../services/information-technology">Information Technology</a>, including <a href="../services/strategy-development">IT Strategy</a>'
+p. More recently, we have provided independent advice to the UK Highways Agency as part of the largest Highways Private Finance Initiative to-date, supporting <a href="../services/risk-management">Risk Management</a>, <a href="../services/tender-review-evaluation">Value for Money</a> and <a href="../services/tender-review-evaluation">Robustness of Price</a> exercises, and ensuring systems and reporting compliance by the preferred bidder.'
                     },
                     {
                       :name => 'Public Private Partnership',
                       :permalink => 'ppp',
-                      :content => 'p. Public Private Partnerships (PPP) are a means of procuring public services and infrastructure by combining the best of the public and private sectors with an emphasis on value for money and delivering quality public services. This isdone by passing substantial financial, technical and operational risk in the Design, Build, Finance and Operation (DBFO) of a project from the Government or a private business venture to one or more other private companies.
+                      :content => 'p. Public Private Partnerships are a means of procuring public services and infrastructure by combining the best of the public and private sectors with an emphasis on value for money and delivering quality public services. This isdone by passing substantial financial, technical and operational risk in the Design, Build, Finance and Operation (DBFO) of a project from the Government or a private business venture to one or more other private companies.
                       
 h1. Whole Life Partnering
 
 p. One of <span class="apm">apm</span>&#39;s own longest partnerships has been that with Tube Lines Ltd. Providing assistance from initial pre-qualification, through an extended tendering period, and into eventual operation, we have helped both the Business Planning and Operations Directorates on a substantial range of issues including:
 
-* Asset & IT Strategy development
+(bulleted_list)* Asset & IT Strategy development
 * Performance benchmarks & targets development
 * Investment Performance Model (IPM) development & implementation
 * Asset hierarchy development
@@ -1087,21 +1240,12 @@ p. One of <span class="apm">apm</span>&#39;s own longest partnerships has been t
 * Claims development
 * Yearly performance and project delivery review
 
-p. During the bid phase, the chairman of apm also took on the role of Finance Director the Tube Lines bid, ensuring the eventual and successful Financial close.
-
-p. For more information about our PPP capability, see our pages relating to this content:
-
-* Asset Management, including Performance Modelling, Whole Life Approach and Investment Decision Support
-* Risk Services including, Risk Management, RAMS Modelling and Systems Assurance
-* Commercial Management (as part of our Value Management service)
-* Project Services, including Tender Review and Evaluation and Project Management
-* Financial Services, including Cost Modelling and Financial Management
-* Information Technology, including IT Strategy'
+p. During the bid phase, the chairman of apm also took on the role of Finance Director the Tube Lines bid, ensuring the eventual and successful Financial close.'
                     },
                     {
                       :name => 'Defence',
                       :permalink => 'defence',
-                      :content => 'p. In 2008, the Labour leadership remains committed to using <a href="../industries/private-finance-initiative">Private Finance Inititative</a> (PFI), and this is clear by the approach taken by the UK Defence industry. It is seen that together with private investment, public sector investment is delivering improvements to capital assets across the public sector.
+                      :content => 'p. In 2008, the Labour leadership remains committed to using <a href="../industries/private-finance-initiative">Private Finance Inititative</a>, and this is clear by the approach taken by the UK Defence industry. It is seen that together with private investment, public sector investment is delivering improvements to capital assets across the public sector.
 
 h1. Delivery Optimisation
 
@@ -1112,16 +1256,7 @@ p. Primarily, we developed a Cost and Payment Mechanism Model used to optimise t
 (bulleted_list)* Purchase, depreciation and disposal of assets
 * Costing of planned and reactive maintenance including spares and labour
 * Allocation of overheads costs
-* Calculation of vehicle availability and usage charges
-
-p. For more information about our Defence capability, see our pages relating to this content:
-
-(bulleted_list)* <a href="../services/asset-management">Asset Management</a>
-* <a href="../services/risk-services">Risk Services</a>
-* <a href="../services/commercial-management">Commercial Management</a> (as part of our <a href="../services/value-management">Value Management</a> service)
-* <a href="../services/project-cost-management">Project Management</a> (as part of our <a href="../services/project-services">Project  Services</a>)
-* <a href="../services/cost-modelling">Cost Modelling</a> (as part of our <a href="../services/financial-services">Financial Services</a>)
-* <a href="../services/information-technology">Information Technology</a>'
+* Calculation of vehicle availability and usage charges'
                     },
                     {
                       :name => 'Government',
@@ -1130,16 +1265,7 @@ p. For more information about our Defence capability, see our pages relating to 
 
 h1. Public-Private Success
 
-p. PFI and PPPs include Hospitals, Schools, Roads, Street Lighting, Housing, Street and Housing Maintenance, Social Services & Community Facilities, Land Regeneration, IT Services - the list goes on - with <a href="../industries/public-private-partnership">Tube Lines</a> and Metronet being two of the largest PPPs.
-
-p. For more information about our Government capability, see our pages relating to this content:
-
-(bulleted_list)* <a href="../services/asset-management">Asset Management</a>
-* <a href="../services/risk-services">Risk Services</a>
-* <a href="../services/value-management">Value Management</a>
-* <a href="../services/project-cost-management">Project Management</a> (as part of our <a href="../services/project-services">Project Services</a>)
-* <a href="../services/financial-services">Financial Services</a>
-* <a href="../services/information-technology">Information Technology</a>'
+p. Private Finance Initiatives and Public Private Partnerships include Hospitals, Schools, Roads, Street Lighting, Housing, Street and Housing Maintenance, Social Services & Community Facilities, Land Regeneration, IT Services - the list goes on - with <a href="../industries/public-private-partnership">Tube Lines</a> and Metronet being two of the largest <a href="../industries/public-private-partnership">Public Private Partnerships</a>.'
                     },
                     {
                       :name => 'Oil & Gas',
@@ -1159,16 +1285,7 @@ p. Our services have included:
 * Fire and explosion studies
 * CFD analyses
 * HAZOP and HAZID studies
-* Pipeline risk assessment
-
-For more information about our Oil & Gas capability, see our pages relating to this content:
-
-(bulleted_list)* <a href="../services/performance-modelling">Performance Modelling</a> (as part of our <a href="../services/asset-management">Asset Management</a> services)
-* <a href="../services/risk-services">Risk Services</a> including, <a href="../services/risk-management">Risk Management</a>, <a href="../services/rams-modelling">RAMS Modelling</a> and <a href="../services/systems-safety-assurance">Systems Assurance</a>
-* <a href="../services/commercial-management">Commercial Management</a> (as part of our <a href="../services/value-management">Value Management</a> service)
-* <a href="../services/project-cost-management">Project Management</a> (as part of our <a href="../services/project-services">Project Services</a>)
-* <a href="../services/financial-services">Financial Services</a>, including <a href="../services/cost-modelling">Cost Modelling</a> and <a href="../services/financial-management">Financial Management</a>
-* <a href="../services/information-technology">Information Technology</a>'
+* Pipeline risk assessment'
                     },
                     {
                       :name => 'Client List',
@@ -1264,7 +1381,7 @@ leaderships = Leadership.create([
                         :title => 'Operations Director',
                         :email => 'daren.warburton@apm.eu.com',
                         :postion => 2,
-                        :content_1 => 'Daren has more than 15 years experience, 10 as a management and technical advisor, operating at a strategic and management level. He holds a PhD in Risk Management and is considered a versatile partner, who thrives on challenges and who has a talent for proactively identifying and providing manageable and sustainable solutions. Most notably, he has developed and implemented performance- and risk-based Expert Business Intelligence tools as part of a number of tender and post-tender PPP and PFI deals.',
+                        :content_1 => 'Daren has more than 15 years experience, 10 as a management and technical advisor, operating at a strategic and management level. He holds a PhD in Risk Management and is considered a versatile partner, who thrives on challenges and who has a talent for proactively identifying and providing manageable and sustainable solutions. Most notably, he has developed and implemented performance- and risk-based Expert Business Intelligence tools as part of a number of tender and post-tender Public Private Partnership and Private Finance Initiative deals.',
                         :content_2 => 'He has provided support to Tender teams, Business consortia and Government bodies, supporting the development of IT strategies, optimising business and asset plans and implementing Decision Support tools. His most recent projects include the M25 DBFO, Dutch Gelre Rail, Dutch Zuid High Speed Rail and Tube Lines. He has also supported clients in Hong Kong, Singapore and Taiwan implementing Systems Assurance and Safety Management Systems, as part of Rail and Highways projects.'
                       },
                       {
@@ -1272,7 +1389,7 @@ leaderships = Leadership.create([
                       :title => 'Managing Director',
                       :email => 'mark.tovey@apm.eu.com',
                       :postion => 1,
-                      :content_1 => 'Mark Tovey has over 20 years experience in infrastructure related projects, including public and private finance deals. Over recent years Mark has been involved in some of the largest PPP and PFI deals in Europe and has a broad range of skills in this specialised field. Key projects include M25 DBFO (&#163;5bn), M59, Network Rail acquisition of Railtrack (&#163;30bn securitised loan), Dutch High Speed Rail (&#163;16bn), Tube Lines PPP (&#163;7bn).',
+                      :content_1 => 'Mark Tovey has over 20 years experience in infrastructure related projects, including public and private finance deals. Over recent years Mark has been involved in some of the largest Public Private Partnership and Private Finance Initiative deals in Europe and has a broad range of skills in this specialised field. Key projects include M25 DBFO (&#163;5bn), M59, Network Rail acquisition of Railtrack (&#163;30bn securitised loan), Dutch High Speed Rail (&#163;16bn), Tube Lines Public Private Partnership (&#163;7bn).',
                       :content_2 => 'Mark is a well-rounded individual who has the ability to communicate with board members or at an operational level. Mark is an influential leader and has the ability to target key issues whilst developing solutions. He has worked in teams that have negotiated at the highest levels within various Government Departments. Mark&#39;s unique strength is that he has represented major projects from both Client and Contractor perspectives and is therefore able to give a balanced and practical view of risk and performance issues.'
                     }
 

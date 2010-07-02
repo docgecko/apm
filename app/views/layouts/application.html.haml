@@ -23,7 +23,7 @@
 		#main
 			- if controller.controller_name == 'welcome'
 				= yield
-			- elsif [ 'services', 'industries', 'customers', 'company' ].include? action_name
+			- elsif [ 'services', 'training', 'industries', 'customers', 'company' ].include? action_name
 				= render 'shared/content/category'
 			- elsif [ 'legal', 'privacy', 'site_map' ].include? action_name
 				= render 'shared/content/information'
