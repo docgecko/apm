@@ -3,8 +3,36 @@
 	= @course.name
 
 %p
-	%b Content:
-	= RedCloth.new(@course.content).to_html
+	%b Tagline:
+	= @course.tagline
+
+%p
+	%b Summary:
+	= RedCloth.new(@course.summary).to_html
+
+%p
+	%b Duration:
+	= RedCloth.new(@course.duration).to_html
+
+%p
+	%b Objectives:
+	= RedCloth.new(@course.objectives).to_html
+
+%p
+	%b Audience:
+	= RedCloth.new(@course.audience).to_html
+
+%p
+	%b Instructors:
+	= RedCloth.new(@course.instructors).to_html
+
+%p
+	%b Outline:
+	= RedCloth.new(@course.outline).to_html
+
+%p
+	%b Testimonials:
+	= RedCloth.new(@course.testimonials).to_html
 
 = link_to 'Edit', edit_admin_course_path(@course)
 |

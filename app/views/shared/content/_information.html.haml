@@ -4,9 +4,12 @@
 #mainContainer
 	#containerGeneral
 		.container
-			.leftNav
+			#subContentLeft
+			
 			#subContentMiddle
 				#generalContent
-					= RedCloth.new(@page.content).to_html
+					= raw RedCloth.new(@page.content).to_html
+
+			#subContentRight
 
 .clear

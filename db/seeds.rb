@@ -1144,13 +1144,27 @@ p. <span class="apm">apm</span> has developed cost models for a number of multi-
                       :content => ''
                     },
                     {
-                      :name => 'Risk Analysis & Management',
-                      :permalink => 'risk_analysis_management_training',
-                      :content => ''
+                      :name => 'Risk Management & Analysis',
+                      :permalink => 'risk_training',
+                      :content => 'Learn Risk Management and Analysis from people who have been implementing and using it’s methods for more than 10 years on some of the largest Private Finance Initiative (PFI) and Public Private Partnership (PPP) projects in the UK and Europe.
+
+Risk Management and Analysis play important roles in identifying, managing and mitigating risks at Corporate, Business and Project levels.  Planning and managing risks through a Risk Register form the basis of successful risk management.
+
+The courses offered by us are aimed at various levels including risk practitioners, senior executives, students and bid managers.
+
+h2(#courses). Risk Management & Analysis Training courses
+
+Currently, we offer the following main courses, focused around Risk Planning and the creation and effective use of Risk Registers.
+
+(bulleted_list)* "Risk Management Planning":/training/risk_management_planning
+* "Risk Register Modelling":/training/risk_register_modelling
+* "Risk Correlation Modelling":/training/risk_correlation_modelling
+
+However, we also tailor our risk training programmes to meet the needs and expectations of our clients, and are fully capable of teaching on and around the field of Risk Management.'
                     },
                     {
                       :name => 'Availability & Asset Modelling',
-                      :permalink => 'availability_asset_modelling_training',
+                      :permalink => 'availability_training',
                       :content => ''
                     },
                     {
@@ -1399,57 +1413,174 @@ course = Course.create([
                     {
                       :name => 'Rapport',
                       :permalink => 'rapport',
-                      :content => ''
+                      :tagline => '',
+                      :summary => '',
+                      :duration => '',
+                      :objectives => '',
+                      :audience => '',
+                      :instructors => '',
+                      :outline => '',
+                      :testimonials => ''
                     },
                     {
                       :name => 'Strategies for Success',
                       :permalink => 'strategies_success',
-                      :content => ''
+                      :tagline => '',
+                      :summary => '',
+                      :duration => '',
+                      :objectives => '',
+                      :audience => '',
+                      :instructors => '',
+                      :outline => '',
+                      :testimonials => ''
                     },
                     {
                       :name => 'Negotiation',
                       :permalink => 'negotiation',
-                      :content => ''
+                      :tagline => '',
+                      :summary => '',
+                      :duration => '',
+                      :objectives => '',
+                      :audience => '',
+                      :instructors => '',
+                      :outline => '',
+                      :testimonials => ''
                     },
                     {
                       :name => 'Presentations',
                       :permalink => 'presentations',
-                      :content => ''
+                      :tagline => '',
+                      :summary => '',
+                      :duration => '',
+                      :objectives => '',
+                      :audience => '',
+                      :instructors => '',
+                      :outline => '',
+                      :testimonials => ''
                     },
                     {
                       :name => 'Effective Sales',
                       :permalink => 'effective_sales',
-                      :content => ''
+                      :tagline => '',
+                      :summary => '',
+                      :duration => '',
+                      :objectives => '',
+                      :audience => '',
+                      :instructors => '',
+                      :outline => '',
+                      :testimonials => ''
                     },
                     {
-                      :name => 'Risk Analysis',
-                      :permalink => 'risk_analysis',
-                      :content => ''
+                      :name => 'Risk Management Planning',
+                      :permalink => 'risk_management_planning',
+                      :tagline => 'Build, Develop and Maintain an Effective Risk Management Plan and Risk Register',
+                      :summary => 'Risk Management has a crucial role in today’s business environments and Risk Management Plans are the core live document that helps businesses manage their risks, from a Corporate to a Project level.  This course will review the fundamentals of Risk Management, lead into the purpose and development of Risk Management Planning, and provide you with the necessary tools to create a Risk Register - a live document containing all identified risks, including risk quantification and mitigations.
+
+The course draws upon examples from the rail and highways industries, from both Private Finance Initiative (PFI) and Public Private Partnership (PPP) tender processes and operational projects.  However, the methods and tools it employs are equally applicable in any design, maintenance, manufacturing or operations environment.',
+                      :duration => '*Course Duration:* 1 day (9.30am – 5.00pm)
+
+*Participants:* 10-12',
+                      :objectives => 'Upon completion of this course, you will be able to:
+
+(bulleted_list)* Recognise and illustrate the concepts of Risk and Risk Management
+* Generate and manage a Corporate, Business or Project Risk Management Plan
+* Design, incorporate and manage a Risk Register',
+                      :audience => 'p. This course is intended for persons with beginner to intermediate risk management expertise, including:
+
+(bulleted_list)* Senior managers who are responsible for managing risk and/or embedding effective systems of corporate governance
+* Bid Managers and Team Leaders who are responsible for identifying risk, both qualitatively and quantitatively during a bid process
+* Chief executives and heads of departments who require a better understanding of risk management and the role it should play within their organisations
+* Insurance managers, project investors, brokers, safety practitioners, auditors, project managers, accountants, solicitors and consultants who are increasingly finding risk management is forming part of their remit or are expected to have a broad understanding of the subject
+* Individuals taking up a new role in risk management or wishing to enter the profession
+* Practitioners who require a refresher on recent developments in risk management 
+* Non executive directors
+* Students studying or about to embark on studying Practical and Enterprise Risk Management',
+                      :instructors => '',
+                      :outline => '*Risk Management Introduction*
+
+(bulleted_list)* Introduction to risk management
+* Why risk management?
+* Risk management principles
+* Introduction to key risk management planning disciplines
+* The risk management process
+* Attributes of effective risk management
+
+*Risk Management Planning*
+
+(bulleted_list)* Corporate or Business Risk Management Plan (RMP)
+* Example Contents of a Corporate RMP
+* How to tailor an RMP
+* How an RMP links to other Business Plans
+
+*Risk Register*
+
+(bulleted_list)* Purpose and benefits of a Risk Register
+* Content of a Risk Register
+* How and when to create, update and manage
+* Risk Register process, methods and tools for risk identification, assessment, control and mitigation
+* Use a Risk Register to propose, evaluate and justify mitigation
+* Corporate, Business and Project level registers',
+                      :testimonials => ''                      
                     },
                     {
-                      :name => 'Risk Management',
-                      :permalink => 'risk_management',
-                      :content => ''
+                      :name => 'Risk Register Modelling',
+                      :permalink => 'risk_register_modelling',
+                      :tagline => '',
+                      :summary => '',
+                      :duration => '',
+                      :objectives => '',
+                      :audience => '',
+                      :instructors => '',
+                      :outline => '',
+                      :testimonials => ''
                     },
                     {
-                      :name => 'Risk Planning',
-                      :permalink => 'risk_planning',
-                      :content => ''
+                      :name => 'Risk Correlation Modelling',
+                      :permalink => 'risk_correlation_modelling',
+                      :tagline => '',
+                      :summary => '',
+                      :duration => '',
+                      :objectives => '',
+                      :audience => '',
+                      :instructors => '',
+                      :outline => '',
+                      :testimonials => ''
                     },
                     {
                       :name => 'Reliability & Availability Modelling',
                       :permalink => 'reliability_availability_modelling',
-                      :content => ''
+                      :tagline => '',
+                      :summary => '',
+                      :duration => '',
+                      :objectives => '',
+                      :audience => '',
+                      :instructors => '',
+                      :outline => '',
+                      :testimonials => ''
                     },
                     {
                       :name => 'Asset Modelling',
                       :permalink => 'asset_modelling',
-                      :content => ''
+                      :tagline => '',
+                      :summary => '',
+                      :duration => '',
+                      :objectives => '',
+                      :audience => '',
+                      :instructors => '',
+                      :outline => '',
+                      :testimonials => ''
                     },
                     {
                       :name => 'Performance Penalty Modelling',
                       :permalink => 'performance_penalty_modelling',
-                      :content => ''
+                      :tagline => '',
+                      :summary => '',
+                      :duration => '',
+                      :objectives => '',
+                      :audience => '',
+                      :instructors => '',
+                      :outline => '',
+                      :testimonials => ''
                     }
 ])
 

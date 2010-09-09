@@ -3,15 +3,65 @@
 #mainContainer
 	#containerPage
 		#container
-			#leftNav
+			#subContentLeft
 				= yield :left_nav
 
 			#subContentMiddle
-				#bodyHeader
-					
-					%h1= @course.name
+				#courseContent
+					%h1#title= @course.name
+					%h3#tagline= @course.tagline
 
-				#bodyContent
-					= RedCloth.new(@course.content).to_html
+					%h2#summary Course Summary
+					= raw RedCloth.new(@course.summary).to_html
+					
+					#contentNavigation
+						= "Jump to: "
+						- if !@course.duration.blank?
+							&darr;
+							= link_to "Duration", "#duration"
+						- if !@course.objectives.blank?
+							&darr;
+							= link_to "Objectives", "#objectives"
+						- if !@course.audience.blank?
+							&darr;
+							= link_to "Audience", "#audience"
+						- if !@course.instructors.blank?
+							&darr;
+							= link_to "Instructors", "#instructors"
+						- if !@course.outline.blank?
+							&darr;
+							= link_to "Outline", "#outline"
+						- if !@course.testimonials.blank?
+							&darr;
+							= link_to "Testimonials", "#testimonials"
+
+					- if !@course.duration.blank?
+						%h2#duration Duration
+						= raw RedCloth.new(@course.duration).to_html
+
+					- if !@course.objectives.blank?
+						%h2#objectives Objectives
+						= raw RedCloth.new(@course.objectives).to_html
+
+					- if !@course.audience.blank?
+						%h2#audience Audience
+						= raw RedCloth.new(@course.audience).to_html
+
+					- if !@course.instructors.blank?
+						%h2#instructors Instructors
+						= raw RedCloth.new(@course.instructors).to_html
+
+					- if !@course.outline.blank?
+						%h2#outline Outline
+						= raw RedCloth.new(@course.outline).to_html
+
+					- if !@course.testimonials.blank?
+						%h2#testimonials Course Testimonials
+						= raw RedCloth.new(@course.testimonials).to_html
+
+			#subContentRight
+				%h2.onsiteTraining Onsite Training
+				%p
+					= button_to "Request a Quote", onsite_training_index_path
 
 .clear

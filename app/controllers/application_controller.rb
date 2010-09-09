@@ -6,9 +6,6 @@ class ApplicationController < ActionController::Base
   helper_method :current_user_session, :current_user
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
 
-  # Scrub sensitive parameters from your log
-  filter_parameter_logging :password, :password_confirmation
-  
   private
     def current_user_session
       return @current_user_session if defined?(@current_user_session)

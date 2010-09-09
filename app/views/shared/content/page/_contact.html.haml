@@ -3,7 +3,7 @@
 #mainContainer
 	#containerPage
 		#container
-			#leftNav
+			#subContentLeft
 				= yield :left_nav
 
 			#subContentMiddle
@@ -62,7 +62,7 @@
 						%span.blue *
 						) are required.
 				
-					- form_for :contact, :url => contact_path, :html => { :id => "contact_form", :name => "contact_form" } do |f|
+					= form_for :contact, :url => contact_index_path, :html => { :id => "contact_form", :name => "contact_form" } do |f|
 								
 						%table.contactTable{:border => "0"}
 							%tr
@@ -128,9 +128,9 @@
 						%br/
 						%p.consent
 							By submitting your email address, you acknowledge that you have read the
-							= link_to "Privacy Policy", privacy_url
+							= link_to "Privacy Policy", privacy_pages_url
 							and that you agree to our data processing. If you change your mind at any time about wishing to receive the information from us, you can send us a message using the
-							= link_to "Contact Us", contact_url
+							= link_to "Contact Us", contact_index_url
 							form or an
 							%a{ :href => "&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#97;&#112;&#109;&#46;&#101;&#117;&#46;&#99;&#111;&#109;" } email
 							\.
@@ -140,4 +140,6 @@
 				
 					%div{ :style => "color:Red;display:none;" }
 
-				.clear
+				.clear	
+
+.clear

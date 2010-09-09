@@ -1,6 +1,9 @@
 class CoursesController < ApplicationController
   before_filter :shared_category_code, :except => [ :index, :show, :new, :edit, :create, :update, :destroy ]
   
+  def onsite    
+  end
+  
   def rapport
   end
 
@@ -16,13 +19,13 @@ class CoursesController < ApplicationController
   def effective_sales
   end
 
-  def risk_analysis
+  def risk_management_planning
   end
 
-  def risk_management
+  def risk_register_modelling
   end
 
-  def risk_planning
+  def risk_correlation_modelling
   end
 
   def reliability_availability_modelling

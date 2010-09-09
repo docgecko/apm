@@ -3,7 +3,7 @@ class Leadership < ActiveRecord::Base
   
   has_attached_file :avatar, #:styles => { :small => ["85x85>", :jpg] },
                     :storage => :s3,
-                    :s3_credentials => "#{RAILS_ROOT}/config/s3.yml",
+                    :s3_credentials => "#{Rails.root}/config/s3.yml",
                     :url => ":s3_domain_url",
                     :path => "leaderships/:attachment/:id/:style/:basename.:extension"
 end

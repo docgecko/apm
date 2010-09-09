@@ -4,7 +4,14 @@
 	%tr
 		%th Name
 		%th Permalink
-		%th Content
+		%th Tagline
+		%th Summary
+		%th Duration
+		%th Objectives
+		%th Audience
+		%th Instructors
+		%th Outline
+		%th Testimonials
 		%th 
 		%th 
 		%th 
@@ -13,7 +20,14 @@
 		%tr
 			%td= course.name
 			%td= course.permalink
-			%td= course.content
+			%td= course.tagline
+			%td= course.summary
+			%td= course.duration
+			%td= course.objectives
+			%td= course.audience
+			%td= course.instructors
+			%td= course.outline
+			%td= course.testimonials
 			%td= link_to 'Show', admin_course_path(course)
 			%td= link_to 'Edit', edit_admin_course_path(course)
 			%td= link_to 'Destroy', [:admin, course], :confirm => 'Are you sure?', :method => :delete

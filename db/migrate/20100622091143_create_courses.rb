@@ -1,9 +1,8 @@
 class CreateCourses < ActiveRecord::Migration
   def self.up
     create_table :courses do |t|
-      t.string  :name
-      t.string  :permalink
-      t.text    :content
+      t.string  :name, :permalink
+      t.text    :tagline, :summary, :duration, :objectives, :audience, :instructors, :outline, :testimonials
 
       t.timestamps
     end

@@ -12,7 +12,7 @@
 			#catContentLeft
 			#catContentMiddle
 				#bodyContentMiddle
-					= RedCloth.new(@page.content).to_html
+					= raw RedCloth.new(@page.content).to_html
 		
 			#catContentRight
 

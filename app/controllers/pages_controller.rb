@@ -197,7 +197,7 @@ class PagesController < ApplicationController
 	def executive_training	 
 	end
 	
-	def risk_training	 
+	def risk_training
 	end
 	
 	def availability_training	 

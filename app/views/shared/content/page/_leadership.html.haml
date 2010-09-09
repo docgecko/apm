@@ -3,7 +3,7 @@
 #mainContainer
 	#containerPage
 		#container
-			#leftNav
+			#subContentLeft
 				= yield :left_nav
 
 			#subContentMiddle
@@ -27,12 +27,12 @@
 
 									.bio
 										%br/
-										= RedCloth.new(leadership.content_1).to_html
+										= raw RedCloth.new(leadership.content_1).to_html
 
 									.leadershipContentPanel
 										%div{ :class => "bio showhide" }
 											%br/
-											= RedCloth.new(leadership.content_2).to_html
+											= raw RedCloth.new(leadership.content_2).to_html
 									%br/
 									%br/
 

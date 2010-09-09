@@ -94,6 +94,23 @@ body, div, p, td, th, span, a {
   left: 25px;
   text-decoration: none; }
 
+/* Contact */
+#contact {
+  position: absolute;
+  top: 5px;
+  left: 480px;
+  text-decoration: none;
+  font-size: 11px;
+  z-index: 10;
+  font-weight: bold;
+  color: #F0F0F0; }
+  #contact a {
+    font-weight: normal;
+    color: #F0F0F0;
+    text-decoration: underline; }
+    #contact a:hover {
+      text-decoration: none; }
+
 /* TOP NAV STYLING */
 #topNav {
   position: absolute;
@@ -118,9 +135,9 @@ body, div, p, td, th, span, a {
   float: left; }
 
 #navBarMenu {
-  height: 21px;
+  height: 20px;
   background-color: #F0F0F0;
-  padding: 4px 0 0;
+  padding: 5px 0 0;
   margin: 0; }
 
 #navBarLeft {
@@ -246,11 +263,12 @@ body, div, p, td, th, span, a {
   margin-bottom: 0; }
 
 /* LEFT NAV */
-#leftNav {
+#subContentLeft {
   padding: 10px 0 0 20px;
-  margin: 6px 6px 10px 0;
+  margin: 5px 10px 10px 0;
   background-color: #ffffff;
-  position: absolute;
+  position: relative;
+  float: left;
   font-weight: bold;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
@@ -261,23 +279,23 @@ body, div, p, td, th, span, a {
   top: 0px;
   left: 0px;
   width: 170px; }
-  #leftNav ul {
+  #subContentLeft ul {
     padding: 0;
     margin: 0;
     list-style: none; }
-  #leftNav li {
+  #subContentLeft li {
     color: #537DB9;
     text-decoration: none;
     padding: 4px 5px;
     margin: 0;
     background-image: none; }
-    #leftNav li a {
+    #subContentLeft li a {
       color: #5e5e5e;
       text-decoration: none; }
-      #leftNav li a.current {
+      #subContentLeft li a.current {
         color: #537DB9;
         text-decoration: none; }
-      #leftNav li a:hover {
+      #subContentLeft li a:hover {
         color: #537DB9;
         text-decoration: none; }
 
@@ -505,13 +523,21 @@ body, div, p, td, th, span, a {
   clear: right; }
 
 #catContentLeft {
-  padding: 0;
-  margin: 10px;
+  padding: 10px 0 0 20px;
+  margin: 5px 10px 10px 0;
+  background-color: #ffffff;
   position: relative;
+  float: left;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: left;
+  white-space: normal;
   top: 0px;
   left: 0px;
-  width: 155px;
-  float: left; }
+  width: 170px; }
 
 #catContentMiddle {
   padding: 0;
@@ -525,7 +551,7 @@ body, div, p, td, th, span, a {
 
 #catContentRight {
   padding: 0;
-  margin: 10px;
+  margin: 10px 0 0 10px;
   position: relative;
   top: 0px;
   left: 0px;
@@ -571,20 +597,31 @@ body, div, p, td, th, span, a {
 
 /* Sub Pages - Content */
 #subContentMiddle {
-  padding: 0;
+  padding: 0 0 35px 0;
   margin: 0;
   color: #808080;
   text-decoration: none;
   position: relative;
-  left: 220px;
+  left: 0px;
   top: 0px;
   font-size: 13px;
   font-weight: normal;
-  min-height: 450px; }
+  min-height: 450px;
+  width: 540px;
+  float: left; }
+
+#subContentRight {
+  padding: 10px 0 0 0;
+  margin: 5px 0 10px 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  float: left; }
 
 #bodyContent, #leadershipContent {
   margin: 10px 0 0 0;
-  width: 580px;
+  width: 540px;
   font-family: Calibri; }
   #bodyContent a, #leadershipContent a {
     text-decoration: none;
@@ -615,11 +652,87 @@ body, div, p, td, th, span, a {
     font-size: 17px;
     font-weight: bold;
     line-height: normal; }
+    #bodyContent h2#courses, #leadershipContent h2#courses {
+      padding: 0 0 3px 0;
+      margin: 15px 4px 10px 5px;
+      color: #808080;
+      text-decoration: none;
+      font-size: 17px;
+      line-height: normal;
+      font-style: italic;
+      font-weight: normal;
+      background: url("../images/h2-background.png") no-repeat 0% 100%; }
 
 #bodyContent p {
   padding: 5px;
   color: #333333;
   font-size: 13px; }
+
+#courseContent {
+  margin: 10px 0 0 0;
+  width: 540px;
+  font-family: Calibri; }
+  #courseContent a {
+    text-decoration: none;
+    color: #537DB9;
+    font-family: Calibri; }
+    #courseContent a:hover {
+      text-decoration: underline; }
+  #courseContent p {
+    margin: 0;
+    text-decoration: none;
+    font-family: Calibri;
+    font-weight: normal;
+    line-height: normal;
+    padding: 5px;
+    color: #333333;
+    font-size: 13px; }
+  #courseContent h1#title {
+    padding: 0 5px;
+    margin: 15px 0 0 0;
+    color: #537DB9;
+    text-decoration: none;
+    font-family: Museo500;
+    font-size: 30px;
+    font-weight: bold; }
+  #courseContent h2#summary, #courseContent h2#courses, #courseContent h2#duration, #courseContent h2#objectives, #courseContent h2#audience, #courseContent h2#instructors, #courseContent h2#outline, #courseContent h2#testimonials {
+    padding: 0 0 3px 0;
+    margin: 15px 4px 10px 5px;
+    color: #808080;
+    text-decoration: none; }
+  #courseContent h2#duration, #courseContent h2#courses, #courseContent h2#objectives, #courseContent h2#audience, #courseContent h2#instructors, #courseContent h2#outline, #courseContent h2#testimonials {
+    font-size: 17px;
+    line-height: normal;
+    font-style: italic;
+    font-weight: normal;
+    background: url("../images/h2-background.png") no-repeat 0% 100%; }
+  #courseContent h2#summary {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: normal;
+    font-weight: normal;
+    background: url("../images/h2-background.png") no-repeat 0% 100%; }
+  #courseContent h3#tagline {
+    padding: 5px;
+    margin: 0;
+    color: #676767;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: normal; }
+  #courseContent #contentNavigation {
+    text-align: center;
+    font-style: italic;
+    padding-top: 7px;
+    color: #537DB9;
+    background: url("../images/hr-background.png") no-repeat 0% 0%; }
+    #courseContent #contentNavigation a {
+      font-size: 14px;
+      color: gray;
+      font-style: normal;
+      text-decoration: none; }
+      #courseContent #contentNavigation a:hover {
+        color: #537DB9; }
 
 #leadershipContent p {
   color: #797979;
@@ -784,13 +897,13 @@ ul.industriesColumn {
     font-size: 13px;
     color: #321b0f;
     font-weight: normal; }
-
-.bio {
-  font-family: Calibri;
-  padding: 0;
-  margin: 0;
-  font-size: 12px;
-  color: #808080; }
+  .peopleText .bio {
+    font-family: Calibri;
+    padding: 0;
+    margin: 0;
+    color: #808080; }
+    .peopleText .bio p {
+      font-size: 13px; }
 
 .read {
   font-family: Calibri;
