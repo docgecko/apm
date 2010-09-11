@@ -25,6 +25,8 @@ gem 'i18n'
 gem 'aws-s3', :require => 'aws/s3'
 gem 'memcached'
 gem 'authlogic'
+gem 'taps'
+gem 'whenever'
 # gem 'heroku'
 
 group :production do

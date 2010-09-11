@@ -11,29 +11,31 @@
 					%h1#title= @course.name
 					%h3#tagline= @course.tagline
 
-					%h2#summary Course Summary
-					= raw RedCloth.new(@course.summary).to_html
+					- if !@course.summary.blank?
+						%h2#summary Course Summary
+						= raw RedCloth.new(@course.summary).to_html
 					
-					#contentNavigation
-						= "Jump to: "
-						- if !@course.duration.blank?
-							&darr;
-							= link_to "Duration", "#duration"
-						- if !@course.objectives.blank?
-							&darr;
-							= link_to "Objectives", "#objectives"
-						- if !@course.audience.blank?
-							&darr;
-							= link_to "Audience", "#audience"
-						- if !@course.instructors.blank?
-							&darr;
-							= link_to "Instructors", "#instructors"
-						- if !@course.outline.blank?
-							&darr;
-							= link_to "Outline", "#outline"
-						- if !@course.testimonials.blank?
-							&darr;
-							= link_to "Testimonials", "#testimonials"
+					-if !@course.duration.blank? or !@course.duration.blank? or !@course.audience.blank? or !@course.instructors.blank? or !@course.outline.blank? or !@course.testimonials.blank?
+						#contentNavigation
+							= "Jump to: "
+							- if !@course.duration.blank?
+								&darr;
+								= link_to "Duration", "#duration"
+							- if !@course.duration.blank?
+								&darr;
+								= link_to "Objectives", "#objectives"
+							- if !@course.audience.blank?
+								&darr;
+								= link_to "Audience", "#audience"
+							- if !@course.instructors.blank?
+								&darr;
+								= link_to "Instructors", "#instructors"
+							- if !@course.outline.blank?
+								&darr;
+								= link_to "Outline", "#outline"
+							- if !@course.testimonials.blank?
+								&darr;
+								= link_to "Testimonials", "#testimonials"
 
 					- if !@course.duration.blank?
 						%h2#duration Duration
@@ -60,8 +62,31 @@
 						= raw RedCloth.new(@course.testimonials).to_html
 
 			#subContentRight
-				%h2.onsiteTraining Onsite Training
-				%p
-					= button_to "Request a Quote", onsite_training_index_path
+				.sidePanel
+					%h2 Onsite Training
+					%p
+						For groups of five or more, courses can be
+						== <strong>customised</strong>.
+				
+					.button= link_to "Request a Quote", onsite_training_index_path
+					
+				.sidePanel
+					%h2 Classroom Training
+					%p
+						Below follows the list of future courses:
+						
+					%ul
+						%li
+							%h3	London, UK
+							%ul
+								%li
+									.button= link_to "8th Nov 2010", onsite_training_index_path
+									.courseInfo £580
+					.details
+						%p If you don't see a date that suits you:
+						.button= link_to "Request a Course", onsite_training_index_path
+										
+					
+					
 
 .clear

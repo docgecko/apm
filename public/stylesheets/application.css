@@ -279,6 +279,19 @@ body, div, p, td, th, span, a {
   top: 0px;
   left: 0px;
   width: 170px; }
+  #subContentLeft .sidePanel {
+    margin: 0 0 20px;
+    padding: 0;
+    border: 0; }
+    #subContentLeft .sidePanel h2 {
+      padding: 5px 5px 10px;
+      margin: 0;
+      color: #808080;
+      text-decoration: none;
+      font-family: Museo500;
+      font-size: 17px;
+      font-weight: bold;
+      line-height: normal; }
   #subContentLeft ul {
     padding: 0;
     margin: 0;
@@ -289,6 +302,8 @@ body, div, p, td, th, span, a {
     padding: 4px 5px;
     margin: 0;
     background-image: none; }
+    #subContentLeft li.soon {
+      color: #5e5e5e; }
     #subContentLeft li a {
       color: #5e5e5e;
       text-decoration: none; }
@@ -327,7 +342,7 @@ body, div, p, td, th, span, a {
 
 /* Home Page - Content */
 #homeContainer {
-  margin: 0px auto;
+  margin: 0px auto 25px;
   width: 950px;
   position: relative;
   text-align: left; }
@@ -618,6 +633,85 @@ body, div, p, td, th, span, a {
   left: 0px;
   width: 200px;
   float: left; }
+  #subContentRight .sidePanel {
+    margin: 0 0 20px;
+    padding: 0;
+    border: 0; }
+    #subContentRight .sidePanel h2 {
+      padding: 5px 5px 10px;
+      margin: 0;
+      color: #808080;
+      text-decoration: none;
+      font-family: Museo500;
+      font-size: 17px;
+      font-weight: bold;
+      line-height: normal; }
+    #subContentRight .sidePanel p {
+      padding: 0px 5px 10px 5px;
+      margin: 0;
+      color: #333333;
+      text-decoration: none;
+      font-family: Calibri;
+      font-size: 13px;
+      font-weight: normal;
+      line-height: normal; }
+    #subContentRight .sidePanel .button {
+      margin: 10px 0;
+      text-align: center;
+      vertical-align: middle; }
+      #subContentRight .sidePanel .button a, #subContentRight .sidePanel .button a:visited {
+        background: white url(../images/button_bg.png) repeat-x;
+        color: #fff;
+        background-color: #e6e6e6;
+        color: #537DB9;
+        text-shadow: rgba(255, 255, 255, 0.496094) 0px 0px 0px;
+        display: inline-block;
+        padding: 7px 17px 8px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 1;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-box-shadow: rgba(0, 0, 0, 0.246094) 0px 1px 3px;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.246094) 0px 1px 3px;
+        border: 1px solid rgba(0, 0, 0, 0.246094);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.347656); }
+      #subContentRight .sidePanel .button a:hover, #subContentRight .sidePanel .button a:focus {
+        background-color: #808080;
+        color: #fff; }
+      #subContentRight .sidePanel .button a:active {
+        background-color: #676767;
+        color: #fff; }
+    #subContentRight .sidePanel ul {
+      border: 0px;
+      margin: 0px;
+      padding: 0 0 0 5px;
+      list-style: none; }
+      #subContentRight .sidePanel ul li {
+        display: inline;
+        margin: 0;
+        padding: 0; }
+        #subContentRight .sidePanel ul li h3 {
+          font-weight: bold;
+          font-size: 15px;
+          color: #4d4d4d;
+          margin: 0;
+          padding: 0 0 0 5px; }
+        #subContentRight .sidePanel ul li ul {
+          margin-left: 30px;
+          text-align: left;
+          padding: 0; }
+          #subContentRight .sidePanel ul li ul li .button {
+            text-align: left;
+            margin: 10px 0 5px 0; }
+          #subContentRight .sidePanel ul li ul li .courseInfo {
+            font-size: 13px;
+            font-weight: normal;
+            color: #343434;
+            margin: 0 0 15px 0; }
+    #subContentRight .sidePanel .details {
+      font-size: 11px; }
 
 #bodyContent, #leadershipContent {
   margin: 10px 0 0 0;
@@ -669,7 +763,7 @@ body, div, p, td, th, span, a {
   font-size: 13px; }
 
 #courseContent {
-  margin: 10px 0 0 0;
+  margin: 0;
   width: 540px;
   font-family: Calibri; }
   #courseContent a {
@@ -688,9 +782,11 @@ body, div, p, td, th, span, a {
     color: #333333;
     font-size: 13px; }
   #courseContent h1#title {
-    padding: 0 5px;
-    margin: 15px 0 0 0;
-    color: #537DB9;
+    padding: 15px 5px;
+    margin: 0px 0 0 0;
+    height: 70px;
+    background-color: #537DB9;
+    color: white;
     text-decoration: none;
     font-family: Museo500;
     font-size: 30px;

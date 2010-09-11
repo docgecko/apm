@@ -217,15 +217,22 @@ body, div, p, td, th, span, a {
 				&:hover {
 					background-image: url('../images/nav_menu_left.jpg');
 		  		background-repeat: no-repeat;
-						span {
-			  			background-image: url('../images/nav_menu_right.jpg');
-			  			background-repeat: no-repeat;
-			  			background-position: right top; } }
+					span {
+		  			background-image: url('../images/nav_menu_right.jpg');
+		  			background-repeat: no-repeat;
+		  			background-position: right top;
+					}
+				}
 				span {
 					&:hover {
 						background-image: url('../images/nav_menu_right.jpg');
 				  	background-repeat: no-repeat;
-				  	background-position: right top; } }	}	}	}
+				  	background-position: right top;
+					}
+				}
+			}
+		}
+	}
 	li {
 	  display: inline;
 	  margin: 0;
@@ -236,7 +243,10 @@ body, div, p, td, th, span, a {
 			span {
 			  background-image: url('../images/nav_menu_right.jpg');
 			  background-repeat: no-repeat;
-			  background-position: right top;	} } }
+			  background-position: right top;
+			}
+		}
+	}
 	a {
 	  float: left;
 	  margin: 0 22px 0 0;
@@ -245,7 +255,10 @@ body, div, p, td, th, span, a {
 		span {
 		  float: left;
 		  color: #F0F0F0;
-		  padding: 9px 10px 5px 4px; } } }
+		  padding: 9px 10px 5px 4px;
+		}
+	}
+}
 
 /* SUB NAV STYLING  */
 
@@ -293,7 +306,11 @@ body, div, p, td, th, span, a {
 					text-align: left;
 				  margin: 0;
 				  font-size: 0.9em;
-				  padding: 1px 0 1px 4px; } } } } 
+				  padding: 1px 0 1px 4px;
+				}
+			}
+		}
+	} 
 	li {
 	  float: left;
 	  position: relative;
@@ -301,7 +318,9 @@ body, div, p, td, th, span, a {
 	  padding: 0;
 	  margin-top: 8px;
 	  margin-right: 25px;
-	  margin-bottom: 0; } }
+	  margin-bottom: 0;
+	}
+}
 
 /* LEFT NAV */
 
@@ -321,25 +340,49 @@ body, div, p, td, th, span, a {
   top: 0px;
   left: 0px;
   width: 170px;
+	.sidePanel {
+		margin: 0 0 20px;
+		padding: 0;
+		border: 0;
+		h2 {
+			padding: 5px 5px 10px;
+		  margin: 0;
+		  color: #808080;
+		  text-decoration: none;
+		  font-family: Museo500;
+		  font-size: 17px;
+		  font-weight: bold;
+		  line-height: normal;
+		}
+	}
 	ul {
 	  padding: 0;
 	  margin: 0;
-	  list-style: none;	}
+	  list-style: none;
+	}
 	li {
 	  color: #537DB9;
 	  text-decoration: none;
 	  padding: 4px 5px;
 	  margin: 0;
 	  background-image: none;
+		&.soon {
+			color: #5e5e5e;
+		}
 		a {
 		  color: #5e5e5e;
 		  text-decoration: none;
 			&.current {
 			  color: #537DB9;
-			  text-decoration: none; }
+			  text-decoration: none;
+			}
 			&:hover {
 			  color: #537DB9;
-			  text-decoration: none; } } } }
+			  text-decoration: none;
+			}
+		}
+	}
+}
 
 /* Container and styles */
 
@@ -374,7 +417,7 @@ body, div, p, td, th, span, a {
 /* Home Page - Content */
 
 #homeContainer {
-	margin: 0px auto;
+	margin: 0px auto 25px;
 	width: 950px;
 	position: relative;
 	text-align: left;
@@ -481,7 +524,10 @@ body, div, p, td, th, span, a {
 	  font-family: Calibri;
 	  font-weight: bold;
 		&:hover	{
-		  text-decoration: underline;	} } }
+		  text-decoration: underline;
+		}
+	}
+}
 
 .bulletListHome {
   color: #FFFFFF;
@@ -500,7 +546,9 @@ body, div, p, td, th, span, a {
 	  padding-left: 15px;
 	  background-image: url('../images/bullet_white.png');
 	  background-position: left 6px;
-	  background-repeat: no-repeat;	} }
+	  background-repeat: no-repeat;
+	}
+}
 
 
 /* General Page (SiteMap) - Content */
@@ -517,7 +565,9 @@ body, div, p, td, th, span, a {
 	  color: #537DB9;
 	  font-family: Calibri;
 		&:hover {
-	  	text-decoration: underline;	} }
+	  	text-decoration: underline;
+		}
+	}
 	h1 {
 	  padding: 5px;
 	  margin: 15px 0 0 0;
@@ -525,7 +575,8 @@ body, div, p, td, th, span, a {
 	  text-decoration: none;
 	  font-size: 24px;
 	  font-weight: bold;
-	  line-height: 15px; }
+	  line-height: 15px;
+	}
 	h2 {
 	  padding: 5px;
 	  margin: 10px 0 0 0;
@@ -533,7 +584,8 @@ body, div, p, td, th, span, a {
 	  text-decoration: none;
 	  font-size: 17px;
 	  font-weight: bold;
-	  line-height: normal; } 
+	  line-height: normal;
+	}
 	h3 {
 	  margin: 0;
 	  color: #808080;
@@ -541,7 +593,8 @@ body, div, p, td, th, span, a {
 	  font-size: 14px;
 	  font-weight: normal;
 	  line-height: normal;
-	  padding: 5px 0 0 5px;	} 
+	  padding: 5px 0 0 5px;
+	}
 	p {
 	  padding: 5px;
 	  margin: 0;
@@ -550,7 +603,9 @@ body, div, p, td, th, span, a {
 	  font-family: Calibri;
 	  font-size: 13px;
 	  font-weight: normal;
-	  line-height: normal; } }
+	  line-height: normal;
+	}
+}
 	
 	
 /* Container and Container content styles */
@@ -572,7 +627,9 @@ body, div, p, td, th, span, a {
 	  top: 0px;
 	  left: 5px;
 	  position: relative;
-	  top: -25px;	} }
+	  top: -25px;
+	}
+}
 
 /* Category Pages - Content */
 
@@ -635,7 +692,9 @@ body, div, p, td, th, span, a {
 	  color: #537DB9;
 	  font-family: Calibri;
 		&:hover {
-		  text-decoration: underline;	}	}
+		  text-decoration: underline;
+		}
+	}
 	h1 {
 	  padding: 5px;
 	  margin: 15px 0 0 0;
@@ -644,7 +703,8 @@ body, div, p, td, th, span, a {
 	  font-family: Museo500;
 	  font-size: 24px;
 	  font-weight: bold;
-	  line-height: normal; }
+	  line-height: normal;
+	}
 	h2 {
 	  padding: 5px;
 	  margin: 10px 0 0 0;
@@ -653,7 +713,8 @@ body, div, p, td, th, span, a {
 	  font-family: Museo500;
 	  font-size: 17px;
 	  font-weight: bold;
-	  line-height: normal; }
+	  line-height: normal;
+	}
 	p {
 	  padding: 5px;
 	  margin: 0;
@@ -662,7 +723,9 @@ body, div, p, td, th, span, a {
 	  font-family: Calibri;
 	  font-size: 13px;
 	  font-weight: normal;
-	  line-height: normal; } }
+	  line-height: normal;
+	}
+}
 
 /* Sub Pages - Content */
 
@@ -689,6 +752,101 @@ body, div, p, td, th, span, a {
   left: 0px;
   width: 200px;
   float: left;
+	.sidePanel {
+		margin: 0 0 20px;
+		padding: 0;
+		border: 0;
+		h2 {
+			padding: 5px 5px 10px;
+		  margin: 0;
+		  color: #808080;
+		  text-decoration: none;
+		  font-family: Museo500;
+		  font-size: 17px;
+		  font-weight: bold;
+		  line-height: normal;
+		}
+		p {
+		  padding: 0px 5px 10px 5px;
+		  margin: 0;
+		  color: #333333;
+		  text-decoration: none;
+		  font-family: Calibri;
+		  font-size: 13px;
+		  font-weight: normal;
+		  line-height: normal;	
+		}
+		.button {
+			margin: 10px 0;
+			text-align: center;
+			vertical-align: middle;
+			a, a:visited {
+				background: #fff url(../images/button_bg.png) repeat-x;
+				color: #fff;
+				background-color: lighten(gray, 40);
+				color: #537DB9;
+				text-shadow: rgba(255, 255, 255, 0.496094) 0px 0px 0px;
+				display: inline-block;
+				padding: 7px 17px 8px;
+				text-decoration: none;
+				font-weight: bold;
+				font-size: 13px;
+				line-height: 1;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				-moz-box-shadow: rgba(0, 0, 0, 0.246094) 0px 1px 3px;
+				-webkit-box-shadow: rgba(0, 0, 0, 0.246094) 0px 1px 3px;
+				border: 1px solid rgba(0, 0, 0, 0.246094);
+				border-bottom: 1px solid rgba(0, 0, 0, 0.347656);
+			}
+			a:hover, a:focus {
+				background-color: #808080;
+				color: #fff;
+			}
+			a:active {
+				background-color: darken(#808080, 10);
+				color: #fff;
+			}
+		}
+		ul {
+			border: 0px;
+			margin: 0px;
+			padding: 0 0 0 5px;
+		  list-style: none;
+			li {
+				display: inline;
+			  margin: 0;
+			  padding: 0;
+				h3 {
+					font-weight: bold;
+					font-size: 15px;
+					color: darken(gray, 20);
+					margin: 0;
+					padding: 0 0 0 5px;
+				}
+				ul {
+					margin-left: 30px;
+					text-align: left;
+					padding: 0;
+					li {
+						.button {
+							text-align: left;
+							margin: 10px 0 5px 0;
+						}
+						.courseInfo {
+							font-size: 13px;
+							font-weight: normal;
+							color: darken(gray, 30);
+							margin: 0 0 15px 0;
+						}
+					}
+				}
+			}
+		}
+		.details {
+			font-size: 11px;
+		}
+	}
 }
 
 #bodyContent, #leadershipContent {
@@ -701,7 +859,8 @@ body, div, p, td, th, span, a {
 	  font-family: Calibri;
 		&:hover {
 	  	text-decoration: underline;
-		} }
+		}
+	}
 	p {
 	  margin: 0;
 	  text-decoration: none;
@@ -748,7 +907,7 @@ body, div, p, td, th, span, a {
 }
 
 #courseContent {
-  margin: 10px 0 0 0;
+  margin: 0;
   width: 540px;
   font-family: Calibri;
 	a {
@@ -757,7 +916,8 @@ body, div, p, td, th, span, a {
 	  font-family: Calibri;
 		&:hover {
 	  	text-decoration: underline;
-		} }
+		}
+	}
 	p {
 	  margin: 0;
 	  text-decoration: none;
@@ -770,9 +930,11 @@ body, div, p, td, th, span, a {
 	}
 	h1 {
 		&#title {
-		  padding: 0 5px;
-		  margin: 15px 0 0 0;
-		  color: #537DB9;
+		  padding: 15px 5px;
+		  margin: 0px 0 0 0;
+			height: 70px;
+			background-color: #537DB9;
+		  color: white;
 		  text-decoration: none;
 			font-family: Museo500;
 		  font-size: 30px;
