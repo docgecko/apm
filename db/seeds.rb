@@ -27,7 +27,49 @@ p. Our core services encapuslate:
                     {
                       :name => 'Training',
                       :permalink => 'training',
-                      :content => ''
+                      :content => '%(apm)apm% delivers unique training courses in areas directly related to its core expertise: expertise that has been developed for more than 10 years.  Our trainers are specialists in:
+
+(bulleted_list)* Commercial, Bid and Project management
+* Asset Management & Asset Performance Management
+* Risk Management
+* Reliability, Availability and Maintainability
+* Safety Management
+* Performance Penalty Regimes
+* etc...
+
+Many of our courses are offered for *public registrations* at our own training facilities.
+
+Also, if you are looking to train a number of people from your organisation, we can more economically deliver *private training* at your own site, at your own pace, and customized to meet your own needs.  The choice is yours!
+
+h2. Benefits of Training With Us Include:
+
+(bulleted_list)* We offer both *private courses* at your location and on your schedule, and *publically available courses* at our own facilities
+* We support you in getting everyone on your team up to speed on the *latest ideas, tools and techniques*
+* You learn directly from the *experts* in a confidential setting
+
+h2. Our Courses
+
+Please explore our list of *currently available* or *soon to be available* courses offered to the public at our classrooms:
+
+h2(course). "Executive Coaching":/training/executive_training
+
+(bulleted_list)* Rapport
+* Strategies for Success
+* Negotiation
+* Presentations
+* Effective Sales
+
+h2(course). "Risk Management & Analysis Training":/training/risk_training
+
+(bulleted_list)* "Risk Management Planning":/training/risk_management_planning
+* Risk Register Modelling
+* Risk Correlation Modelling
+
+h2(course). "Availability & Asset Modelling Training":/training/availability_training
+
+(bulleted_list)* Reliability & Availability Modelling
+* Asset Modelling
+* Performance Penalty Modelling'
                     },
                     {
                       :name => 'Industries',
@@ -1141,7 +1183,19 @@ p. <span class="apm">apm</span> has developed cost models for a number of multi-
                     {
                       :name => 'Executive Training',
                       :permalink => 'executive_training',
-                      :content => ''
+                      :content => 'Core to our Executive Coaching and Training courses is *Effective Communication*.  We offer Leaders, Executives and Businesses a place in which to develop and extend their current capability.
+
+Our trainers help you to improve your awareness, language, persuasion and negotiation skills and apply this to improving your ability to, for example, deliver great pitches and presentations to clients and colleagues.
+
+h2(#courses). Executive Coaching & Training courses
+
+Over the next few months, we are releasing our latest Executive Coaching & Training courses, which will cover subjects such as:
+
+(bulleted_list)* Rapport
+* Strategies For Success
+* Negotiation
+* Presentations
+* Effective Sales'
                     },
                     {
                       :name => 'Risk Management & Analysis',
@@ -1154,18 +1208,39 @@ The courses offered by us are aimed at various levels including risk practitione
 
 h2(#courses). Risk Management & Analysis Training courses
 
-Currently, we offer the following main courses, focused around Risk Planning and the creation and effective use of Risk Registers.
+Currently, we offer the following courses, focused on and around Risk Planning and the creation and effective use of Risk Registers:
 
 (bulleted_list)* "Risk Management Planning":/training/risk_management_planning
-* "Risk Register Modelling":/training/risk_register_modelling
-* "Risk Correlation Modelling":/training/risk_correlation_modelling
+
+And the following courses are coming soon:
+
+(bulleted_list)* Risk Register Modelling
+* Risk Correlation Modelling
 
 However, we also tailor our risk training programmes to meet the needs and expectations of our clients, and are fully capable of teaching on and around the field of Risk Management.'
                     },
                     {
                       :name => 'Availability & Asset Modelling',
                       :permalink => 'availability_training',
-                      :content => ''
+                      :content => 'Our modelling techniques were borne out of the need to link the performance of assets to business drivers and, in doing so, provide businesses with a means of *decision support*.
+
+%(apm)apm%&#39;s has developed a unique approach to predicting the performance of assets, whether in terms of failure or deterioration, and link that directly to the financial performance of a business via a *performance-penalty* regime, contractually known as a Payment Mechanism in many Private Finance Initiative (PFI) and Public Private Partnership (PPP) projects.
+
+We will teach you how to integrate and utilise a number of established techniques along with project or business specific information to predict or forecast asset and financial performance, budgets, penalty costs and reactive maintenance costs:
+
+(bulleted_list)* Reliability, Availability and Maintainability (RAM) techniques
+* Planned Capital Projects
+* Planned Maintenance
+* Reactive Maintenance
+* Other industry specific factors & costs
+
+h2(#courses). Availability & Asset Modelling Training
+
+Over the next few months, we will be introducing a number of specialist training courses designed to provide you with all the necessary tools to develop credible and useable asset performance models, including:
+
+(bulleted_list)* Reliability & Availability Modelling
+* Asset Modelling
+* Performance Penalty Modelling'
                     },
                     {
                       :name => 'Transport',
