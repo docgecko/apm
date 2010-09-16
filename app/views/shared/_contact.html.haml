@@ -1,3 +1,8 @@
-#contact
-	= link_to "Contact us", contact_index_url
-	+44 (0)20 7692 5089
+- if current_user
+	#contact{ :style => "left: 85px;"}
+		= link_to "Contact us", contact_index_url
+		+44 (0)20 7692 5089
+- else
+	#contact
+		= link_to "Contact us", contact_index_url
+		+44 (0)20 7692 5089

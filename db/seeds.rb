@@ -62,8 +62,8 @@ h2(course). "Executive Coaching":/training/executive_training
 h2(course). "Risk Management & Analysis Training":/training/risk_training
 
 (bulleted_list)* "Risk Management Planning":/training/risk_management_planning
-* Risk Register Modelling
-* Risk Correlation Modelling
+* "Risk Register Modelling":/training/risk_register_modelling
+* "Risk Correlation Modelling":/training/risk_register_correlation_modelling
 
 h2(course). "Availability & Asset Modelling Training":/training/availability_training
 
@@ -1187,7 +1187,7 @@ p. <span class="apm">apm</span> has developed cost models for a number of multi-
 
 Our trainers help you to improve your awareness, language, persuasion and negotiation skills and apply this to improving your ability to, for example, deliver great pitches and presentations to clients and colleagues.
 
-h2(#courses). Executive Coaching & Training courses
+h2(#courses). Executive Coaching & Training Courses
 
 Over the next few months, we are releasing our latest Executive Coaching & Training courses, which will cover subjects such as:
 
@@ -1206,18 +1206,15 @@ Risk Management and Analysis play important roles in identifying, managing and m
 
 The courses offered by us are aimed at various levels including risk practitioners, senior executives, students and bid managers.
 
-h2(#courses). Risk Management & Analysis Training courses
+h2(#courses). Risk Management & Analysis Training Courses
 
 Currently, we offer the following courses, focused on and around Risk Planning and the creation and effective use of Risk Registers:
 
 (bulleted_list)* "Risk Management Planning":/training/risk_management_planning
+* "Risk Register Modelling":/training/risk_register_modelling
+* "Risk Register Correlation Modelling":/training/risk_register_correlation_modelling
 
-And the following courses are coming soon:
-
-(bulleted_list)* Risk Register Modelling
-* Risk Correlation Modelling
-
-However, we also tailor our risk training programmes to meet the needs and expectations of our clients, and are fully capable of teaching on and around the field of Risk Management.'
+%(apm)apm% also *tailors* its risk training programmes to meet the needs and expectations of its clients, and is fully capable of teaching on and around the field of Risk Management.'
                     },
                     {
                       :name => 'Availability & Asset Modelling',
@@ -1234,7 +1231,7 @@ We will teach you how to integrate and utilise a number of established technique
 * Reactive Maintenance
 * Other industry specific factors & costs
 
-h2(#courses). Availability & Asset Modelling Training
+h2(#courses). Availability & Asset Modelling Training Courses
 
 Over the next few months, we will be introducing a number of specialist training courses designed to provide you with all the necessary tools to develop credible and useable asset performance models, including:
 
@@ -1600,25 +1597,116 @@ The course draws upon examples from the rail and highways industries, from both 
                     {
                       :name => 'Risk Register Modelling',
                       :permalink => 'risk_register_modelling',
-                      :tagline => '',
-                      :summary => '',
-                      :duration => '',
-                      :objectives => '',
-                      :audience => '',
+                      :tagline => 'Learn to Manage your Risk Register as a Business Portfolio taking account of Risk Uncertainty',
+                      :summary => 'Learn the essential skills, processes and concepts to create, manage and fully utilise a Corporate, Business or Project Risk Register.  Integrate the important aspect of uncertainty in Risk and Costs in order to calculate the mean and maximum cost of Risk to your business.  Furthermore, learn to manage your Risk Register in order target critical risks requiring transfer or mitigation.
+
+The course is based on experience and examples drawn from a number of Private Finance Initiative (PFI) and Public Private Partnership (PPP) tender processes and operational projects, from the Rail and Highways industries.
+
+The tools and approaches are equally applicable in any Business or Corporate environment.',
+                      :duration => '*Course Duration:* 1 day (9.30am – 5.00pm)
+
+*Participants:* 10-12',
+                      :objectives => 'Upon completion of this course, participants will be able to:
+
+(bulleted_list)* Understand the purpose of a Risk Register and the approach to Portfolio Risk Management
+* Understand and describe the concepts of Risk and Uncertainty
+* Understand how to attribute uncertainty to Risk monies
+* Implement Monte Carlo Simulations
+* Identify and prioritise important Risks
+* Create realistic risk portfolios',
+                      :audience => 'This course is intended for persons with an intermediate level of risk management experience, including:
+
+(bulleted_list)* Senior managers who are responsible for managing risk and/or embedding effective systems of corporate governance
+* Bid Managers and Team Leaders who are responsible for identifying risk, both qualitatively and quantitatively during a bid process
+* Insurance managers, project investors, brokers, safety practitioners, auditors, project managers, accountants, solicitors and consultants who are increasingly finding risk management is forming part of their remit or are expected to have a broad understanding of the subject
+* Individuals taking up a new role in risk management or wishing to enter the profession
+* Practitioners who require a refresher on recent developments in risk management 
+* Students studying or about to embark on studying Practical and Enterprise Risk Management
+* Chief executives and heads of departments who require a better understanding of risk management and the role it should play within their organisations
+* Non executive directors',
                       :instructors => '',
-                      :outline => '',
+                      :outline => '*Risk Registers*
+
+(bulleted_list)* The purpose and content of a Risk Register
+* Portfolio approach to Risk Management
+* Types of Risk Registers
+* Risk Register templates
+* Risk quantification, qualification and mitigation
+* How a Risk Register contributes to effective risk management
+* Identify critical Risks
+
+*Risk, Uncertainty & Simulation*
+
+(bulleted_list)* Meaning of Uncertainty
+* Why model uncertainty in relation to Risk?
+* Using three-point estimates for risks / costs
+* Types of uncertainty modelling techniques
+* Excel-based Monte Carlo simulation
+
+*Risk Portfolio Management*
+
+(bulleted_list)* Management process
+* How to interpret risk simulation results
+* Identify and prioritise critical risks
+* Transfer and mitigate risks',
                       :testimonials => ''
                     },
                     {
-                      :name => 'Risk Correlation Modelling',
-                      :permalink => 'risk_correlation_modelling',
-                      :tagline => '',
-                      :summary => '',
-                      :duration => '',
-                      :objectives => '',
-                      :audience => '',
+                      :name => 'Risk Register Correlation Modelling',
+                      :permalink => 'risk_register_correlation_modelling',
+                      :tagline => 'Correlated Risk Registers Provide More Realistic Business Risk Costs',
+                      :summary => 'Risk Registers can tend to over bloat the actual portfolio of risk costs.  Correlation Modelling attempts to link certain risks to others and, in doing so, reduces the overall Risk Cost to more realistic values.  This advanced course is paramount for any business whose risk registers have or are growing to a size such that Risk is affecting a companies ability to provide a cost benefit, or simply helps a business to more realistically manage their risks.
+
+The course is an extension of the Risk Register Modelling course.  It has drawn upon experience and examples from both Private Finance Initiative (PFI) and Public Private Partnership (PPP) tender processes.  The approach is equally applicable in any Business or Corporate environment.',
+                      :duration => '*Course Duration:* 1 day (9.30am – 5.00pm)
+
+*Participants:* 10-12',
+                      :objectives => 'Participants of this course will come away with the following:
+                      
+(bulleted_list)* Understand and describe the concepts of Risk and Uncertainty
+* Understand the how to attribute uncertainty to Risk monies
+* Determine correlations between Risk monies
+* Implement Monte Carlo Simulations
+* Identify and prioritise critical Risks
+* Create realistic risk portfolios
+* Target risks for mitigation or transfer',
+                      :audience => 'Participants will include:
+                      
+(bulleted_list)* Senior managers who are responsible for managing risk and/or embedding effective systems of corporate governance
+* Bid Managers and Team Leaders who are responsible for identifying risk, both qualitatively and quantitatively during a bid process
+* Insurance managers, project investors, brokers, safety practitioners, auditors, project managers, accountants, solicitors and consultants who are increasingly finding risk management is forming part of their remit or are expected to have a broad understanding of the subject
+* Individuals taking up a new role in risk management or wishing to enter the profession
+* Practitioners who require a refresher on recent developments in risk management 
+* Students studying or about to embark on studying Practical and Enterprise Risk Management
+* Chief executives and heads of departments who require a better understanding of risk management and the role it should play within their organisations
+* Non executive directors',
                       :instructors => '',
-                      :outline => '',
+                      :outline => '*Risk Registers*
+                      
+(bulleted_list)* The purpose and content of a Risk Register
+* Portfolio approach to Risk Management
+* Types of Risk Registers
+* Risk Register templates
+* Risk quantification, qualification and mitigation
+* How a Risk Register contributes to effective risk management
+* Identify critical Risks
+
+*Risk and Uncertainty*
+
+(bulleted_list)* Meaning of Uncertainty
+* Why model uncertainty in relation to Risk?
+* Using three-point estimates for activities
+* Cost uncertainty
+* Types of uncertainty modelling techniques
+* Excel-based Monte Carlo simulation
+
+*Risk Correlation*
+
+(bulleted_list)* Meaning of Risk Correlation
+* Why correlate Risks?
+* Impact of Risk Correlation
+* Types of Correlation Models: Historical Models, Average Models, Factor Models
+* Risk output analysis',
                       :testimonials => ''
                     },
                     {

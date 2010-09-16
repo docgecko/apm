@@ -1,13 +1,13 @@
 %ul.siteLinksColumn
 	%li
-		%h3= link_to "HOME PAGE"
+		%h3= link_to "HOME PAGE", root_url
 	%li
-		%h3= link_to "COMPANY"
-	%li= link_to "Leadership"
-	%li= link_to "News"
-	%li= link_to "Careers"
-	%li= link_to "Contact Us"
+		%h3= link_to "COMPANY", company_pages_path
+	%li= link_to "Leadership", leadership_index_path
+	%li= link_to "News", news_pages_path
+	%li= link_to "Careers", careers_pages_path
+	%li= link_to "Contact Us", contact_index_path
 	%li
-		%h3= link_to "CUSTOMERS"
-	%li= link_to "Client List"
-	%li= link_to "Case Studies"
+		%h3= link_to "CUSTOMERS", customers_pages_path
+	%li= link_to "Client List", client_list_pages_path
+	%li= link_to "Case Studies", case_studies_pages_path

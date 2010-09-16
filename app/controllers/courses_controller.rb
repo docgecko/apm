@@ -25,7 +25,7 @@ class CoursesController < ApplicationController
   def risk_register_modelling
   end
 
-  def risk_correlation_modelling
+  def risk_register_correlation_modelling
   end
 
   def reliability_availability_modelling

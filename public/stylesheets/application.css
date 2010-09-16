@@ -96,9 +96,9 @@ body, div, p, td, th, span, a {
 
 /* Contact */
 #contact {
-  position: absolute;
+  position: relative;
   top: 5px;
-  left: 480px;
+  left: 252px;
   text-decoration: none;
   font-size: 11px;
   z-index: 10;

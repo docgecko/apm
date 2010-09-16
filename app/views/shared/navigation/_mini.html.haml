@@ -8,13 +8,13 @@
 				%strong
 					= current_user.login
 				&nbsp;&nbsp;|&nbsp;
-				= link_to "Admin", new_user_sessions_url, :class => "navBarLink"
+				= link_to "Admin", admin_pages_url, :class => "navBarLink"
 				&nbsp;|&nbsp; 
 
-			= link_to "About Us", company_url, :class => "navBarLink"
+			= link_to "About Us", company_pages_path, :class => "navBarLink"
 			&nbsp;|&nbsp;
-			= link_to "Careers", careers_url, :class => "navBarLink"
+			= link_to "Careers", careers_pages_path, :class => "navBarLink"
 			/ &nbsp;|&nbsp;
-			/ = link_to "Contact Us", contact_index_url, :class => "navBarLink"
+			/ = link_to "Contact Us", contact_index_path, :class => "navBarLink"
 
 		#navBarRight

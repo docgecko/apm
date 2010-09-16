@@ -28,6 +28,9 @@ gem 'authlogic'
 gem 'taps'
 gem 'whenever'
 # gem 'heroku'
+gem 'sitemap_generator',									:git => 'git://github.com/kjvarga/sitemap_generator.git', :branch => 'rails3'
+gem 'ssl_requirement'
+gem 'chargify_api_ares'
 
 group :production do
 #	gem 'pg'
