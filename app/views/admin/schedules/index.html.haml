@@ -1,0 +1,35 @@
+%h1 Listing schedule
+
+%table
+	%tr
+		%th Course Id
+		%th Course
+		%th No. of Places
+		%th Location
+		%th Price
+		%th Discounted Price
+		%th Start Date & Time
+		%th End Date & Time
+		%th Discounted Before Date
+		%th 
+		%th 
+		%th 
+
+	- @schedules.each do |schedule|
+		%tr
+			%td= schedule.course_id
+			%td= schedule.course.name
+			%td= schedule.places
+			%td= schedule.location
+			%td= schedule.price
+			%td= schedule.price_discounted
+			%td= schedule.start
+			%td= schedule.end
+			%td= schedule.discounted_before
+			%td= link_to 'Show', admin_schedule_path(schedule)
+			%td= link_to 'Edit', edit_admin_schedule_path(schedule)
+			%td= link_to 'Destroy', [:admin, schedule], :confirm => 'Are you sure?', :method => :delete
+
+%br/
+
+= link_to 'New Course', new_admin_schedule_path

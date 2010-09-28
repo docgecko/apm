@@ -1,18 +1,19 @@
-class UsersController < ApplicationController
-#  before_filter :require_no_user, :only => [:new, :create]
-#  before_filter :require_user, :only => [:show, :edit, :update]
+class UsersController < InheritedResources::Base
   before_filter :require_user, :only => [:show, :edit, :update, :new, :create]
-#  before_filter :restricted_page, :only => [:new, :create]
+
+  respond_to :html
+  
+  actions :new, :create, :show, :edit, :update
   
   layout "admin"
 
   def new
-    @user = User.new
+    resource = resource_class.new
   end
 
   def create
-    @user = User.new(params[:user])
-    if @user.save
+    resource = resource_class.new(params[:user])
+    if resource.save
       flash[:notice] = "Account registered!"
       redirect_to new_user_sessions_url
     else
@@ -21,16 +22,16 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = @current_user
+    resource = @current_user
   end
 
   def edit
-    @user = @current_user
+    resource = @current_user
   end
 
   def update
-    @user = @current_user # makes our views "cleaner" and more consistent
-    if @user.update_attributes(params[:user])
+    resource = @current_user # makes our views "cleaner" and more consistent
+    if resource.update_attributes(params[:user])
       flash[:notice] = "Account updated!"
       redirect_to new_user_sessions_url
     else

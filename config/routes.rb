@@ -1,10 +1,6 @@
 Apm::Application.routes.draw do
-  namespace :admin do resources :schedules end
-
-  resources :schedules
 
   resources :four_oh_fours
-  resource :account
   resources :users
   resource :user_sessions
   match 'admin/login' => 'user_sessions#new', :as => :login
@@ -49,6 +45,7 @@ Apm::Application.routes.draw do
   namespace :admin do
     resources :pages
     resources :courses
+    resources :schedules
     resources :leaderships
     resources :four_oh_fours
   end

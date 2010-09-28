@@ -64,28 +64,40 @@
 			#subContentRight
 				.sidePanel
 					%h2 Onsite Training
-					%p
-						For groups of five or more, courses can be
-						== <strong>customised</strong>.
+					%p== For groups of five or more, courses can be <strong>customised</strong>.
 				
 					.button= link_to "Request a Quote", onsite_training_index_path
-					
+				
 				.sidePanel
 					%h2 Classroom Training
-					%p
-						Below follows the list of future courses:
+					- if @schedule.empty?
+						%p Future classes are in the works. Stay tuned for the new dates!
 						
-					%ul
-						%li
-							%h3	London, UK
-							%ul
+					- else
+						%p Below follows the list of future courses:
+						
+						%ul
+							- @schedule.each do |schedule|
 								%li
-									.button= link_to "8th Nov 2010", onsite_training_index_path
-									.courseInfo £580
+									%h3= schedule.location
+									%ul
+										%li
+											.button
+												= link_to onsite_training_index_path do
+													== #{schedule.start.strftime('%b %e')} - #{schedule.end.strftime('%b %e, %Y')} 
+											.courseInfo
+												%span.price= number_to_currency schedule.price, :unit => '£', :precision => 0
+												%span.discounted== #{number_to_currency schedule.price_discounted, :unit => '£', :precision => 0} before #{schedule.discounted_before.strftime('%b %e, %Y')}
+								
+				.sidePanel	
 					.details
-						%p If you don't see a date that suits you:
-						.button= link_to "Request a Course", onsite_training_index_path
-										
+						- if @schedule.empty?
+							%p If you have a specific date in mind, please feel free to:
+							.button= link_to "Request a Course", onsite_training_index_path
+						- else
+							%p If you don't see a date that suits you:
+							.button= link_to "Request a Course", onsite_training_index_path
+								
 					
 					
 

@@ -699,7 +699,7 @@ body, div, p, td, th, span, a {
           margin: 0;
           padding: 0 0 0 5px; }
         #subContentRight .sidePanel ul li ul {
-          margin-left: 30px;
+          margin-left: 20px;
           text-align: left;
           padding: 0; }
           #subContentRight .sidePanel ul li ul li .button {
@@ -710,6 +710,12 @@ body, div, p, td, th, span, a {
             font-weight: normal;
             color: #343434;
             margin: 0 0 15px 0; }
+            #subContentRight .sidePanel ul li ul li .courseInfo span {
+              font-size: 12px; }
+              #subContentRight .sidePanel ul li ul li .courseInfo span.price {
+                text-decoration: line-through; }
+              #subContentRight .sidePanel ul li ul li .courseInfo span.discounted {
+                text-decoration: normal; }
     #subContentRight .sidePanel .details {
       font-size: 11px; }
 

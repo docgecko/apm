@@ -62,10 +62,14 @@ GEM
     fastthread (1.0.7)
     ghost (0.2.8)
     haml (3.0.18)
+    has_scope (0.5.0)
     hoe (2.6.2)
       rake (>= 0.8.7)
       rubyforge (>= 2.0.4)
     i18n (0.4.1)
+    inherited_resources (1.1.2)
+      has_scope (~> 0.5.0)
+      responders (~> 0.6.0)
     json_pure (1.4.6)
     linecache (0.43)
     mail (2.2.5)
@@ -99,6 +103,7 @@ GEM
       thor (~> 0.14.0)
     rake (0.8.7)
     rb-appscript (0.5.3)
+    responders (0.6.2)
     rest-client (1.4.2)
       mime-types (>= 1.16)
     ruby-debug (0.10.3)
@@ -142,6 +147,7 @@ DEPENDENCIES
   ghost
   haml (= 3.0.18)
   i18n
+  inherited_resources (= 1.1.2)
   memcached
   paperclip!
   passenger

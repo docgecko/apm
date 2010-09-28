@@ -1,6 +1,6 @@
 - @page_title =  "Edit Existing User"
 
-= form_for @user, :url => account_path do |f|
+= form_for resource, :url => account_path do |f|
 	= f.error_messages
 	= render :partial => "form", :object => f
 	= f.submit "Update"

@@ -1,0 +1,51 @@
+- form_for [:admin, @schedule] do |f|
+	= f.error_messages
+
+	.field
+		= label_tag "Course"
+		%br/
+		= f.collection_select(:course_id, Course.all, :id, :name)
+
+	.field
+		= f.label :places, "No. of Places"
+		%br/
+		= f.text_field :places
+
+	.field
+		= f.label :location
+		%br/
+		= f.text_field :location
+		%br/
+
+	.field
+		= f.label :price
+		%br/
+		= f.text_field :price
+		%br/
+
+	.field
+		= f.label :price_discounted
+		%br/
+		= f.text_field :price_discounted
+		%br/
+
+	.field
+		= f.label :start
+		%br/
+		= f.text_field :start
+		%br/
+
+	.field
+		= f.label :end
+		%br/
+		= f.text_field :end
+		%br/
+
+	.field
+		= f.label :discounted_before
+		%br/
+		= f.text_field :discounted_before
+		%br/
+
+	.actions
+		= f.submit

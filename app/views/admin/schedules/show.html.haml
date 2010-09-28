@@ -1,0 +1,39 @@
+%p
+	%b Course Id:
+	= @schedule.course_id
+
+%p
+	%b Course:
+	= @schedule.course.name
+
+%p
+	%b No. of Places:
+	= @schedule.places
+
+%p
+	%b Location:
+	= @schedule.location
+
+%p
+	%b Price:
+	= @schedule.price
+
+%p
+	%b Discounted Price:
+	= @schedule.price_discounted
+
+%p
+	%b Start Date & Time:
+	= @schedule.start
+
+%p
+	%b End Date & Time:
+	= @schedule.end
+
+%p
+	%b Discounted Before Date:
+	= @schedule.discounted_before
+
+= link_to 'Edit', edit_admin_schedule_path(@schedule)
+|
+= link_to 'Back', admin_schedules_path

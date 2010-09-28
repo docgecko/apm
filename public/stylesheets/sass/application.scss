@@ -825,7 +825,7 @@ body, div, p, td, th, span, a {
 					padding: 0 0 0 5px;
 				}
 				ul {
-					margin-left: 30px;
+					margin-left: 20px;
 					text-align: left;
 					padding: 0;
 					li {
@@ -838,6 +838,15 @@ body, div, p, td, th, span, a {
 							font-weight: normal;
 							color: darken(gray, 30);
 							margin: 0 0 15px 0;
+							span {
+								font-size: 12px;
+								&.price {
+									text-decoration: line-through;
+								}
+								&.discounted {
+									text-decoration: normal;
+								}
+							}
 						}
 					}
 				}

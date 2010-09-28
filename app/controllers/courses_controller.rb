@@ -46,5 +46,6 @@ private
     else
       @course = Course.find(params[:id])
     end
+    @schedule = Schedule.find_all_by_course_id(@course.id)
   end
 end
