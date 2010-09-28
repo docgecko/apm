@@ -6,7 +6,7 @@ namespace :sdauth do
 #    puts 'DELETING ANY EXISTING ADMIN RECORDS'
 #    user = User.create! do |u|
 #      u.login = 'docgecko'
-#      u.email = 'daren.warburton@am.eu.com'
+#      u.email = 'daren.warburton@apm.eu.com'
 #      u.password = 'malandra'
 #      u.password_confirmation = 'malandra'
 #    end

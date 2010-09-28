@@ -1592,7 +1592,7 @@ The course draws upon examples from the rail and highways industries, from both 
 * Risk Register process, methods and tools for risk identification, assessment, control and mitigation
 * Use a Risk Register to propose, evaluate and justify mitigation
 * Corporate, Business and Project level registers',
-                      :testimonials => ''                      
+                      :testimonials => ''               
                     },
                     {
                       :name => 'Risk Register Modelling',

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100622091143) do
+ActiveRecord::Schema.define(:version => 20100928154725) do
 
   create_table "courses", :force => true do |t|
     t.string   "name"
@@ -66,6 +66,19 @@ ActiveRecord::Schema.define(:version => 20100622091143) do
     t.string   "photo_content_type"
     t.integer  "photo_file_size"
     t.datetime "photo_updated_at"
+  end
+
+  create_table "schedules", :force => true do |t|
+    t.integer  "course_id"
+    t.integer  "places"
+    t.string   "location"
+    t.decimal  "price",             :precision => 8, :scale => 2
+    t.decimal  "price_discounted",  :precision => 8, :scale => 2
+    t.datetime "start"
+    t.datetime "end"
+    t.datetime "discounted_before"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "users", :force => true do |t|

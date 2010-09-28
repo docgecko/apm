@@ -1,4 +1,8 @@
 Apm::Application.routes.draw do
+  namespace :admin do resources :schedules end
+
+  resources :schedules
+
   resources :four_oh_fours
   resource :account
   resources :users
