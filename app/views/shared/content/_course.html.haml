@@ -66,7 +66,7 @@
 					%h2 Onsite Training
 					%p== For groups of five or more, courses can be <strong>customised</strong>.
 				
-					.button= link_to "Request a Quote", onsite_training_index_path
+					.button= link_to "Request a Quote", training_onsite_index_path(@course.id)
 				
 				.sidePanel
 					%h2 Classroom Training
@@ -83,7 +83,7 @@
 									%ul
 										%li
 											.button
-												= link_to onsite_training_index_path do
+												= link_to training_onsite_index_path(@course.id) do
 													== #{schedule.start.strftime('%b %e')} - #{schedule.end.strftime('%b %e, %Y')} 
 											.courseInfo
 												%span.price= number_to_currency schedule.price, :unit => '£', :precision => 0
@@ -93,10 +93,10 @@
 					.details
 						- if @schedule.empty?
 							%p If you have a specific date in mind, please feel free to:
-							.button= link_to "Request a Course", onsite_training_index_path
 						- else
 							%p If you don't see a date that suits you:
-							.button= link_to "Request a Course", onsite_training_index_path
+
+						.button= link_to "Request a Course", request_class_training_path(@course.id)
 								
 					
 					

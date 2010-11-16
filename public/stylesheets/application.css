@@ -664,7 +664,7 @@ body, div, p, td, th, span, a {
         color: #fff;
         background-color: #e6e6e6;
         color: #537DB9;
-        text-shadow: rgba(255, 255, 255, 0.496094) 0px 0px 0px;
+        text-shadow: rgba(255, 255, 255, 0.496) 0px 0px 0px;
         display: inline-block;
         padding: 7px 17px 8px;
         text-decoration: none;
@@ -673,10 +673,10 @@ body, div, p, td, th, span, a {
         line-height: 1;
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
-        -moz-box-shadow: rgba(0, 0, 0, 0.246094) 0px 1px 3px;
-        -webkit-box-shadow: rgba(0, 0, 0, 0.246094) 0px 1px 3px;
-        border: 1px solid rgba(0, 0, 0, 0.246094);
-        border-bottom: 1px solid rgba(0, 0, 0, 0.347656); }
+        -moz-box-shadow: rgba(0, 0, 0, 0.246) 0px 1px 3px;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.246) 0px 1px 3px;
+        border: 1px solid rgba(0, 0, 0, 0.246);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.348); }
       #subContentRight .sidePanel .button a:hover, #subContentRight .sidePanel .button a:focus {
         background-color: #808080;
         color: #fff; }
@@ -1044,6 +1044,12 @@ table.contactDetails {
     font-size: 13px;
     font-weight: normal;
     line-height: normal; }
+    #contactContent p.note {
+      padding: 0 0 5px 17px;
+      margin: 0;
+      font-size: 12px;
+      color: #537DB9;
+      text-align: left; }
   #contactContent h1 {
     padding: 5px;
     margin: 15px 0 0 0;

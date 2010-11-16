@@ -31,8 +31,10 @@
 				= render 'shared/content/category'
 			- elsif [ 'legal', 'privacy', 'site_map' ].include? action_name
 				= render 'shared/content/information'
-			- elsif controller.controller_name == 'courses'	
+			- elsif controller.controller_name == 'courses'
 				= render 'shared/content/course'
+			- elsif controller.controller_name == 'onsites'
+				= render 'shared/content/page/onsite'
 			- elsif controller.controller_name == 'contact'
 				= render 'shared/content/page/contact'
 			- elsif controller.controller_name == 'leaderships'
@@ -52,4 +54,8 @@
 		= render 'shared/javascript/metadata'
 		
 		- if controller.controller_name == 'contact'
-			= render 'shared/javascript/validate'
+			= render 'shared/javascript/validate_contact'
+			
+		- if controller.controller_name == 'onsites'
+			= render 'shared/javascript/validate_onsite'
+			

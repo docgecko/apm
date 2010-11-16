@@ -22,10 +22,11 @@ Apm::Application.routes.draw do
       get 'availability_training'
     end
   end
-
+  
   resources :training, :controller => "courses", :except => [ :index ] do
+    resources :onsite, :controller => "onsites", :only => [ :index, :create ]
+    get 'request_class', :on => :member
     collection do
-      get 'onsite'
       get 'rapport'
       get 'strategies_success'
       get 'negotiation'
@@ -39,7 +40,7 @@ Apm::Application.routes.draw do
       get 'performance_penalty_modelling'
     end
   end
-
+  
   resources :welcome, :only => :index
 
   namespace :admin do

@@ -1,0 +1,49 @@
+:javascript
+	// validate Training Onsite form on keyup and submit
+	//initiate validator on load
+	$(function() {
+	// validate training onsite form on keyup and submit
+	$("#training_onsite_form").validate({
+	//set the rules for the field names
+		rules: {
+			"onsite[name]": {
+				required: true,
+				minlength: 2
+			},
+			"onsite[organisation]": {
+				required: true,
+				minlength: 2
+			},
+			"onsite[email]": {
+				required: true,
+				email: true
+			},
+			"onsite[course]": {
+				required: true,
+				minlength: 2
+			},
+			"onsite[location]": {
+				required: true,
+				minlength: 2
+			},
+			"onsite[when]": {
+				required: true,
+				minlength: 2
+			},
+			"onsite[participants]": {
+				required: true,
+				minlength: 1
+			},
+		},
+		//set messages to appear inline
+		messages: {
+			name: "Please enter your name.",
+			organisation: "Please enter the name or your organisation.",
+			email: "Please enter a valid email address.",
+			course: "Please provide the course name.",
+			location: "Please provide a location of your required course.",
+			when: "Please provide a time-frame of your required course.",
+			participants: "Please provide the number of participants.",
+			}
+		});
+	});

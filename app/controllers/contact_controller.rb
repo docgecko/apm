@@ -1,7 +1,10 @@
-class ContactController < ApplicationController
+class ContactController < InheritedResources::Base
+
+  respond_to :html
+
+  actions :index, :new
   
   def index
-    # render index.html.erb
   end
 
   def create
@@ -13,5 +16,4 @@ class ContactController < ApplicationController
       redirect_to(contact_index_path)
     end
   end
-
 end

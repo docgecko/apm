@@ -4,6 +4,9 @@ class CoursesController < ApplicationController
   def onsite    
   end
   
+  def request_class    
+  end
+  
   def rapport
   end
 

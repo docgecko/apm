@@ -1,4 +1,9 @@
 - if controller.controller_name == 'courses'
 	- @page_title = @course.name + " | Asset Performance Management Ltd."
+- elsif controller.controller_name == 'onsites'
+	- if @course.nil?
+		- @page_title = "Request Onsite Training Quote | Asset Performance Management Ltd."
+	- else
+		- @page_title = "Request Onsite Training Quote for " + @course.name + " | Asset Performance Management Ltd."
 - else
 	- @page_title = @page.name + " | Asset Performance Management Ltd."

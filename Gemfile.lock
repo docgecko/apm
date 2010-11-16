@@ -61,7 +61,7 @@ GEM
       abstract (>= 1.0.0)
     fastthread (1.0.7)
     ghost (0.2.8)
-    haml (3.0.18)
+    haml (3.0.21)
     has_scope (0.5.0)
     hoe (2.6.2)
       rake (>= 0.8.7)
@@ -145,7 +145,7 @@ DEPENDENCIES
   aws-s3
   chargify_api_ares
   ghost
-  haml (= 3.0.18)
+  haml (= 3.0.21)
   i18n
   inherited_resources (= 1.1.2)
   memcached
