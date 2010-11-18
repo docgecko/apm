@@ -17,7 +17,10 @@
 						:javascript
 							setTimeout("new Effect.Fade('notice');", 1000)
 					
-					%p Please complete the following form for a quotation, and we will respond to you within 24 hours.
+					%p Please complete the following form for a quotation, and we will respond to you within 1 business day.
+
+					%p
+						%strong Trouble completing this form? Talk to us directly! Please call +44 (0)20 7692 5089.
 					
 					%p
 						Note that fields marked with a star (
@@ -103,6 +106,7 @@
 							%tr
 								%td.labelLayout
 									= f.label :course, "Course", :class => "label"
+									%span.blue *
 								%td.textboxLayout
 									= f.text_field :course, :value => @course.name, :maxlength => "250", :class => "text_box", :style => "width:340px"
 									
@@ -145,7 +149,6 @@
 								%td.textboxLayout
 									= f.text_field :participants, :maxlength => "50", :class => "text_box", :style => "width:340px"
 									%p.note Please specify a range if you are unsure.
-									
 									
 							%tr
 								%td.labelLayout

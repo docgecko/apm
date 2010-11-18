@@ -1,0 +1,35 @@
+:javascript
+	// validate Training Onsite form on keyup and submit
+	//initiate validator on load
+	$(function() {
+	// validate training onsite form on keyup and submit
+		$("#training_request_class_form").validate({
+		//set the rules for the field names
+			rules: {
+				"onsite[name]": {
+					required: true,
+					minlength: 2
+				},
+				"onsite[organisation]": {
+					required: true,
+					minlength: 2
+				},
+				"onsite[email]": {
+					required: true,
+					email: true
+				},
+				"onsite[course]": {
+					required: true,
+					minlength: 2
+				},
+				"onsite[location]": {
+					required: true,
+					minlength: 2
+				},
+				"onsite[when]": {
+					required: true,
+					minlength: 2
+				}
+			}
+		});
+	});

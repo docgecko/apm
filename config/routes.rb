@@ -25,7 +25,7 @@ Apm::Application.routes.draw do
   
   resources :training, :controller => "courses", :except => [ :index ] do
     resources :onsite, :controller => "onsites", :only => [ :index, :create ]
-    get 'request_class', :on => :member
+    resources :request_class, :controller => "request_classes", :only => [ :index, :create ]
     collection do
       get 'rapport'
       get 'strategies_success'
@@ -38,6 +38,9 @@ Apm::Application.routes.draw do
       get 'reliability_availability_modelling'
       get 'asset_modelling'
       get 'performance_penalty_modelling'
+    end
+    resources :event, :controller => "schedules", :only => [ :index, :create ] do
+      get 'registration', :on => :member
     end
   end
   

@@ -33,4 +33,19 @@ class Notifier < ActionMailer::Base
     mail(:from => sender[:email],
          :subject => "[APM Website] #{sender[:subject]}")
   end
+  
+  def request_class(sender)
+    @name = sender[:name]
+    @organisation = sender[:organisation]
+    @email = sender[:email]
+    @telephone = sender[:telephone]
+    @referral = sender[:referral]
+    @course = sender[:course]
+    @course_id = sender[:course_id]
+    @location = sender[:location]
+    @when = sender[:when]
+
+    mail(:from => sender[:email],
+         :subject => "[APM Website] #{sender[:subject]}")
+  end
 end

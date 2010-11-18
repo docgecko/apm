@@ -83,12 +83,12 @@
 									%ul
 										%li
 											.button
-												= link_to training_onsite_index_path(@course.id) do
+												= link_to registration_training_event_path([@course.id], [schedule.id]) do
 													== #{schedule.start.strftime('%b %e')} - #{schedule.end.strftime('%b %e, %Y')} 
 											.courseInfo
 												%span.price= number_to_currency schedule.price, :unit => '£', :precision => 0
 												%span.discounted== #{number_to_currency schedule.price_discounted, :unit => '£', :precision => 0} before #{schedule.discounted_before.strftime('%b %e, %Y')}
-								
+												
 				.sidePanel	
 					.details
 						- if @schedule.empty?
@@ -96,9 +96,6 @@
 						- else
 							%p If you don't see a date that suits you:
 
-						.button= link_to "Request a Course", request_class_training_path(@course.id)
-								
-					
-					
-
+						.button= link_to "Request a Class", training_request_class_path(@course.id)
+						
 .clear
