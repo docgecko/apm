@@ -87,7 +87,12 @@ ActiveRecord::Schema.define(:version => 20101118213948) do
   create_table "schedules", :force => true do |t|
     t.integer  "course_id"
     t.integer  "places"
-    t.string   "location"
+    t.string   "address1"
+    t.string   "address2"
+    t.string   "city"
+    t.string   "county"
+    t.string   "postcode"
+    t.string   "country"
     t.decimal  "price",             :precision => 8, :scale => 2
     t.decimal  "price_discounted",  :precision => 8, :scale => 2
     t.datetime "start"

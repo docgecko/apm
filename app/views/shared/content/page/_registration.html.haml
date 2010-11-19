@@ -17,7 +17,7 @@
 						:javascript
 							setTimeout("new Effect.Fade('notice');", 1000)
 					
-					%p Please complete the following form to register for the following course.
+					%p Please complete the following form to register for this course.
 
 					%p
 						%strong Trouble completing this form? Talk to us directly! Please call +44 (0)20 7692 5089.
@@ -54,7 +54,7 @@
 								%td.labelLayout{:class => "label"}
 									Location
 								%td.textboxLayout{:class => "label", :style => "text-align: left; padding-left: 20px;"}
-									= @schedule.location
+									= @schedule.city
 
 													
 						%h2 Customer Information
@@ -70,30 +70,25 @@
 										%tr
 											- [ 'Mr.', 'Mrs.', 'Ms.', 'Miss', 'Dr.', 'Prof.' ].each do |salutation|
 												%td
-													= radio_button_tag 'onsite[salutation]', salutation, @salutation == salutation, :validate => "required:true"
+													= radio_button_tag 'registration[salutation]', salutation, @salutation == salutation, :validate => "required:true"
 													= label_tag "salutation_#{salutation}", salutation.humanize
 
-									%label{ :for => "onsite[salutation]", :class => "error" } Please make a selection.
+									%label{ :for => "registration[salutation]", :class => "error" } Please make a selection.
 
 							%tr
 								%td.labelLayout
-									= f.label :name, "Your name", :class => "label"
+									= f.label :name, "Full name", :class => "label"
 									%span.blue *
 
 								%td.textboxLayout
 									= f.text_field :name, :maxlength => "150", :class => "text_box", :style => "width:340px", :validate => "required:true"
 									
-									%label{ :for => "onsite[name]", :class => "error" } Please enter your name.
-
 							%tr
 								%td.labelLayout
-									= f.label :organisation, "Your organisation", :class => "label"
-									%span.blue *
+									= f.label :organisation, "Organisation", :class => "label"
 								%td.textboxLayout
 									= f.text_field :organisation, :maxlength => "100", :class => "text_box", :style => "width:340px", :validate => "required:true"
 									
-									%label{ :for => "onsite[organisation]", :class => "error" } Please enter the name or your organisation.
-
 							%tr
 								%td.labelLayout
 									= f.label :role, "Your role in the organisation", :class => "label"
@@ -102,16 +97,58 @@
 
 							%tr
 								%td.labelLayout
-									= f.label :email, "Your email address", :class => "label"
+									= f.label :email, "Email address", :class => "label"
 									%span.blue *
 								%td.textboxLayout
 									= f.text_field :email, :maxlength => "100", :class => "text_box", :style => "width:340px"
 
 							%tr
 								%td.labelLayout
-									= f.label :telephone, "Your telephone number", :class => "label"
+									= f.label :telephone, "Telephone number", :class => "label"
 								%td.textboxLayout
 									= f.text_field :telephone, :maxlength => "50", :class => "text_box", :style => "width:340px"
+
+							%tr
+								%td.labelLayout
+									= f.label :mobile, "Mobile number", :class => "label"
+								%td.textboxLayout
+									= f.text_field :mobile, :maxlength => "50", :class => "text_box", :style => "width:340px"
+
+							%tr
+								%td.labelLayout
+									= f.label :address1, "Address 1", :class => "label"
+								%td.textboxLayout
+									= f.text_field :address1, :maxlength => "250", :class => "text_box", :style => "width:340px"
+
+							%tr
+								%td.labelLayout
+									= f.label :address2, "Address 2", :class => "label"
+								%td.textboxLayout
+									= f.text_field :address2, :maxlength => "250", :class => "text_box", :style => "width:340px"
+
+							%tr
+								%td.labelLayout
+									= f.label :city, "City", :class => "label"
+								%td.textboxLayout
+									= f.text_field :city, :maxlength => "150", :class => "text_box", :style => "width:340px"
+
+							%tr
+								%td.labelLayout
+									= f.label :county, "County/State/Region", :class => "label"
+								%td.textboxLayout
+									= f.text_field :county, :maxlength => "150", :class => "text_box", :style => "width:340px"
+
+							%tr
+								%td.labelLayout
+									= f.label :postcode, "Post/ZipCode", :class => "label"
+								%td.textboxLayout
+									= f.text_field :postcode, :maxlength => "50", :class => "text_box", :style => "width:340px"
+
+							%tr
+								%td.labelLayout
+									= f.label :country, "Country", :class => "label"
+								%td.textboxLayout
+									/ = f.country_select :country
 
 							%tr
 								%td.labelLayout
@@ -119,77 +156,6 @@
 								%td.textboxLayout
 									- @referral = { 'Google' => 'Google', 'Yahoo' => 'Yahoo', 'MSN/Live' => 'MSN/Live', 'Existing Customer' => 'Existing Customer', 'LinkedIn' => 'LinkedIn', 'Xing' => 'Xing', 'Facebook' => 'Facebook', 'User Group/Meeting' => 'User Group/Meeting', 'Word of Mouth' => 'Word of Mouth', 'Other' => 'Other' }
 									= f.select 'referral', @referral, options = {:prompt => "-- Please Select --"}, html = { :class => "text_box", :style => "width:340px" }
-
-									
-						%h2 Training Information
-						
-						%table.contactTable{:border => "0"}
-							%tr
-								%td{:colspan => 2}
-									%p Based on the course you selected, please provide details of how you would like to customise it to suit the needs of your team.
-									%p Depending on the participants' experience and objectives we may adjust the actual training duration. Alternatively, you can also build your own course.
-								
-
-							%tr
-								%td.labelLayout
-									= f.label :course, "Course", :class => "label"
-									%span.blue *
-								%td.textboxLayout
-									= f.text_field :course, :value => @course.name, :maxlength => "250", :class => "text_box", :style => "width:340px"
-									
-									= f.hidden_field :course_id, :value => params[:training_id]
-
-							%tr
-								%td.labelLayout
-									= f.label :customisation, "Required customisation", :class => "label"
-								%td.textboxLayout
-									= f.text_area :customisation, :maxlength => "500", :class => "text_box", :rows => "5", :cols => "20", :style => "width:340px"
-									%p.note If you would like to customise this course, please provide details.
-
-							%tr
-								%td.labelLayout
-									= f.label :location, "Location", :class => "label"
-									%span.blue *
-								%td.textboxLayout
-									= f.text_field :location, :maxlength => "150", :class => "text_box", :style => "width:340px"
-									%p.note Where would you like this course to take place? Please include the city and the office or building.
-
-							%tr
-								%td.labelLayout
-									= f.label :when, "Time-frame", :class => "label"
-									%span.blue *
-								%td.textboxLayout
-									= f.text_field :when, :maxlength => "150", :class => "text_box", :style => "width:340px"
-									%p.note When would you like this course to take place? Please be as specific as possible.
-
-						%h2 Particpant Information
-
-						%table.contactTable{:border => "0"}
-							%tr
-								%td{:colspan => 2}
-									%p Based on the course you selected, please provide details of how you would like to customise it to suit the needs of your team.
-					
-							%tr
-								%td.labelLayout
-									= f.label :participants, "Number of Participants", :class => "label"
-									%span.blue *
-								%td.textboxLayout
-									= f.text_field :participants, :maxlength => "50", :class => "text_box", :style => "width:340px"
-									%p.note Please specify a range if you are unsure.
-									
-							%tr
-								%td.labelLayout
-									= f.label :experience, "Experience", :class => "label"
-								%td.textboxLayout
-									= f.text_area :experience, :maxlength => "500", :class => "text_box", :rows => "5", :cols => "20", :style => "width:340px"
-									%p.note What kind of prior experience do the participants already have that is relevant to this training?
-											
-							%tr
-								%td.labelLayout
-									= f.label :objectives, "Objectives", :class => "label"
-								%td.textboxLayout
-									= f.text_area :objectives, :maxlength => "500", :class => "text_box", :rows => "5", :cols => "20", :style => "width:340px"
-									%p.note Do the participant have any specific objectives for this training?
 									
 						%br/
 						%p.consent
