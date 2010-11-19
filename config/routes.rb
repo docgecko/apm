@@ -1,5 +1,7 @@
 Apm::Application.routes.draw do
 
+  resources :registrations
+
   resources :four_oh_fours
   resources :users
   resource :user_sessions
@@ -39,8 +41,8 @@ Apm::Application.routes.draw do
       get 'asset_modelling'
       get 'performance_penalty_modelling'
     end
-    resources :event, :controller => "schedules", :only => [ :index, :create ] do
-      get 'registration', :on => :member
+    resources :event, :controller => "schedules", :only => [ :index ] do
+      resources :registration, :controller => "registrations", :only => [ :index, :create ]
     end
   end
   

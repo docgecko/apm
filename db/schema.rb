@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100928154725) do
+ActiveRecord::Schema.define(:version => 20101118213948) do
 
   create_table "courses", :force => true do |t|
     t.string   "name"
@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(:version => 20100928154725) do
     t.text     "tagline"
     t.text     "summary"
     t.text     "duration"
+    t.text     "participants"
     t.text     "objectives"
     t.text     "audience"
     t.text     "instructors"
@@ -56,6 +57,11 @@ ActiveRecord::Schema.define(:version => 20100928154725) do
 
   add_index "leaderships", ["postion"], :name => "index_leaderships_on_postion"
 
+  create_table "onsites", :force => true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "pages", :force => true do |t|
     t.string   "name"
     t.string   "permalink"
@@ -66,6 +72,16 @@ ActiveRecord::Schema.define(:version => 20100928154725) do
     t.string   "photo_content_type"
     t.integer  "photo_file_size"
     t.datetime "photo_updated_at"
+  end
+
+  create_table "registrations", :force => true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "request_quotes", :force => true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "schedules", :force => true do |t|

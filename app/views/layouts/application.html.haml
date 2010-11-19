@@ -37,6 +37,8 @@
 				= render 'shared/content/page/onsite'
 			- elsif controller.controller_name == 'request_classes'
 				= render 'shared/content/page/request_class'
+			- elsif controller.controller_name == 'registrations'
+				= render 'shared/content/page/registration'
 			- elsif controller.controller_name == 'contact'
 				= render 'shared/content/page/contact'
 			- elsif controller.controller_name == 'leaderships'
@@ -56,10 +58,10 @@
 		= render 'shared/javascript/metadata'
 		
 		- if controller.controller_name == 'contact'
-			= render 'shared/javascript/validate_contact'
-			
+			= render 'shared/javascript/validate_contact'			
 		- if controller.controller_name == 'onsites'
 			= render 'shared/javascript/validate_onsite'
-
 		- if controller.controller_name == 'request_classes'
 			= render 'shared/javascript/validate_request_class'
+		- if controller.controller_name == 'registrations'
+			= render 'shared/javascript/validate_registration'

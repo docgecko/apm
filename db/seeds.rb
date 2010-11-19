@@ -1488,6 +1488,7 @@ course = Course.create([
                       :tagline => '',
                       :summary => '',
                       :duration => '',
+                      :participants => '',
                       :objectives => '',
                       :audience => '',
                       :instructors => '',
@@ -1500,6 +1501,7 @@ course = Course.create([
                       :tagline => '',
                       :summary => '',
                       :duration => '',
+                      :participants => '',
                       :objectives => '',
                       :audience => '',
                       :instructors => '',
@@ -1512,6 +1514,7 @@ course = Course.create([
                       :tagline => '',
                       :summary => '',
                       :duration => '',
+                      :participants => '',
                       :objectives => '',
                       :audience => '',
                       :instructors => '',
@@ -1524,6 +1527,7 @@ course = Course.create([
                       :tagline => '',
                       :summary => '',
                       :duration => '',
+                      :participants => '',
                       :objectives => '',
                       :audience => '',
                       :instructors => '',
@@ -1536,6 +1540,7 @@ course = Course.create([
                       :tagline => '',
                       :summary => '',
                       :duration => '',
+                      :participants => '',
                       :objectives => '',
                       :audience => '',
                       :instructors => '',
@@ -1549,9 +1554,8 @@ course = Course.create([
                       :summary => 'Risk Management has a crucial role in today’s business environments and Risk Management Plans are the core live document that helps businesses manage their risks, from a Corporate to a Project level.  This course will review the fundamentals of Risk Management, lead into the purpose and development of Risk Management Planning, and provide you with the necessary tools to create a Risk Register - a live document containing all identified risks, including risk quantification and mitigations.
 
 The course draws upon examples from the rail and highways industries, from both Private Finance Initiative (PFI) and Public Private Partnership (PPP) tender processes and operational projects.  However, the methods and tools it employs are equally applicable in any design, maintenance, manufacturing or operations environment.',
-                      :duration => '*Course Duration:* 1 day (9.30am – 5.00pm)
-
-*Participants:* 10-12',
+                      :duration => '1 day (9.30am – 5.00pm)',
+                      :participants => '10-12',
                       :objectives => 'Upon completion of this course, you will be able to:
 
 (bulleted_list)* Recognise and illustrate the concepts of Risk and Risk Management
@@ -1603,9 +1607,8 @@ The course draws upon examples from the rail and highways industries, from both 
 The course is based on experience and examples drawn from a number of Private Finance Initiative (PFI) and Public Private Partnership (PPP) tender processes and operational projects, from the Rail and Highways industries.
 
 The tools and approaches are equally applicable in any Business or Corporate environment.',
-                      :duration => '*Course Duration:* 1 day (9.30am – 5.00pm)
-
-*Participants:* 10-12',
+                      :duration => '1 day (9.30am – 5.00pm)',
+                      :participants => '10-12',
                       :objectives => 'Upon completion of this course, participants will be able to:
 
 (bulleted_list)* Understand the purpose of a Risk Register and the approach to Portfolio Risk Management
@@ -1658,9 +1661,8 @@ The tools and approaches are equally applicable in any Business or Corporate env
                       :summary => 'Risk Registers can tend to over bloat the actual portfolio of risk costs.  Correlation Modelling attempts to link certain risks to others and, in doing so, reduces the overall Risk Cost to more realistic values.  This advanced course is paramount for any business whose risk registers have or are growing to a size such that Risk is affecting a companies ability to provide a cost benefit, or simply helps a business to more realistically manage their risks.
 
 The course is an extension of the Risk Register Modelling course.  It has drawn upon experience and examples from both Private Finance Initiative (PFI) and Public Private Partnership (PPP) tender processes.  The approach is equally applicable in any Business or Corporate environment.',
-                      :duration => '*Course Duration:* 1 day (9.30am – 5.00pm)
-
-*Participants:* 10-12',
+                      :duration => '1 day (9.30am – 5.00pm)',
+                      :participants => '10-12',
                       :objectives => 'Participants of this course will come away with the following:
                       
 (bulleted_list)* Understand and describe the concepts of Risk and Uncertainty
@@ -1715,6 +1717,7 @@ The course is an extension of the Risk Register Modelling course.  It has drawn 
                       :tagline => '',
                       :summary => '',
                       :duration => '',
+                      :participants => '',
                       :objectives => '',
                       :audience => '',
                       :instructors => '',
@@ -1727,6 +1730,7 @@ The course is an extension of the Risk Register Modelling course.  It has drawn 
                       :tagline => '',
                       :summary => '',
                       :duration => '',
+                      :participants => '',
                       :objectives => '',
                       :audience => '',
                       :instructors => '',
@@ -1739,6 +1743,7 @@ The course is an extension of the Risk Register Modelling course.  It has drawn 
                       :tagline => '',
                       :summary => '',
                       :duration => '',
+                      :participants => '',
                       :objectives => '',
                       :audience => '',
                       :instructors => '',
@@ -1746,6 +1751,30 @@ The course is an extension of the Risk Register Modelling course.  It has drawn 
                       :testimonials => ''
                     }
 ])
+
+schedules = Schedule.create([
+                    {
+                      :course_id => '6',
+                      :places => '10',
+                      :location => 'London',
+                      :price => '595.00',
+                      :price_discounted => '560.00',
+                      :start => '15-01-2011',
+                      :end => '15-01-2011',
+                      :discounted_before => '15-12-2010'
+                    },
+                    {
+                      :course_id => '6',
+                      :places => '12',
+                      :location => 'Manchester',
+                      :price => '595.00',
+                      :price_discounted => '560.00',
+                      :start => '30-02-2011',
+                      :end => '30-02-2011',
+                      :discounted_before => '30-01-2011'
+                    }
+])
+                    
 
 user = User.create([
                     {

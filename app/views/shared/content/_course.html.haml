@@ -39,7 +39,12 @@
 
 					- if !@course.duration.blank?
 						%h2#duration Duration
-						= raw RedCloth.new(@course.duration).to_html
+						%p
+							%strong Course Duration:
+							= @course.duration
+						%p
+							%strong Participants:
+							= @course.participants
 
 					- if !@course.objectives.blank?
 						%h2#objectives Objectives
@@ -83,8 +88,11 @@
 									%ul
 										%li
 											.button
-												= link_to registration_training_event_path([@course.id], [schedule.id]) do
-													== #{schedule.start.strftime('%b %e')} - #{schedule.end.strftime('%b %e, %Y')} 
+												= link_to training_event_registration_index_path([@course.id], [schedule.id]) do
+													- if schedule.start == schedule.end
+														== #{schedule.start.strftime('%b %e, %Y')} (1 day)
+													- else
+														== #{schedule.start.strftime('%b %e')} - #{schedule.end.strftime('%b %e, %Y')} 
 											.courseInfo
 												%span.price= number_to_currency schedule.price, :unit => '£', :precision => 0
 												%span.discounted== #{number_to_currency schedule.price_discounted, :unit => '£', :precision => 0} before #{schedule.discounted_before.strftime('%b %e, %Y')}
