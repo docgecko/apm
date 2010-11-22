@@ -54,44 +54,40 @@
 									%span.blue *
 
 								%td.textboxLayout
-									= f.text_field :name, :maxlength => "150", :class => "text_box", :style => "width:340px", :validate => "required:true"
+									= f.text_field :name, :maxlength => "150", :class => "text_box", :validate => "required:true"
 									
-									%label{ :for => "onsite[name]", :class => "error" } Please enter your name.
-
 							%tr
 								%td.labelLayout
 									= f.label :organisation, "Your organisation", :class => "label"
 									%span.blue *
 								%td.textboxLayout
-									= f.text_field :organisation, :maxlength => "100", :class => "text_box", :style => "width:340px", :validate => "required:true"
+									= f.text_field :organisation, :maxlength => "100", :class => "text_box", :validate => "required:true"
 									
-									%label{ :for => "onsite[organisation]", :class => "error" } Please enter the name or your organisation.
-
 							%tr
 								%td.labelLayout
 									= f.label :role, "Your role in the organisation", :class => "label"
 								%td.textboxLayout
-									= f.text_field :role, :maxlength => "100", :class => "text_box", :style => "width:340px"
+									= f.text_field :role, :maxlength => "100", :class => "text_box"
 
 							%tr
 								%td.labelLayout
 									= f.label :email, "Your email address", :class => "label"
 									%span.blue *
 								%td.textboxLayout
-									= f.text_field :email, :maxlength => "100", :class => "text_box", :style => "width:340px"
+									= f.text_field :email, :maxlength => "100", :class => "text_box"
 
 							%tr
 								%td.labelLayout
 									= f.label :telephone, "Your telephone number", :class => "label"
 								%td.textboxLayout
-									= f.text_field :telephone, :maxlength => "50", :class => "text_box", :style => "width:340px"
+									= f.text_field :telephone, :maxlength => "50", :class => "text_box"
 
 							%tr
 								%td.labelLayout
 									= f.label :telephone, "How did you hear about us?", :class => "label"
 								%td.textboxLayout
 									- @referral = { 'Google' => 'Google', 'Yahoo' => 'Yahoo', 'MSN/Live' => 'MSN/Live', 'Existing Customer' => 'Existing Customer', 'LinkedIn' => 'LinkedIn', 'Xing' => 'Xing', 'Facebook' => 'Facebook', 'User Group/Meeting' => 'User Group/Meeting', 'Word of Mouth' => 'Word of Mouth', 'Other' => 'Other' }
-									= f.select 'referral', @referral, options = {:prompt => "-- Please Select --"}, html = { :class => "text_box", :style => "width:340px" }
+									= f.select 'referral', @referral, options = {:prompt => "-- Please Select --"}, html = { :class => "select" }
 
 									
 						%h2 Training Information
@@ -108,7 +104,7 @@
 									= f.label :course, "Course", :class => "label"
 									%span.blue *
 								%td.textboxLayout
-									= f.text_field :course, :value => @course.name, :maxlength => "250", :class => "text_box", :style => "width:340px"
+									= f.text_field :course, :value => @course.name, :maxlength => "250", :class => "text_box"
 									
 									= f.hidden_field :course_id, :value => params[:training_id]
 
@@ -116,7 +112,7 @@
 								%td.labelLayout
 									= f.label :customisation, "Required customisation", :class => "label"
 								%td.textboxLayout
-									= f.text_area :customisation, :maxlength => "500", :class => "text_box", :rows => "5", :cols => "20", :style => "width:340px"
+									= f.text_area :customisation, :maxlength => "500", :class => "text_box", :rows => "5", :cols => "20"
 									%p.note If you would like to customise this course, please provide details.
 
 							%tr
@@ -124,7 +120,7 @@
 									= f.label :location, "Location", :class => "label"
 									%span.blue *
 								%td.textboxLayout
-									= f.text_field :location, :maxlength => "150", :class => "text_box", :style => "width:340px"
+									= f.text_field :location, :maxlength => "150", :class => "text_box"
 									%p.note Where would you like this course to take place? Please include the city and the office or building.
 
 							%tr
@@ -132,10 +128,10 @@
 									= f.label :when, "Time-frame", :class => "label"
 									%span.blue *
 								%td.textboxLayout
-									= f.text_field :when, :maxlength => "150", :class => "text_box", :style => "width:340px"
+									= f.text_field :when, :maxlength => "150", :class => "text_box"
 									%p.note When would you like this course to take place? Please be as specific as possible.
 
-						%h2 Particpant Information
+						%h2 Participant Information
 
 						%table.contactTable{:border => "0"}
 							%tr
@@ -147,32 +143,26 @@
 									= f.label :participants, "Number of Participants", :class => "label"
 									%span.blue *
 								%td.textboxLayout
-									= f.text_field :participants, :maxlength => "50", :class => "text_box", :style => "width:340px"
+									= f.text_field :participants, :maxlength => "50", :class => "text_box"
 									%p.note Please specify a range if you are unsure.
 									
 							%tr
 								%td.labelLayout
 									= f.label :experience, "Experience", :class => "label"
 								%td.textboxLayout
-									= f.text_area :experience, :maxlength => "500", :class => "text_box", :rows => "5", :cols => "20", :style => "width:340px"
+									= f.text_area :experience, :maxlength => "500", :class => "text_box", :rows => "5", :cols => "20"
 									%p.note What kind of prior experience do the participants already have that is relevant to this training?
 											
 							%tr
 								%td.labelLayout
 									= f.label :objectives, "Objectives", :class => "label"
 								%td.textboxLayout
-									= f.text_area :objectives, :maxlength => "500", :class => "text_box", :rows => "5", :cols => "20", :style => "width:340px"
+									= f.text_area :objectives, :maxlength => "500", :class => "text_box", :rows => "5", :cols => "20"
 									%p.note Do the participant have any specific objectives for this training?
 									
 						%br/
 						%p.consent
-							By submitting this request, you acknowledge that you have read the
-							= link_to "Privacy Policy", privacy_pages_url
-							and that you agree to our data processing. If you change your mind at any time about wishing to receive the information from us, you can send us a message using the
-							= link_to "Contact Us", contact_index_url
-							form or an
-							%a= mail_to "contact@apm.eu.com", "email", :encode => "hex"
-							\.
+							== By submitting this request, you acknowledge that you have read the #{link_to "Privacy Policy", privacy_pages_url} and that you agree to our data processing. If you change your mind at any time about wishing to receive the information from us, you can send us a message using the #{link_to "Contact Us", contact_index_url}	form or an #{mail_to "contact@apm.eu.com", "email", :encode => "hex"}.
 
 						.button
 							= f.submit "Send", :class => "button_layout"

@@ -36,25 +36,47 @@
 							%tr
 								%td.labelLayout{:class => "label"}
 									Course Title
-								%td.textboxLayout{:class => "label", :style => "text-align: left; padding-left: 20px;"}
+								%td.textboxLayout{:class => "label", :style => "text-align: left; padding-left: 10px; font-weight: bold;"}
 									= @course.name
+
+									= f.hidden_field :course, :value => @course.name
+									= f.hidden_field :course_id, :value => params[:training_id]
 
 							%tr
 								%td.labelLayout{:class => "label"}
 									Dates & Times
-								%td.textboxLayout{:class => "label", :style => "text-align: left; padding-left: 20px;"}
+								%td.textboxLayout{:class => "label", :style => "text-align: left; padding-left: 10px; font-weight: bold;;"}
 									- if @schedule.start == @schedule.end
 										== #{@schedule.start.strftime('%b %e, %Y')}
 										== for #{@course.duration}
 									- else
 										== From #{@schedule.start.strftime('%b %e')} to #{@schedule.end.strftime('%b %e, %Y')}
 										== for #{@course.duration} each day
+										
+									= f.hidden_field :schedule_start, :value => @schedule.start.strftime('%b %e')
+									= f.hidden_field :schedule_end, :value => @schedule.end.strftime('%b %e, %Y')
 
 							%tr
 								%td.labelLayout{:class => "label"}
 									Location
-								%td.textboxLayout{:class => "label", :style => "text-align: left; padding-left: 20px;"}
-									= @schedule.city
+								%td.textboxLayout{:class => "label", :style => "text-align: left; padding-left: 10px;; font-weight: bold;"}
+									- if @schedule.address1?
+										= @schedule.address1
+										%br
+									- if @schedule.address2?
+										= @schedule.address2
+										%br
+									- if @schedule.city?
+										= @schedule.city
+										%br
+									- if @schedule.county?
+										= @schedule.county
+										%br
+									- if @schedule.postcode?
+										= @schedule.postcode
+										%br
+									- if @schedule.country?
+										= @schedule.country
 
 													
 						%h2 Customer Information
@@ -81,91 +103,109 @@
 									%span.blue *
 
 								%td.textboxLayout
-									= f.text_field :name, :maxlength => "150", :class => "text_box", :style => "width:340px", :validate => "required:true"
+									= f.text_field :name, :maxlength => "150", :class => "text_box", :validate => "required:true"
 									
 							%tr
 								%td.labelLayout
 									= f.label :organisation, "Organisation", :class => "label"
+									%span.blue *
+
 								%td.textboxLayout
-									= f.text_field :organisation, :maxlength => "100", :class => "text_box", :style => "width:340px", :validate => "required:true"
+									= f.text_field :organisation, :maxlength => "100", :class => "text_box", :validate => "required:true"
 									
 							%tr
 								%td.labelLayout
 									= f.label :role, "Your role in the organisation", :class => "label"
 								%td.textboxLayout
-									= f.text_field :role, :maxlength => "100", :class => "text_box", :style => "width:340px"
+									= f.text_field :role, :maxlength => "100", :class => "text_box"
 
 							%tr
 								%td.labelLayout
 									= f.label :email, "Email address", :class => "label"
 									%span.blue *
 								%td.textboxLayout
-									= f.text_field :email, :maxlength => "100", :class => "text_box", :style => "width:340px"
+									= f.text_field :email, :maxlength => "100", :class => "text_box"
 
 							%tr
 								%td.labelLayout
 									= f.label :telephone, "Telephone number", :class => "label"
+									%span.blue *
 								%td.textboxLayout
-									= f.text_field :telephone, :maxlength => "50", :class => "text_box", :style => "width:340px"
+									= f.text_field :telephone, :maxlength => "50", :class => "text_box"
 
 							%tr
 								%td.labelLayout
 									= f.label :mobile, "Mobile number", :class => "label"
 								%td.textboxLayout
-									= f.text_field :mobile, :maxlength => "50", :class => "text_box", :style => "width:340px"
+									= f.text_field :mobile, :maxlength => "50", :class => "text_box"
 
 							%tr
 								%td.labelLayout
 									= f.label :address1, "Address 1", :class => "label"
 								%td.textboxLayout
-									= f.text_field :address1, :maxlength => "250", :class => "text_box", :style => "width:340px"
+									= f.text_field :address1, :maxlength => "250", :class => "text_box"
 
 							%tr
 								%td.labelLayout
 									= f.label :address2, "Address 2", :class => "label"
 								%td.textboxLayout
-									= f.text_field :address2, :maxlength => "250", :class => "text_box", :style => "width:340px"
+									= f.text_field :address2, :maxlength => "250", :class => "text_box"
 
 							%tr
 								%td.labelLayout
 									= f.label :city, "City", :class => "label"
 								%td.textboxLayout
-									= f.text_field :city, :maxlength => "150", :class => "text_box", :style => "width:340px"
+									= f.text_field :city, :maxlength => "150", :class => "text_box"
 
 							%tr
 								%td.labelLayout
-									= f.label :county, "County/State/Region", :class => "label"
+									= f.label :county, "County / State / Region", :class => "label"
 								%td.textboxLayout
-									= f.text_field :county, :maxlength => "150", :class => "text_box", :style => "width:340px"
+									= f.text_field :county, :maxlength => "150", :class => "text_box"
 
 							%tr
 								%td.labelLayout
-									= f.label :postcode, "Post/ZipCode", :class => "label"
+									= f.label :postcode, "Postcode / Zip Code", :class => "label"
 								%td.textboxLayout
-									= f.text_field :postcode, :maxlength => "50", :class => "text_box", :style => "width:340px"
+									= f.text_field :postcode, :maxlength => "50", :class => "text_box"
 
 							%tr
 								%td.labelLayout
 									= f.label :country, "Country", :class => "label"
 								%td.textboxLayout
-									/ = f.country_select :country
-
+									= f.country_select :country, nil, { :prompt => "-- Please Select a Country --" }, { :class => "select" }
+									
 							%tr
 								%td.labelLayout
-									= f.label :telephone, "How did you hear about us?", :class => "label"
+									= f.label :address_type, "Address type?", :class => "label"
+									%span.blue *
+
+								%td.radioButtonLayout
+									%table{:border => "0", :style => "width:340px;"}
+										%tr
+											- [ 'Residence', 'Business' ].each do |address_type|
+												%td
+													= radio_button_tag 'registration[address_type]', address_type, @address_type == address_type, :validate => "required:true"
+													= label_tag "address_type_#{address_type}", address_type.humanize
+
+											%label{ :for => "registration[address_type]", :class => "error" } Please make a selection.
+									
+							%tr
+								%td.labelLayout
+									= f.label :referral, "How did you hear about us?", :class => "label"
 								%td.textboxLayout
 									- @referral = { 'Google' => 'Google', 'Yahoo' => 'Yahoo', 'MSN/Live' => 'MSN/Live', 'Existing Customer' => 'Existing Customer', 'LinkedIn' => 'LinkedIn', 'Xing' => 'Xing', 'Facebook' => 'Facebook', 'User Group/Meeting' => 'User Group/Meeting', 'Word of Mouth' => 'Word of Mouth', 'Other' => 'Other' }
-									= f.select 'referral', @referral, options = {:prompt => "-- Please Select --"}, html = { :class => "text_box", :style => "width:340px" }
-									
-						%br/
+									= f.select 'referral', @referral, options = {:prompt => "-- Please Select --"}, html = { :class => "select" }
+
+						%br
 						%p.consent
-							By submitting this request, you acknowledge that you have read the
-							= link_to "Privacy Policy", privacy_pages_url
-							and that you agree to our data processing. If you change your mind at any time about wishing to receive the information from us, you can send us a message using the
-							= link_to "Contact Us", contact_index_url
-							form or an
-							%a= mail_to "contact@apm.eu.com", "email", :encode => "hex"
-							\.
+							== By submitting this "Request for a Class":
+						%p.number== 1. You acknowledge that you have read the #{link_to "Privacy Policy", privacy_pages_url} and that you agree to our data processing.
+						%p.number== 2. You acknowledge that you have read and agree to the #{link_to "Booking Conditions", privacy_pages_url}.
+							
+						%p.consent><
+							== If you change your mind at any time about wishing to receive the information from us, you can send us a message using the #{link_to "Contact Us", contact_index_url}	form or an
+							== &nbsp;#{mail_to "contact@apm.eu.com", "email", :encode => "hex"}.
 
 						.button
 							= f.submit "Send", :class => "button_layout"

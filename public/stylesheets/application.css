@@ -1045,7 +1045,7 @@ table.contactDetails {
     font-weight: normal;
     line-height: normal; }
     #contactContent p.note {
-      padding: 0 0 5px 17px;
+      padding: 0 0 5px 0px;
       margin: 0;
       font-size: 12px;
       color: #537DB9;
@@ -1114,26 +1114,33 @@ label.error {
   font-size: 13px;
   float: none;
   color: red;
-  padding-left: .5em;
   vertical-align: top; }
 
 .textboxLayout, .radio_buttonLayout {
   width: 360px;
   height: 100%;
   margin: 0;
-  padding: 2px;
+  padding: 2px 2px 2px 45px;
   vertical-align: middle;
-  text-align: right; }
-
-.radioButtonLayout {
-  width: 355px;
-  padding: 0 0 0 15px;
   text-align: left; }
 
-.textbox {
+.radioButtonLayout {
+  width: 360px;
+  padding: 0 0 0 45px;
+  text-align: left; }
+
+.text_box {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #333333;
+  width: 340px; }
+
+.select {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  color: #333333; }
+  color: #333333;
+  text-align: right;
+  width: 300px; }
 
 .validationLayout {
   width: 0;
@@ -1165,6 +1172,9 @@ label.error {
 
 #contactContent p.consent {
   font-size: 11px; }
+#contactContent p.number {
+  font-size: 11px;
+  padding: 3px 0 3px 20px; }
 
 table.contactTable {
   background-color: #EFEFEF; }
