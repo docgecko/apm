@@ -39,7 +39,7 @@ class CoursesController < ApplicationController
 
   def performance_penalty_modelling
   end
-
+  
 private
 
   def shared_category_code

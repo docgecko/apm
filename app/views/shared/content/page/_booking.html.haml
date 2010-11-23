@@ -1,0 +1,55 @@
+= yield :nav_main
+
+#mainContainer
+	#containerPage
+		#container
+			#subContentLeft
+				= yield :left_nav
+
+			#subContentMiddle
+				#courseForm
+					%h1#title Booking Conditions
+					%h2#course for all apm training courses
+
+				#contactContent
+					- if flash[:error] || flash[:notice]
+						= content_tag :div, flash[:error] || flash[:notice], :id => 'notice', :class => ('error' if flash[:error])
+						:javascript
+							setTimeout("new Effect.Fade('notice');", 1000)
+					
+					%h2 Course Fees
+					
+					%table.contactTable{:border => "0"}
+						%tr
+							%td{:colspan => 2}
+								%p Course fees quoted include tuition, course materials, lunch, refreshments, and course dinner where appropriate.
+
+								%p On confirmation of the booking an invoice will be sent to you.  Payment is required no later than eight weeks before the course starts, or immediately for bookings made within eights weeks of the beginning of the course.
+
+								%p Fees are payable to Asset Performance Management Limited.  Cheques should be drawn on a UK bank in pounds sterling and made payable to Asset Performance Management Limited.  Payment may be made by Visa, Mastercard or American Express.
+
+					%h2 Cancellations
+
+					%table.contactTable{:border => "0"}
+						%tr
+							%td{:colspan => 2}
+								%p We regret that a fee must be charged when confirmed bookings are cancelled or transferred to future dates.  In the event of a cancellation, you may nominate a substitute, but if a suitable substitute cannot be found the following scale of charges will apply:
+
+								%ul
+									%li 56 days or more before the programme starts - full refund
+									%li 56 days or less - 50% refund
+									%li 28 days or less - 25% refund
+									%li 14 days or less - no refund
+
+					%h2 Transfers
+
+					%table.contactTable{:border => "0"}
+						%tr
+							%td{:colspan => 2}
+								%p Within the eight week period preceding the start of the programme, we are unable to transfer a booking to a later programme free of charge, since it is seldom possible to arrange the attendance of a replacement.  Withdrawal and transfer to a later programme at this stage will therefore also be subject to the charges detailed above.
+
+								%p apm reserves the right to amend published information.
+
+				.clear	
+
+.clear

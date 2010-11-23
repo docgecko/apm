@@ -15,5 +15,7 @@
 		- @page_title = "Register for a Class | Asset Performance Management Ltd."
 	- else
 		- @page_title = "Request for Class in " + @course.name + " | Asset Performance Management Ltd."
+- elsif controller.controller_name == 'bookings'
+	- @page_title = "Course Booking Conditions | Asset Performance Management Ltd."
 - else
 	- @page_title = @page.name + " | Asset Performance Management Ltd."

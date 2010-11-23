@@ -45,6 +45,8 @@ Apm::Application.routes.draw do
       resources :registration, :controller => "registrations", :only => [ :index, :create ]
     end
   end
+
+  resources :booking_conditions, :controller => "bookings", :only => [ :index ]
   
   resources :welcome, :only => :index
 

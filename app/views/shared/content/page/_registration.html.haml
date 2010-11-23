@@ -7,9 +7,9 @@
 				= yield :left_nav
 
 			#subContentMiddle
-				#bodyHeader
-					= image_tag "/assets/pages/photos/44/page/HdrContactUs.jpg"
-					%h1== Register for a Class in #{@course.name}
+				#courseForm
+					%h1#title Request for a Class
+					%h2#course== in #{@course.name}
 
 				#contactContent
 					- if flash[:error] || flash[:notice]
@@ -17,16 +17,20 @@
 						:javascript
 							setTimeout("new Effect.Fade('notice');", 1000)
 					
-					%p Please complete the following form to register for this course.
-
 					%p
-						%strong Trouble completing this form? Talk to us directly! Please call +44 (0)20 7692 5089.
+						Please complete and submit the form below to request a place on the
+						%strong= @course.name
+						course. Please be aware that this does not confirm your booking; however, your place will be confirmed by apm in writing as soon as possible.
 					
+					%p Specific details of the booking and fees payment process can be found in our Booking Conditions.
+
 					%p
 						Note that fields marked with a star (
 						%span.blue>< *
 						) are required.
 
+					%p
+						%strong== Trouble completing this form? Please contact us directly either by #{mail_to "contact@apm.eu.com", "email", :encode => "hex", :subject => "Please help me to Register for a Course with apm"} or by calling +44 (0)20 7692 5089
 				
 					= form_for :registration, :url =>  training_event_registration_index_path, :html => { :id => "training_event_registration_form", :name => "training_event_registration_form" } do |f|
 					
@@ -200,8 +204,8 @@
 						%br
 						%p.consent
 							== By submitting this "Request for a Class":
-						%p.number== 1. You acknowledge that you have read the #{link_to "Privacy Policy", privacy_pages_url} and that you agree to our data processing.
-						%p.number== 2. You acknowledge that you have read and agree to the #{link_to "Booking Conditions", privacy_pages_url}.
+						%p.number== 1. You acknowledge that you have read the #{link_to "Privacy Policy", privacy_pages_url, :target => "_blank"} and that you agree to our data processing.
+						%p.number== 2. You acknowledge that you have read and agree to the #{link_to "Booking Conditions", booking_conditions_url, :target => "_blank"}.
 							
 						%p.consent><
 							== If you change your mind at any time about wishing to receive the information from us, you can send us a message using the #{link_to "Contact Us", contact_index_url}	form or an

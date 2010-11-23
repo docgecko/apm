@@ -7,9 +7,9 @@
 				= yield :left_nav
 
 			#subContentMiddle
-				#bodyHeader
-					= image_tag "/assets/pages/photos/44/page/HdrContactUs.jpg"
-					%h1 Request a Class
+				#courseForm
+					%h1#title Request a Class
+					%h2#course== in #{@course.name}
 
 				#contactContent
 					- if flash[:error] || flash[:notice]
@@ -115,7 +115,7 @@
 									
 						%br/
 						%p.consent
-							== By submitting this request, you acknowledge that you have read the #{link_to "Privacy Policy", privacy_pages_url} and that you agree to our data processing. If you change your mind at any time about wishing to receive the information from us, you can send us a message using the #{link_to "Contact Us", contact_index_url}	form or an #{mail_to "contact@apm.eu.com", "email", :encode => "hex"}.
+							== By submitting this request, you acknowledge that you have read the #{link_to "Privacy Policy", privacy_pages_url, :target => "_blank"} and that you agree to our data processing. If you change your mind at any time about wishing to receive the information from us, you can send us a message using the #{link_to "Contact Us", contact_index_url}	form or an #{mail_to "contact@apm.eu.com", "email", :encode => "hex"}.
 
 						.button
 							= f.submit "Send", :class => "button_layout"

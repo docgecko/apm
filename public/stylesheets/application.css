@@ -768,6 +768,31 @@ body, div, p, td, th, span, a {
   color: #333333;
   font-size: 13px; }
 
+#courseForm {
+  margin: 0;
+  width: 540px;
+  font-family: Calibri;
+  height: 100px;
+  width: 580px; }
+  #courseForm h1#title {
+    padding: 15px 5px;
+    margin: 0;
+    background-color: #537DB9;
+    color: white;
+    text-decoration: none;
+    font-family: Museo500;
+    font-size: 30px;
+    font-weight: bold; }
+  #courseForm h2#course {
+    padding: 0 5px 10px 5px;
+    margin: 0;
+    background-color: #537DB9;
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: Museo500;
+    font-size: 20px;
+    font-weight: bold; }
+
 #courseContent {
   margin: 0;
   width: 540px;
@@ -1139,8 +1164,7 @@ label.error {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: #333333;
-  text-align: right;
-  width: 300px; }
+  text-align: left; }
 
 .validationLayout {
   width: 0;
@@ -1178,6 +1202,22 @@ label.error {
 
 table.contactTable {
   background-color: #EFEFEF; }
+  table.contactTable ul {
+    margin: 0;
+    padding: 5px 0 0 20px;
+    list-style: none;
+    font-size: 12px; }
+    table.contactTable ul li a:hover {
+      background-image: url("../images/nav_menu_left.jpg");
+      background-repeat: no-repeat; }
+      table.contactTable ul li a:hover span {
+        background-image: url("../images/nav_menu_right.jpg");
+        background-repeat: no-repeat;
+        background-position: right top; }
+    table.contactTable ul li a span:hover {
+      background-image: url("../images/nav_menu_right.jpg");
+      background-repeat: no-repeat;
+      background-position: right top; }
 
 /* Utility definitions */
 .clear {
