@@ -11,8 +11,8 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'capistrano'
 
 # Bundle the extra gems:
-gem 'haml',	'3.0.21'
-gem 'paperclip',													:git => 'git://github.com/thoughtbot/paperclip.git'
+gem 'haml'
+gem 'paperclip'
 gem 'i18n'
 gem 'aws-s3', :require => 'aws/s3'
 gem 'inherited_resources', '1.1.2'

@@ -29,7 +29,7 @@
 				= yield
 			- elsif [ 'services', 'training', 'industries', 'customers', 'company' ].include? action_name
 				= render 'shared/content/category'
-			- elsif [ 'legal', 'privacy', 'site_map' ].include? action_name
+			- elsif [ 'legal', 'privacy', 'booking_conditions', 'site_map' ].include? action_name
 				= render 'shared/content/information'
 			- elsif controller.controller_name == 'courses'
 				= render 'shared/content/course'

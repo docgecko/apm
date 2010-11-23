@@ -22,7 +22,8 @@ p. Our core services encapuslate:
 * <a href="services/life-cycle-fund-validation">Life Cycle Fund Validation</a>
 * <a href="services/pfi-expertise">PFI Expertise</a>
 * <a href="services/risk-services">Risk Services</a>
-* <a href="services/business-decision-support">Business Decision Support</a>'
+* <a href="services/business-decision-support">Business Decision Support</a>',
+                      :photo => File.open(File.join('http://apm-assets.s3.amazonaws.com', '/pages/photos/1/original/HdrServices.jpg'))
                     },
                     {
                       :name => 'Training',
@@ -224,6 +225,34 @@ p. We understand the importance of protecting childrens privacy especially in an
 h2. Third Party Links
 
 p. There may be pages on our sites which include links to Web site which are owned and operated by third parties and so which do not operate this privacy statement. When you link to other websites, this privacy statement and our privacy practices no longer apply. We encourage visitors to review each sites privacy policy before disclosing any personally identifiable information.'
+                    },
+                    {
+                        :name => 'Booking Conditions',
+                        :permalink => 'booking_conditions',
+                        :content => 'h1. Booking Conditions
+
+h2. Course Fees
+
+p. Course fees quoted include tuition, course materials, lunch, refreshments, and course dinner where appropriate.
+
+p. On confirmation of the booking an invoice will be sent to you.  Payment is required no later than eight weeks before the course starts, or immediately for bookings made within eights weeks of the beginning of the course.
+
+p. Fees are payable to Asset Performance Management Limited.  Cheques should be drawn on a UK bank in pounds sterling and made payable to Asset Performance Management Limited.  Payment may be made by Visa, Mastercard or American Express.
+
+h2. Cancellations
+
+p. We regret that a fee must be charged when confirmed bookings are cancelled or transferred to future dates.  In the event of a cancellation, you may nominate a substitute, but if a suitable substitute cannot be found the following scale of charges will apply:
+
+(bulleted_list)* 56 days or more before the programme starts - full refund
+* 56 days or less - 50% refund
+* 28 days or less - 25% refund
+* 14 days or less - no refund
+
+h2. Transfers
+
+p. Within the eight week period preceding the start of the programme, we are unable to transfer a booking to a later programme free of charge, since it is seldom possible to arrange the attendance of a replacement.  Withdrawal and transfer to a later programme at this stage will therefore also be subject to the charges detailed above.
+
+p. apm reserves the right to amend published information.'
                     },
                     {
                         :name => 'Site Map',

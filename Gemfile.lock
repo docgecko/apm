@@ -5,14 +5,6 @@ GIT
   specs:
     sitemap_generator (0.2.5)
 
-GIT
-  remote: git://github.com/thoughtbot/paperclip.git
-  revision: 35cdaa548d1b8439b73d5613153f9b7248bb3314
-  specs:
-    paperclip (2.3.5)
-      activerecord
-      activesupport
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -66,7 +58,7 @@ GEM
       highline (~> 1.5.1)
       json (>= 1.2.0)
       text-format (>= 1.0.0)
-    haml (3.0.21)
+    haml (3.0.24)
     has_scope (0.5.0)
     highline (1.5.2)
     i18n (0.4.2)
@@ -83,6 +75,9 @@ GEM
       treetop (~> 1.4.8)
     memcached (1.0.2)
     mime-types (1.16)
+    paperclip (2.3.5)
+      activerecord
+      activesupport
     passenger (3.0.0)
       daemon_controller (>= 0.2.5)
       fastthread (>= 1.0.1)
@@ -156,11 +151,11 @@ DEPENDENCIES
   aws-s3
   chargify_api_ares
   ghost
-  haml (= 3.0.21)
+  haml
   i18n
   inherited_resources (= 1.1.2)
   memcached
-  paperclip!
+  paperclip
   passenger
   rails (= 3.0.3)
   ruby-debug

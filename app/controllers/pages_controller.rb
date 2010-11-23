@@ -69,6 +69,9 @@ class PagesController < ApplicationController
 
   def site_map
   end
+
+  def booking_conditions
+  end
   
   # Commercial Services pages
   def expert_bid_commercial_support

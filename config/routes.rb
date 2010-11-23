@@ -14,6 +14,7 @@ Apm::Application.routes.draw do
       get 'privacy'
       get 'site_map'
       get 'training'
+      get 'booking_conditions'
     end
   end
 
@@ -46,8 +47,6 @@ Apm::Application.routes.draw do
     end
   end
 
-  resources :booking_conditions, :controller => "bookings", :only => [ :index ]
-  
   resources :welcome, :only => :index
 
   namespace :admin do
