@@ -20,18 +20,15 @@ gem 'memcached'
 gem 'authlogic'
 gem 'taps'
 gem 'whenever'
-gem 'sitemap_generator',									:git => 'git://github.com/kjvarga/sitemap_generator.git', :branch => 'rails3'
 gem 'ssl_requirement'
-gem 'chargify_api_ares'
 gem 'RedCloth', '4.2.3'
-gem 'passenger'
 
-group :development do
-	gem 'ruby-debug'
-	gem 'ghost'
-	gem 'terminitor'
-end
+# group :development do
+# 	gem 'ruby-debug'
+# 	gem 'ghost'
+# 	gem 'terminitor'
+# end
 
-group :production do
+# group :production do
 #	gem 'pg'
-end
+# end
